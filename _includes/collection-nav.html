@@ -1,55 +1,77 @@
 <nav class="navbar text-center">
     <div class="container-fluid">
         <div class="col-12">
-        <div class="d-none d-xl-flex">
-        <div class="btn-group mt-3 mb-0 w-100" role="group" aria-label="Basic outlined example">
-            <button type="button" class="previous btn btn-outline-light"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="24" fill="currentColor" class="bi bi-rewind" viewBox="0 0 16 16">
-                <path d="M9.196 8 15 4.633v6.734zm-.792-.696a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696z"/>
-                <path d="M1.196 8 7 4.633v6.734zm-.792-.696a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696z"/>
-              </svg></button>
-            <button type="button" class="play btn btn-outline-light"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="24" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
-                <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
-              </svg></button>
-            <button type="button" class="next btn btn-outline-light"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="24" fill="currentColor" class="bi bi-fast-forward" viewBox="0 0 16 16">
-                <path d="M6.804 8 1 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C.713 12.69 0 12.345 0 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
-                <path d="M14.804 8 9 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C8.713 12.69 8 12.345 8 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
-              </svg></button>
-          </div>
+            <div class="d-none d-xl-flex">
+                <div class="btn-group mt-3 mb-0 w-100" role="group" aria-label="Basic outlined example">
+                    <a href="{{ '/about.html' | relative_url }}" type="button" class="previous btn btn-outline-light"
+                        aria-label="Go to About page">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="24" fill="currentColor" class="bi bi-rewind" viewBox="0 0 16 16">
+                            <path
+                                d="M9.196 8 15 4.633v6.734zm-.792-.696a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696z" />
+                            <path
+                                d="M1.196 8 7 4.633v6.734zm-.792-.696a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696z" />
+                        </svg></a>
+                    <a href="{{ '/browse.html' | relative_url }}" type="button" class="play btn btn-outline-light"
+                        aria-label="Go to Browse page"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="24" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
+                            <path
+                                d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z" />
+                        </svg></a>
+                    <a href="{{ '/essay/' | relative_url }}" type="button" class="next btn btn-outline-light" aria-label="Go to essay introduction page">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="24" fill="currentColor" class="bi bi-fast-forward" viewBox="0 0 16 16">
+                            <path  d="M6.804 8 1 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C.713 12.69 0 12.345 0 11.692V4.308c0-.653.713-.998 1.233-.696z" />
+                            <path d="M14.804 8 9 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C8.713 12.69 8 12.345 8 11.692V4.308c0-.653.713-.998 1.233-.696z" />
+                        </svg></a>
+                </div>
+            </div>
+            <div class="row p-0 m-0">
+                <a href="https://www.lib.uidaho.edu/"
+                    class="d-inline col-6 col-md-12 d-xl-none mt-2 mt-md-1 mb-1 text-white" target="_blank"
+                    rel="noopener">
+                    <img class="img-fluid" src="https://www.lib.uidaho.edu/media/digital/liblogo_transparent.png"
+                        alt="University of Idaho Library [logo]" style="max-width: 125px;"></a>
+                <button class="col-6 col-md-12 btn btn-outline-light btn-xl mt-0 mt-md-4 mt-xl-0 pb-0 float-end"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar" aria-label="Open navigation">
+                    <p class="fs-5 mx-0 mt-2 align-text-bottom"><span
+                            class="align-text-bottom d-inline d-md-none d-xl-inline">MENU</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-menu-button-wide ms-2 ms-md-0 ms-xl-2" viewBox="0 0 16 16">
+                            <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v2A1.5 1.5 0 0 1 14.5 5h-13A1.5 1.5 0 0 1 0 3.5zM1.5 1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5z" />
+                            <path   d="M2 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5m10.823.323-.396-.396A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0M0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </p>
+                </button>
+            </div>
         </div>
-        <div class="row p-0 m-0">
-        <a href="https://www.lib.uidaho.edu/" class="d-inline col-6 col-md-12 d-xl-none mt-2 mt-md-1 mb-1 text-white" target="_blank" rel="noopener">
-            <img class="img-fluid" src="https://www.lib.uidaho.edu/media/digital/liblogo_transparent.png" alt="University of Idaho Library [logo]" style="max-width: 125px;"></a> 
-        <button class="col-6 col-md-12 btn btn-outline-light btn-xl mt-0 mt-md-4 mt-xl-0 pb-0 float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Open navigation">
-            <p class="fs-5 mx-0 mt-2 align-text-bottom"><span class="align-text-bottom d-inline d-md-none d-xl-inline">MENU</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-menu-button-wide ms-2 ms-md-0 ms-xl-2" viewBox="0 0 16 16">
-                    <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v2A1.5 1.5 0 0 1 14.5 5h-13A1.5 1.5 0 0 1 0 3.5zM1.5 1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5z"/>
-                    <path d="M2 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5m10.823.323-.396-.396A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0M0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5"/>
-                  </svg></p>
-        </button>
-    </div>
-        </div>
-        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-                <h2 class="offcanvas-title notable" id="offcanvasNavbarLabel"><a class="text-dark" href="{{ '/' | relative_url }}">{{ site.title }}</a></h2>
-                <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <h2 class="offcanvas-title notable" id="offcanvasNavbarLabel"><a class="text-dark"
+                        href="{{ '/' | relative_url }}">{{ site.title }}</a></h2>
+                <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                {% include svg/nav-stack.svg %}
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%} 
+                {% include svg/nav-stack.html %}
+                <ul class=" d-none navbar-nav justify-content-end flex-grow-1 pe-3">
+                    {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%}
                     {% for nav in navItems %}
                     {% if nav.stub %}
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-info btn-xl mb-2  text-center{% if page.url == nav.stub %} active{% endif %}" href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
+                        <a class="nav-link btn btn-outline-info btn-xl mb-2  text-center{% if page.url == nav.stub %} active{% endif %}"
+                            href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
                     </li>
                     {%- else -%}
                     <li class="nav-item dropdown">
-                        {% assign navChildren = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nav.display_name' %}
+                        {% assign navChildren = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent ==
+                        nav.display_name' %}
                         {%- assign childStubs = navChildren | map: 'stub' -%}
-                        <a class="nav-link btn btn-outline-info mb-2 btn-xl text-center dropdown-toggle{% if childStubs contains page.url %} active{% endif %}" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ nav.display_name }}</a>
+                        <a class="nav-link btn btn-outline-info mb-2 btn-xl text-center dropdown-toggle{% if childStubs contains page.url %} active{% endif %}"
+                            data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                            aria-expanded="false">{{ nav.display_name }}</a>
                         <div class="dropdown-menu">
                             {% for c in navChildren %}
-                            <a class="dropdown-item {% if page.url == c.stub %}active{% endif %}" href="{{ c.stub | relative_url }}">{{ c.display_name }}</a>
+                            <a class="dropdown-item {% if page.url == c.stub %}active{% endif %}"
+                                href="{{ c.stub | relative_url }}">{{ c.display_name }}</a>
                             {% endfor %}
                         </div>
                     </li>
@@ -59,10 +81,12 @@
 
                 <div class="mt-5">
                     <a href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                        <img class="img-fluid" id="mobile-nav-image" src="{{ site.organization-logo-nav | relative_url }}" title="{{ site.organization-name }}" alt="{{ site.organization-name | escape }} home" >
+                        <img class="img-fluid" id="mobile-nav-image"
+                            src="{{ site.organization-logo-nav | relative_url }}" title="{{ site.organization-name }}"
+                            alt="{{ site.organization-name | escape }} home">
                     </a>
                 </div>
-                
+
             </div>
         </div>
     </div>

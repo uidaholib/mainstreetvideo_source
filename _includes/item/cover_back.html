@@ -3,9 +3,9 @@
 
     <div class="ms-4" >
         {% if page["media_recommendations"] %}
-        <p class="field" >You Should Watch--> 
+        <p class="field" >Movies Discussed--> 
         {% assign topics = page["media_recommendations"] | split: ";" %}
-        {% for t in topics limit: 14 %}
+        {% for t in topics limit: 10 %}
         <a class="m-1 btn-light btn btn-sm" href="{{ t | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ t | strip }}</a>
         {% endfor %}
         </p>

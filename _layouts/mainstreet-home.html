@@ -23,13 +23,21 @@ custom-foot: js/interviews-js.html
   <div class="col-12 col-lg-6 py-0 px-5">
     {% include feature/video.html objectid="https://youtu.be/NVs2-8j8bh4" %}
   </div>
-  <div class="col-12 col-lg-6 text-center my-3">
-    <p class="caveat h2 px-3 text-center">
-      An oral-historical exploration of the last video store in Moscow, Idaho, which closed in March of 2020. FEATURING: interviews with former <a href="browse.html#employee">staff</a>, <a href="browse.html#customer">customers</a>, <a href="browse.html#Main%20Street%20Video%20Co-op%20Board">board members</a>, and <a href="browse.html#owner">owners</a> of the Main Street Video Co-Op and Howard Hughes Video and <a href="essay/">Collection Essays</a> by Milo Muise.
-    </p>
-    <p class="caveat h2 px-5 pt-5 text-center">
-      <a href="browse.html">Interviews</a> conducted by: <br> Monique Lillard and Beau Newsome.
-     
+  <div class="col-12 col-lg-6 caveat h2 px-3 text-center my-3">
+    <p class="mb-3 px-3">
+
+      An oral-historical exploration of the last video store in Moscow, Idaho, featuring interviews with former <a href="browse.html#employee">staff</a>, <a href="browse.html#customer">customers</a>, <a href="browse.html#Main%20Street%20Video%20Co-op%20Board">board members</a>, and <a href="browse.html#owner">owners</a> of the Main Street Video Co-Op and Howard Hughes Video.</p>
+      <p class="mb-3 px-3">
+
+
+      <a href="essay/" class="mt-4">Collection Essays</a> by Milo Muise.
+      </p>
+      <p class="mb-3 px-3">
+
+      <a href="browse.html" class="mt-4">Interviews</a> conducted by: <br> Monique Lillard and Beau Newsome.
+      </p>
+      <p class="mb-3">
+        <button data-bs-toggle="modal" data-bs-target="#creditsModal" type="button" aria-label="Open up a Credits Modal for the site" class="btn btn-outline-info fs-4">Roll Credits</button>
     </p>
   </div>
   
@@ -47,105 +55,3 @@ custom-foot: js/interviews-js.html
    
 
   </div>
-
-<div class="row d-none  mt-5 mb-0" id="samples">
-  <div class="col">
-    <div class="container py-3">
-    {% for item in items %}
-      <div class="row mx-auto" id="{{item.objectid}}" class="{% unless item.objectid == "mainstreet001" %}hidden{% endunless %}">
-          
-          <div class="col-md-5 offset-md-3 text-white vid-sheath" >
-              {% assign titlewords = item.title | split: " " %} 
-              {% assign promo = item.description_promo | split: "." | first %}  
-              {% assign interviewee = item.interviewee | replace: ';',' & ' %}  
-              {% assign size-test = promo.size | plus: interviewee.size%}  
-  {% capture sidetitle %}Main Street Video | Vol. {{item.objectid | replace: "mainstreet0", "" }} {% endcapture %}
-           
-              <h1 class="font-italic text-center my-5 cover-title">{{ sidetitle }}</h1>
-           
-            <div class="ms-md-5 ps-md-5 ms-3 ps-3">
-  
-              <div class="align-middle text-center">
-                  <p class="h4 pt-3 text-left" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><em>{{promo }} ...  </em></p>
-                  <div class="neon-box cover my-3">
-                      {% include index/youtube-pic-link.html %}
-                  </div> 
-                  <p class="text-center my-0 small">Featuring:</p>
-                  <p class="mt-0 text-center py-2 "><em class="neon">{{ interviewee}}</em></p>    
-
-                {% unless size-test  > 125 %}  {% if item["media_recommendations"] %}
-        <p class="field small text-left" >Recommended in this interview--> 
-        {% assign topics = item["media_recommendations"] | split: ";" %}
-        {% for t in topics limit: 2 %}
-        <a class="m-1 btn-light btn btn-sm" href="{{ t | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ t | strip }}</a> 
-        {% endfor %}... and more!
-        </p>
-       {% elsif item["subject"] %}
-        <p class="field small" >Subjects covered in this interview--> 
-        {% assign subjects = item["subject"] | split: ";" %}
-        {% for s in subjects limit: 2 %}
-        <a class="m-1 btn-light btn btn-sm" href="{{ s | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ s | strip }}</a> 
-        {% endfor %}>... and more!
-        </p>
-        {% endif %}{% endunless %}
-        <a class="btn-link btn btn-lg btn-light text-danger caveat stretched-link mt-4" href="{{ item.objectid | prepend: 'items/' | append: '.html' | relative_url}}">Check Out This Interview</a></div>
-  
-            </div>
-            
-          </div>
-  
-      </div>
-      {% endfor %}
-  </div>
-  <div id="home-nav">
-    <a id="previousButton" class="previous btn btn-light btn-lg pe-auto">&lt;</a>
-      <a id="nextButton" class="next btn btn-light btn-lg pe-auto">&gt;</a>
-    </div>
-</div>
-
-
- 
-  <!-- Add more elements here -->
-
-  <script>
-    const elements = document.querySelectorAll('[id^="mainstreet"]');
-    let currentIndex = 0;
-
-    function showCurrentElement() {
-      elements.forEach((element, index) => {
-        if (index === currentIndex) {
-          element.classList.remove('hidden');
-        } else {
-          element.classList.add('hidden');
-        }
-      });
-    }
-
-    function showNextElement() {
-      if (currentIndex < elements.length - 1) {
-        currentIndex++;
-        showCurrentElement();
-      }
-    }
-
-    function showPreviousElement() {
-      if (currentIndex > 0) {
-        currentIndex--;
-        showCurrentElement();
-      }
-    }
-
-    const nextButton = document.getElementById('nextButton');
-    const previousButton = document.getElementById('previousButton');
-
-    nextButton.addEventListener('click', showNextElement);
-    previousButton.addEventListener('click', showPreviousElement);
-
-    showCurrentElement(); // Show the initial element
-  </script>
-
-<style>
-  .hidden{
-   display: none;
-  }
-</style>

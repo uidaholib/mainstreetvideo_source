@@ -21,7 +21,7 @@
     {% for i in figures %}
     <div class="col-md mx-3">
         <figure class="figure  {% if include.float %} feature-float-{{ include.float }}{% endif %}{% if include.width %} feature-w-{{ include.width }}{% endif %}">
-            <a href="{{ include.link}}" class="stretched-link">
+            <a href="{{ include.link}}">
                 <img class="figure-img img-fluid rounded" alt="{{ item.title | escape }}" src="{{i}}" >
             </a>
             <p class="figure-caption text-left my-0"><em>{% if include.caption %}{{ include.caption}}{% endif %}</em></p>
