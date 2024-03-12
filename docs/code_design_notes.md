@@ -25,5 +25,5 @@ If they are actual links, i.e. go to a different page or to an anchor on the pag
 For example, `<a class="btn btn-primary" href="https://example.com">Link</a>`.
 
 If `<a>` tags are used to trigger interactivity on the page, for example opening a modal, then they SHOULD have `role="button"` for accessibility purposes. 
-For example, `<a class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Link</a>`.
+For example, `<a class="btn btn-primary" href="#" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Link</a>`.
 However, in these cases it is generally better for accessibility and semantic markup to use a `<button>` element, rather than use a `<a>`.
