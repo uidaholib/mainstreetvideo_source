@@ -1,10 +1,14 @@
 display_name,stub,dropdown_parent
-Home,/,
-Browse,/browse.html,
-Visualization,/ohdviz.html
-Subjects,/subjects.html,
-Locations,/locations.html,
-Map,/map.html,
-Timeline,/timeline.html,
-Data,/data.html,
+Home,/
 About,/about.html,
+Interviews,/browse.html,
+Browse,
+Subjects,/subjects.html,Browse,
+Recommendations,/recommendations.html,Browse
+Data,/data.html,Browse
+Inventory,/inventory.html
+Essays,
+Intro,/essay/,Essays
+Cult Classics,/essay/cult-classics.html,Essays
+Westerns,/essay/westerns.html,Essays
+Horror,/essay/horror.html,Essays

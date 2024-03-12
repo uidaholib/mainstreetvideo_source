@@ -1,0 +1,5 @@
+<figure>{%- assign item = site.data[site.metadata] | where: "objectid", include.objectid | first -%}
+    <label for="{{include.objectid}}" class="margin-toggle">&#8853;</label><input type="checkbox" id="{{include.id}}" class="margin-toggle"/><span class="marginnote"><a href="{{ '/mapitem.html' | relative_url | append: '?id=' | append: item.objectid }}">{{ item.title }}</a>, {{ item.description | truncatewords: 5 }}</span> 
+    
+    {% include feature/map.html %}
+  </figure>

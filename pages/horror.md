@@ -1,0 +1,212 @@
+---
+title: "Horror: The Nail in the Video Store’s Coffin (…or is it?)"
+layout: essay
+permalink: /essay/horror.html
+side-image: /assets/svg/horror-vert.svg
+top-image: /assets/svg/horror-flat.svg
+---
+
+# Horror: The Nail in the Video Store’s Coffin (…or is it?)
+
+
+## _It Follows_ (2014): Main Street Video’s Final Days
+
+{% include feature/marginnote-image.html id="itfollows" img="/objects/it-follows.jpg" title="Movie poster for It Follows" link="https://www.youtube.com/watch?v=HkZYbOH0ujw"%}
+
+
+Moscow Street Video Co-op closed permanently as of March 2020, due to a perfect storm of factors. Despite the efforts of dedicated customers like [Bekah Miller MacPhee](/items/mainstreet004.html){:target='_blank'} who would [call the store to see if they had a movie](https://youtu.be/lTvfsRTxdqE?t=792){:target='_blank'}<!--{% include feature/marginnote-nothing.html youtubeid="lTvfsRTxdqE" link="https://youtu.be/lTvfsRTxdqE?t=792" id="call" %}--> before streaming it, the store’s recent years saw a marked decrease in renting and foot traffic.
+
+Netflix began renting out DVDs by mail in 1998, a service that grew increasingly popular in the 2000s with people swapping their trips to the video store for a trip to the mailbox. (There’s a rumor that Netflix’s founding was inspired by a [particularly egregious Blockbuster late fee](https://youtu.be/sZGTvs8Ll8U?t=4695){:target='_blank'}, though this might just be a ["convenient fiction"](https://www.cnbc.com/2017/05/23/netflix-ceo-reed-hastings-on-how-the-company-was-born.html){:target='_blank'}.) Then came streaming, which didn’t even require you to leave your couch. 
+
+[Cody Moore](/items/mainstreet009.html){:target='_blank'} comments, “You really have to kind of convince people that [renting] is a better way to consume movies than just clicking a button or on your phone or the TV.” 
+
+{% include feature/youtube-embed.html youtubeid="K13wkAqJQLo" start="368" end=429 %}
+
+[Benjamin Hardcastle](/items/mainstreet007.html){:target='_blank'} thinks [RedBox might have had an even bigger negative impact,](https://youtu.be/sZGTvs8Ll8U?t=4822){:target='_blank'}<!--<!--{% include feature/marginnote-nothing.html youtubeid="sZGTvs8Ll8U" link="https://youtu.be/sZGTvs8Ll8U?t=4822" id="redbox" %}--> given that they made it easy to rent new releases and were placed at convenient locations like grocery stores. In addition, parking was notoriously difficult on Main Street, and the co-op didn’t have a parking lot.
+
+The store also didn’t have a strong online presence. While many think offering online ordering would have helped, it simply wasn’t feasible given the store’s limited resources. As [Lauretta Campbell](/items/mainstreet019.html){:target='_blank'} explains:
+
+{% include feature/youtube-embed.html youtubeid="n3c_1oNwoJk" start="1844" end=1967 %}
+
+For a sense of what that process might have entailed, [Scarecrow Video in Seattle recently fundraised $200,000](http://blog.scarecrow.com/support-scarecrow-2-1-the-campaign-for-scarecrows-future/){:target='_blank'} to update their website and store infrastructure, allowing for more robust searchability of their collection, recommendations, and real-time inventory updates. [Kate Barr](/items/mainstreet016.html){:target='_blank'} says, "If we're going to be serious about continuing to exist into the 21st century, then [we need to be able to interact in a 21st century kind of way."](https://youtu.be/FLcgYJzqW3w?t=284){:target='_blank'}<!--{% include feature/marginnote-nothing.html youtubeid="FLcgYJzqW3w" link="https://youtu.be/FLcgYJzqW3w?t=284" id="interact" %}-->
+
+The switch to a cooperative structure introduced some new challenges as well. The board, while incredibly dedicated and hardworking, were also all volunteers, and many were having to run their own businesses on top of their co-op duties. A large portion of the customer-owners who pledged to pay their ownership fee in installments stopped paying before they met the necessary $200, meaning that [the store didn’t have the funds they had anticipated.](https://youtu.be/n3c_1oNwoJk?t=918){:target='_blank'}
+
+The membership fee might have given some [sticker shock,](https://youtu.be/q_D2PVnsCqU?t=613){:target='_blank'} especially when streaming services take the opposite approach, asking for small monthly payments rather than a large upfront sum. (Though those small fees [add up](https://youtu.be/PU9z-3neIPk?t=2274){:target='_blank'} as one’s number of subscriptions grows.) 
+
+Then, COVID-19 arrived in the winter of 2020. Suddenly, many were stuck at home, [tired of their streaming options,](https://youtu.be/FLcgYJzqW3w?t=3119){:target='_blank'} seeking the kind of curated variety the co-op had in spades. The living room was the only open theater in town, and many were wanting to [stock up on videos to watch at home.](https://youtu.be/yE_wGwT_07g?t=3073){:target='_blank'} The social distancing requirements could have provided opportunity for contactless rentals or a delivery service. 
+
+However, by that point the store was struggling so severely that implementing these kinds of projects was impossible. 
+
+Not long after the co-op announced its closing, the Kenworthy reported that it would sell the co-op’s 30,000-movie collection. [Melinda Schab](/items/mainstreet030.html){:target='_blank'} was devastated at the news. She had hoped that there was a chance that the store might be resurrected [if the collection had been preserved.](https://youtu.be/ZpNED50ESTU?t=2550){:target='_blank'}<!--{% include feature/marginnote-nothing.html youtubeid="ZpNED50ESTU" link="https://youtu.be/ZpNED50ESTU?t=2550" id="preserved" %} -->
+
+The speed of these decisions along with limited communication and the emotional fallout of losing this collection resulted in a host of rumors about how and why this deal took place. So, let’s set the record straight:
+
+
+-       The collection was not sold to the Kenworthy; it was transferred there as a [debt settlement,](https://youtu.be/K13wkAqJQLo?t=1774){:target='_blank'} resolving a balance the co-op owned to the store’s previous owners. 
+
+
+-       While the Kenworthy tried to find a library or organization willing to take the collection intact, there wasn’t enough interest. The collection takes up such a substantial amount of space—[roughly 1400 square feet](https://youtu.be/R_-qilDdzO4?t=4106){:target='_blank'}—that even finding a place to store it would be difficult. 
+
+
+-       The Kenworthy did not sell the entire collection. [They retained over 2000 items](https://youtu.be/R_-qilDdzO4?t=3462){:target='_blank'} including important pieces of cinematic history, the Criterion Collection,{% include feature/marginnote-image.html img="https://s3.wp.wsu.edu/uploads/sites/825/2016/11/french-film-jpeg.jpg" caption="PFFF flier from 2016" %} French films (for the annual Palouse French Film Festival), and the entirety of _Mystery Science Theater 3000_. While they don’t foresee renting these to the public, you _can_ [rent out the Kenworthy](https://www.kenworthy.org/rentals/){:target='_blank'} to watch what they kept.
+
+
+-       The sale items were largely dispersed locally. Pieces of the collection can now be found in the homes of Moscow residents.{% include feature/marginnote-image.html img="https://drive.google.com/file/d/1wqGe6kCnB-nFkOmLiq4HFO1CnLfoz_qg/view?usp=sharing" caption="Including my own shelves!" %} The [Palouse Cult Film Revival](https://www.palousecultfilms.org){:target='_blank'}, a nonprofit bringing cult film awareness to the community, [received roughly a quarter of the cult section.](https://youtu.be/R_-qilDdzO4?t=3859){:target='_blank'} The University of Idaho library took in everything that didn’t sell to the general public and is currently working on [how to make this collection available to the community.](https://youtu.be/-3OomYpHSI4?t=3117){:target='_blank'}
+
+For [Monique Lillard](/items/mainstreet027.html){:target='_blank'}, “These interviews have brought back for me how much I loved the store, and [how much I really mind that it closed."](https://youtu.be/7DBz0dpndVk?t=4434){:target='_blank'}<!--{% include feature/marginnote-nothing.html youtubeid="7DBz0dpndVk" link="https://youtu.be/7DBz0dpndVk?t=4434" id="closed" %}-->
+
+[Lauretta Campbell](/items/mainstreet019.html){:target='_blank'} finds it bittersweet but comforting to know that the movies at the Kenworthy and all the work they represent will still go on to benefit the community somehow, [just not in the form of a video store.](https://youtu.be/n3c_1oNwoJk?t=3812){:target='_blank'}
+
+But like every movie, the credits have to roll at some point. Lauretta admits, “The video store was very much loved, and it was a huge benefit to have, but I think everyone kind of knew that [it wasn’t going to be here forever."](https://youtu.be/n3c_1oNwoJk?t=3799){:target='_blank'}
+
+***
+
+***
+
+{:.subsection}
+## _Don’t Look Now_ (1973): What’s Been Lost
+
+{% include feature/marginnote-image.html id="dontlook" img="/objects/dont-look-now.jpg" title="Movie poster for Don't Look Now" link="https://www.youtube.com/watch?v=BI9bYR0SoMs" %}
+
+
+
+When looking at the history of cinema, one adage proves true: the only constant is change. [Moviemaking is a unique marriage of art and technology,](https://www.scienceandmediamuseum.org.uk/objects-and-stories/very-short-history-of-cinema){:target='_blank'} so with advances in technology come [innovations in films and their distribution.](https://www.newyorker.com/culture/culture-desk/technologies-that-changed-the-art-of-cinema){:target='_blank'} Often, these developments are met with resistance. 
+
+In the late 1920s, the silent film era was ending, with ["talkies”](https://publish.iupress.indiana.edu/projects/the-birth-of-the-talkies){:target='_blank'} synchronizing sound and image for the first time. [Silent film stars were not pleased,](https://birthmoviesdeath.com/2014/08/31/talkie-terror-the-transition-from-silents-to-sound){:target='_blank'} and there was a general sense of nostalgia for silent films, [not unlike the nostalgia many of us feel for 35mm film](https://www.rutgersuniversitypress.org/flickers-of-film/9780813576015){:target='_blank'} and other technologies rapidly becoming a thing of the past.
+
+{% include feature/marginnote-image.html img="https://www.looper.com/img/gallery/the-best-practical-effects-in-horror-ranked/the-fly-1643646676.webp" caption="Practical effects in _The Fly_ (1986)" %} That’s not to say that all progress is good progress or that we should automatically welcome the rise of CGI with open arms. (I personally remain an ardent lover of [practical effects](https://www.looper.com/752412/the-best-practical-effects-in-horror-ranked/){:target='_blank'}.) 
+
+Rather, it’s to point out that when we are nostalgic for VHS or the video store, we are joining a long lineage of nostalgic film fans. [Nostalgia might define cinematic history](https://www.rutgersuniversitypress.org/flickers-of-film/9780813576015){:target='_blank'} more than any other affect.  
+
+So, let’s take stock. What’s the difference between renting and streaming? What do we miss when we miss the video store? How do our watching habits signal shifts in our cultural priorities and values?
+
+Undeniably, [streaming is more convenient](https://youtu.be/6twwXQH40Lg?t=3938){:target='_blank'} than having to take a trip down to the video store (and then another trip back to return your movies). With streaming, you have immediate access to a large amount of content with the click of a button. You no longer need to schedule your life around when [your favorite TV show happened to be airing.](https://youtu.be/p0BeVA_vgt8?t=2662){:target='_blank'} There’s no worrying about a [scratched disc or late fees.](https://youtu.be/q_D2PVnsCqU?t=811){:target='_blank'}
+
+[Dan Orozco](/items/mainstreet011.html){:target='_blank'} admits, “I just got lazy…[The new technology is really kind of insidious."](https://youtu.be/4WsJ-rmqy0A?t=1791){:target='_blank'}<!--{% include feature/marginnote-nothing.html youtubeid="4WsJ-rmqy0A" link="https://youtu.be/4WsJ-rmqy0A?t=1791" id="convenient" %}-->
+
+Streaming can give you the sense that you have access to an unlimited amount of media, but that promise is more illusory than people think. [Kate Barr](/items/mainstreet016.html){:target='_blank'} from Scarecrow Video explains, “The thing that Netflix has done the best is sell the idea that everything is available online, because in reality it’s just not even close…If you take Netflix, Amazon, and Hulu’s collections and you put them all together it's about 36,000 titles, and we have over 140,000.” 
+
+{% include feature/youtube-embed.html youtubeid="FLcgYJzqW3w" start="3242" end=3313 %}
+
+Streaming services also [rotate their selection](https://youtu.be/n3c_1oNwoJk?t=1384){:target='_blank'} depending on factors like a title’s popularity or licensing agreements, and [you can’t make requests](https://youtu.be/PU9z-3neIPk?t=2406){:target='_blank'} the way you could at the video store. (I suppose you could tweet at Netflix, but the likelihood they would actually respond to your ask is slim.) 
+
+Immediate, unlimited access might even be detrimental to audience engagement. [Bekah Miller MacPhee](/items/mainstreet004.html){:target='_blank'} describes feeling [more immersed in the experience](https://youtu.be/lTvfsRTxdqE?t=198){:target='_blank'}<!--{% include feature/marginnote-nothing.html youtubeid="lTvfsRTxdqE" link="https://youtu.be/lTvfsRTxdqE?t=198" id="immersed" %}--> of watching a movie back in her renting years. Going to the video store fostered more of a relationship with a movie:
+
+{% include feature/youtube-embed.html youtubeid="cCCYH-3R--U" start="1948" end=1998 %}
+
+Having too many options can result in a paralysis of choice, and Howard Hughes’ curation circumvented the “doom scrolling” that often accompanies finding something to watch on a streaming platform. The “event” of [picking up a movie and popping it into your DVD or VHS player](https://youtu.be/AgUjoA72VLU?t=1311){:target='_blank'} made for a more of a captive audience. 
+
+["I was more likely to watch a whole movie from Howard Hughes](https://youtu.be/kxuq9cl4qR8?t=702){:target='_blank'}<!--{% include feature/marginnote-nothing.html youtubeid="kxuq9cl4qR8" link="https://youtu.be/kxuq9cl4qR8?t=702" id="watch" %}--> because of the extra effort,” says [Martin McGreevy.](/items/mainstreet029.html){:target='_blank'}
+
+In the West, we’ve been following a trend away from the communal and toward the individual for a while now, whether it be swapping public transit for cars, payphones for cell phones, or movie theaters for home theaters. [The video store was an interesting liminal space:](https://youtu.be/q_D2PVnsCqU?t=1392){:target='_blank'} a social meeting ground supporting a solitary (or intimate, at least) venture—watching a movie in the privacy of your home. 
+
+While [many valued the sociability](https://youtu.be/7DBz0dpndVk?t=1443){:target='_blank'} of going out and [having somebody to engage with about movies,](https://youtu.be/OtA4nKLxLjk?t=2063){:target='_blank'} there’s always those who would rather skip the human interaction.
+
+After all, existing in society comes with its drawbacks, as anyone who’s had a movie theater experience [ruined by someone’s loud talking](https://youtu.be/6twwXQH40Lg?t=5555){:target='_blank'} can tell you. For [Monique Lillard](/items/mainstreet027.html){:target='_blank'}, though, the tradeoff is worth it: "Moments when the whole audience gasps or laughs [enhances the experience, too."](https://youtu.be/_leJlNuaXWg?t=1702){:target='_blank'}<!--{% include feature/marginnote-nothing.html youtubeid="_leJlNuaXWg" link="https://youtu.be/_leJlNuaXWg?t=1702" id="enhances" %} -->
+
+While we’re right to pay attention to the changes that come with streaming, we can be careful not to fall into a trap of romanticization. [Russell Meeuf](/items/mainstreet031.html){:target='_blank'} explains, 
+
+{% include feature/youtube-embed.html youtubeid="q_D2PVnsCqU" start="2791" end=2884 %}
+
+[Martin McGreevy](/items/mainstreet029.html){:target='_blank'} sums up [the hope of many](https://youtu.be/kxuq9cl4qR8?t=2120){:target='_blank'}<!--{% include feature/marginnote-nothing.html youtubeid="kxuq9cl4qR8" link="https://youtu.be/kxuq9cl4qR8?t=2120" id="enhances" %}--> in the Moscow film community:
+
+{% include feature/quote.md text="I just hope that film as a medium continues and we're not all the more sequestered in the virtual reality headset…I think I always hope for you know the experience where we all sit in front of the modern cave painting and watch a film." %}
+
+
+***
+
+{:.subsection}
+## _Frankenstein_ (1931): How to Reanimate the Video Store in the 21<sup>st</sup> Century
+
+{% include feature/marginnote-image.html id="frank" img="/objects/frankenstein.jpg" title="Movie poster for Frankenstein" link="https://www.youtube.com/watch?v=AkSbwiKP3mo"%}
+
+
+If there’s one thing a good horror movie knows, it’s that the dead are never _really_ dead. While Main Street Video Co-op is closed, that doesn’t mean we can’t recapture some of what we loved about it. Here are some suggestions to get you started:
+
+
+
+_Do you miss the curation?_
+
+
+-       [Kanopy](https://www.kanopy.com/en/){:target='_blank'} is “[the closest thing to a virtual video store](https://youtu.be/sZGTvs8Ll8U?t=5159){:target='_blank'}<!--{% include feature/marginnote-nothing.html youtubeid="sZGTvs8Ll8U" link="https://youtu.be/sZGTvs8Ll8U?t=5159)" id="virtual" %},” according to [Benjamin Hardcastle](/items/mainstreet007.html){:target='_blank'}. This streaming service partners with public libraries and universities, offering free access to a wide variety of both classic and contemporary cinema.-->
+
+
+-       [The Criterion Channel](https://www.criterionchannel.com){:target='_blank'} provides you with a rotating selection of their catalog, including curated spotlights on directors, genres, and themes. 
+
+
+-       [Mubi](https://mubi.com){:target='_blank'} is a streaming service that boasts hand-picked film curation. They offer a limited, rotating selection of films, much like your favorite “employee picks” shelf. 
+
+
+
+_Do you miss getting to talk to people about movies?_
+
+
+-       Get into [podcasts](https://discoverpods.com/movie-podcasts/){:target='_blank'}! You just might feel like [you’re back in the video store](https://screenrant.com/best-movie-podcasts-according-to-ranker/){:target='_blank'} overhearing [conversations between customers and staff](https://www.wrapbook.com/blog/best-filmmaking-podcasts){:target='_blank'}.
+
+
+-       Join the [Letterboxd](https://letterboxd.com){:target='_blank'} community to log and rate movies and converse with fellow film lovers.
+
+
+-       Go to the [Kenworthy](https://www.kenworthy.org){:target='_blank'} or your local movie theater. If you’re in Moscow, you can [rent the Kenworthy](https://www.kenworthy.org/rentals/){:target='_blank'} and screen whatever you want with whoever you want!
+
+
+-       Get involved with a local film group, like the [Palouse Cult Film Revival](https://www.palousecultfilms.org){:target='_blank'}, or start one of your own. 
+
+
+-       If documentaries are your thing, [Influence Film Club](http://influencefilmclub.com/clubs/){:target='_blank'} helps you set up your own film club and offers discussion guides, director interviews, and more to “support real people having real interactions more often.” 
+
+
+
+_Do you miss tangible media?_
+
+
+-       Use [Scarecrow Video’s rent-by-mail service](http://blog.scarecrow.com/scarecrow-rent-by-mail/){:target='_blank'}! Scarecrow Video will mail you your rental along with a return mailer, and you can enjoy their incredible collection from home. 
+
+
+-       {% include feature/marginnote-image.html img="https://s3.us-west-2.amazonaws.com/org.hollywoodtheatre.m/media/images/mm-front_2.width-800.format-webp.webp" caption="Movie Madness in Portland, OR" %} If you’re wanting an in-person experience, head to Seattle to visit [Scarecrow Video](http://blog.scarecrow.com){:target='_blank'} or Portland to check out [Movie Madness](https://moviemadness.org){:target='_blank'}. In addition to its 80,000-title collection, the latter features a museum with movie memorabilia, including pieces from _The Godfather: Part II_, _Psycho_, _Fight Club_, and _Pulp Fiction_. (As a lover of Movie Madness, I'll also plug that they have have an _incredible_ horror section delightfully organized by the films’ horrific element, including “perverted science” and “killer kids.”)
+
+
+-       Fuel your nostalgia and watch some [35 mm film trailers](https://thefilmstage.com/watch-hundreds-of-35mm-film-trailers-will-be-your-new-nostalgia-obsession/){:target='_blank'}.
+
+
+
+_Do you miss browsing?_
+
+
+-       Go to your local library! There, you can walk the shelves and wander through not just their DVD collection, but also books and periodicals. Some libraries (like the University of Idaho’s) also have game libraries and other surprising collections.
+
+
+
+_Do you miss bonus features?_
+
+
+-       [Youtube](http://youtube.com){:target='_blank'} hosts a wide variety of [filmmakers and film enthusiasts](https://www.frontrowinsurance.com/articles/top-20-filmmaking-youtube-channels){:target='_blank'} sharing [their craft](https://www.premiumbeat.com/blog/youtube-channels-for-filmmakers-2021/){:target='_blank'}.
+
+
+-       [Criterion’s _Current_](https://www.criterion.com/current/posts){:target='_blank'} is full of insightful film criticism that will give you a deepened understanding of important films.
+
+
+-       [Listen](https://cinephiliabeyond.org/the-must-hear-commentary-list/) to these [audio film commentaries](https://thedirectorscommentary.tumblr.com){:target='_blank'}, now available online.
+
+
+
+_Do you have an inordinate amount of time and/or money?_
+
+
+-       Build your own video store in your basement, [like this guy did](https://www.tiktok.com/@thevideobunker){:target='_blank'}.
+
+** **
+
+There’s no replacing Moscow’s premiere indie video store, but its legacy lives on in the community members who supported and staffed this downtown gem. Thanks for 30 movie-filled years!
+
+
+
+<hr>
+
+_Click a spine below to explore other sections of this essay:_
+
+{% include feature/poster.html id="intro" image="/assets/svg/intro-flat.svg" caption="Revisiting Howard Hughes Video Store: An Introduction" title="Revisiting Howard Hughes Video Store: An Introduction" link="cult-classics.html" width="50"%}
+{% include feature/poster.html id="cult" image="/assets/svg/cult-flat.svg" caption="Cult Classics: The Video Store as Cultural Artifact" title="Cult Classics" link="cult-classics.html" width="50"%}
+{% include feature/poster.html id="westerns" image="/assets/svg/westerns-flat.svg" caption="Westerns: The Rural Video Store
+" title="Westerns" link="westerns.html" width="50"%}

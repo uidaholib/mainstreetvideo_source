@@ -1,0 +1,12 @@
+{% comment %}
+
+    for mainstreet items:
+    for youtube items, adds a thumbnail as button that opens a modal with player.
+    currently requires custom-foot js/interviews-js.html
+
+{%- endcomment -%}
+<a class="btn-link" href="{{ item.objectid | prepend: 'items/' | append: '.html' | relative_url}}">
+    <img src="{{ item.image_small }}" class="img-fluid" alt="{{ item.title }}">
+</a>
+
+

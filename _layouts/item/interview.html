@@ -1,0 +1,102 @@
+---
+layout: default
+item-meta: true
+# interviews for mainstreet video
+custom-foot: js/interviews-js.html
+---
+<div class="container py-3">
+    
+    <div class="row px-5 mx-5">
+        
+        <div class="col-md-6 text-white" style="background-image: url('{{'video_cover_right.jpeg' | prepend: '/assets/img/' | relative_url }}'); height: 710px; width:480px; background-position: center; background-repeat: no-repeat; max-width:480px;">
+            {% assign titlewords = page.title | split: " " %}        
+{% capture sidetitle %}Main Street Video | Vol. {{page.objectid | replace: "mainstreet0", "" }} {% endcapture %}
+         
+            <h1 class="font-italic text-center my-5 cover-title">{{ sidetitle }}</h1>
+         
+          <div class="ms-5 ps-5">
+
+            <div class="align-middle">
+                <h2 class="{%unless page.interviewee contains 'Ramalingam' %}h1{% endunless %} pt-3" style="">{{ page.interviewee | replace: ';',' & ' }}</h2>
+                <div class="border border-danger cover mt-3 mb-1">
+                    {% include item/youtube-modal.html %}
+                </div>
+                <p class="text-white text-center small mt-0">(Click image to play Interview!)</p>
+
+                <p class="h2 text-warning text-center" style="text-shadow:2px 2px rgb(103, 151, 193);">In conversation with <br> {{page.interviewer}}</p> 
+                <p class="mt-3 text-center">{{ page.date | date: "%B %d, %Y" }} <br>
+                {{ page.duration }} </p>    
+            </div>
+
+          </div>
+          
+        </div>
+
+        <div class="col-md-6 text-white" style="background-image: url('{{'video_cover_left.jpeg' | prepend: '/assets/img/' | relative_url }}'); height: 710px; width:480px; background-position: center; background-repeat: no-repeat; background-size: cover; max-width:480px;">
+
+            {% include item/cover_back.html %}
+            
+        </div>
+    </div>
+    <div class="card my-3">
+        <div class="card-header">
+            <button class="btn btn-lg btn-link w-100" type="button" data-toggle="collapse" data-target="#interviewSummary" aria-expanded="false" aria-controls="interviewSummary">
+            Interview Summary
+            </button>
+        </div>
+        <div class="card-body collapse" id="interviewSummary">
+           {{ page.description }}
+        </div>
+    </div>
+   {% assign transcript-lines = site.data.mainstreet_transcripts | where: 'objectid',page.objectid %}
+   {% if transcript-lines %}
+   <div class="card my-3">
+        <div class="card-header">
+            <button class="btn btn-lg btn-link w-100" type="button" data-toggle="collapse" data-target="#fullTranscript" aria-expanded="false" aria-controls="fullTranscript">
+            Interview Transcript
+            </button>
+        </div>
+        <div class="card-body collapse" id="fullTranscript">
+            {% for l in transcript-lines %}
+            <p><em>{{ l.speaker }}:</em> {{ l.text }}</p>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="card my-3">
+        <div class="card-header">
+            <button class="btn btn-lg btn-link w-100" type="button" data-toggle="collapse" data-target="#fullMetadata" aria-expanded="false" aria-controls="fullMetadata">
+            Full Interview Information
+            </button>
+        </div>
+        <div class="card-body collapse" id="fullMetadata">
+            {% include item/metadata.html %}
+        </div>
+    </div>
+
+    <div class="row justify-content-end mt-4">
+        <div class="col-md-5">
+            <div class="card mb-2">
+                <div class="card-header">Source</div>
+                <div class="card-body">
+                    <dl>
+                        <dt>Preferred Citation:</dt>
+                        <dd>"{{ page.title }}", {{ site.title }}, Special Collections and Archives, University of Idaho Library</dd>
+                        <dt>Reference Link:</dt>
+                        <dd>{{ page.url | absolute_url }}</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        {% if page.rights or page.rightsstatement %} 
+        <div class="col-md-5">
+            {% include item/rights-box.html %}
+        </div>
+        {% endif %}
+    </div>
+
+    {%- if site.data.theme.browse-buttons == true -%}
+        {% include item/browse-buttons.html %}
+    {%- endif -%}
+</div>

@@ -1,0 +1,65 @@
+{% assign items = site.data.transcripts[page.objectid] %}
+<div class="container">
+  <div id="full_container" class="p-3 p-md-5 justify-content-center m-auto" >
+    <div id="object-meta">
+      <h2 class="my-2 title meta">{{ page.title}}</h2>
+      <p class="meta">{%if page.location%}{{page.location}} on {%endif%}{%if
+        page.date-interviewed%}{{page.date-interviewed}}{%endif%}
+      </p>
+      {%if page.interviewer%}<p class="meta">Interviewer: {{page.interviewer}}</p>{%endif%}
+      <div class="interview-object mt-5 px-3">
+        {% include player/youtube.html %}
+      </div>
+    </div>
+    <div id="filters-content" class="pe-md-5">
+      <div class="row my-3 sticky-top bg-white border-bottom border-left border-right d-print-none pb-3 w-md-75" id="filters-search"  style="z-index: 0;">
+        <div class="col-12 col-md-8">
+          <div id="transcriptsearch" class="bg-lightr">
+            <div class="row pt-4">
+              <div class="col-md-6">
+                <div class="input-group fs-5">
+                  <input type="text" class="form-control" placeholder="Search..." aria-label="Search"
+                    aria-describedby="goButton" id="quicksearch">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary rounded-right border-light input-group-text" type="submit"
+                      title="Search" alt="Search" id="goButton" onclick="filterLines('searchResults');">Go</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <button class="reset btn btn-sm btn-outline-primary mt-1" href="#" data-filter="">Reset Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 d-none filter-search mt-2 small">
+          <h5 class="d-none linecount small ms-3"><span id="numberof"></span></h5>
+
+          <select class=" mb-2 form-select" id="searchResults" onchange="scrollToLine();">
+
+          </select>
+        </div>
+      </div>
+
+
+      <div id="contents-container" class="pe-5">
+        {% for item in items %}
+        {% assign prev_index = forloop.index0 | times: 1 | minus: 1 %}
+        {% assign prev_speaker = items[prev_index].speaker %}
+        {% assign mod = forloop.index | plus: 1 | modulo: 5 %}
+        <div id="{{page.object-id}}{{ forloop.index }}" class="{%- assign tags = item.tags | split: ";" | compact | where_exp: 'item', 'item != " "' %}{% for tag in tags %}{{tag | slugify }} {% endfor %} row line my-1">
+
+          <p class="words col-md-10 col-lg-8 col-print-12 pe-0">
+
+            {% unless item.speaker == prev_speaker %}{%if item.speaker %}<span class="fw-bold pe-3 pb-3">{{item.speaker | remove:
+              ":"}}:</span>{% endif %}{% endunless %}{{item.text}}
+          </p>
+          <div class="col-12 col-md-2 timestamp mb-3 small text-center">{%if item.start%}
+            <a href="{% include timestamp/youtube.html %}">{{item.start}}</a>{% endif %}
+          </div>
+        </div>
+        {% endfor %}
+         </div>
+    </div>
+  </div>
+</div>

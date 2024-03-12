@@ -12,29 +12,31 @@ url:
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: 
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/cb-oralhistory
+source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
 
 ##########
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: cb-oralhistory
+title: Main Street Video
+
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Prototype for working with Oral History as Data items in CollectionBuilder
+tagline: An oral history of the last video store in Moscow, Idaho 
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CB-OHD is a mix of CollectionBuilder-CSV and Oral History as Data (OHD)."
+description: "An oral history exploration of the video store downtown."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: oral histories;digital collections
+keywords: idaho;history;inland northwest;vhs;video stores
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: dcnb
+# Organization branding
 
 ##########
 # COLLECTION SETTINGS
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: demo-ohd-metadata 
+metadata: main_street_video_interviews
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
@@ -54,14 +56,6 @@ organization-name: "Center for Digital Inquiry and Learning (CDIL)"
 organization-link: https://cdil.lib.uidaho.edu/
 organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
 organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
-
-##########
-# GOOGLE SERVICES [optional!]
-#
-# leave these blank or comment out to NOT include google code
-# if present, used to add analytics during "production" build only
-# google-analytics-id: "G-XXXXXXXXX"
-# google-cse-id: "002151703305773322890:1pu3smhw1t8"
 
 ##########
 # ROBOTS EXCLUDE

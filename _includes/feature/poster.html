@@ -1,0 +1,31 @@
+{% comment %}
+    
+    Item figure from objectid.
+    This include adds a figure to the page styled using bootstrap, https://getbootstrap.com/docs/4.5/content/figures/
+    It requires an "objectid" with the include, which is used to find the object title and image.
+    Image and youtube items will have max quality images, all others will be CDM thumbnails which are very small size. 
+    If multiple objectids are included (separated by ; ), they will be added to a "col-md" in a row which will automatically divided equally.
+
+    E.G. --> {% include feature/item-figure.html objectid="demo_001" %}
+
+    Options:
+    - "image" = one or more images from this repository, separated by semicolon ;  
+    - "title" = what will be used in the alt tag for accessibility 
+    - "width" = will use responsive sizing to set the % size on desktop (will be 100% on mobile), choose from "25", "50", "75", or "100"
+    - "caption" = if you want a caption, add this.
+    - "float" = will use responsive float utility to add float on desktop (will not float on mobile), choose from "left" or "right"
+
+{%- endcomment -%}
+{%- assign figures = include.image | split: ";" %}
+<div class="row ">
+    {% for i in figures %}
+    <div class="col-md mx-3">
+        <figure class="figure  {% if include.float %} feature-float-{{ include.float }}{% endif %}{% if include.width %} feature-w-{{ include.width }}{% endif %}">
+            <a href="{{ include.link}}" class="stretched-link">
+                <img class="figure-img img-fluid rounded" alt="{{ item.title | escape }}" src="{{i}}" >
+            </a>
+            <p class="figure-caption text-left my-0"><em>{% if include.caption %}{{ include.caption}}{% endif %}</em></p>
+        </figure>
+    </div>
+    {% endfor %}
+</div>

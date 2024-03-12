@@ -5,6 +5,8 @@ permalink: /subjects.html
 # Default subject page is configured in "_data/theme.yml"
 # leave cloud-fields as "site.data.theme.subjects-fields"
 cloud-fields: site.data.theme.subjects-fields
+side-image: /assets/svg/subjects-vert.svg
+top-image: /assets/svg/subjects-flat.svg
 ---
 
 ## Browse Subjects

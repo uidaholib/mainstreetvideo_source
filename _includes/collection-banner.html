@@ -1,51 +1,69 @@
-{% if page.layout == "home-infographic" and site.data.theme.featured-image %}
-<style>
-#home-banner {
-    background-image: url('{{ site.data.featured_item.src | relative_url }}');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: {{ site.data.theme.home-banner-image-position | default: 'center' }};
-}
-#home-title-box {
-    padding-top: {{ site.data.theme.home-title-y-padding | default: '5em' }};
-    padding-bottom: {{ site.data.theme.home-title-y-padding | default: '5em' }};
-}
-@media screen and (max-width: 576px) {
-    #home-title-box {
-        max-height: 500px;
-    }
-}
-</style>
-<div id="home-banner" class="container-fluid mb-0 p-0">
-    <div id="home-title-box" class="position-relative" >
-        <div class="p-2 text-center text-white bg-dark bg-opacity-75">
-            {% if site.organization-logo-nav %}
-            <a class="d-none d-md-block" href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                <img id="home-banner-logo" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name | escape }} home" >
-            </a>{% endif %}
-            <h1 class="display-4">{{ site.title }}</h1>
-            {% if site.tagline %}<p class="mb-0">{{ site.tagline }}</p>{% endif %}
-        </div>
-        {% unless site.data.theme.featured-image contains '/' %}
-        <div class="position-absolute bottom-0 end-0 px-2 bg-dark bg-opacity-75">
-            <a class="text-white fs-6" href="{{ site.data.featured_item.link | relative_url }}" title="{{ site.data.featured_item.alt | escape }}">Featured Image</a>
-        </div>{% endunless %}
+<div class="row">
+    <div class="col-3 text-center">
+      <p class="mb-0 mt-5 text-center" style="font-family: Caveat;">
+        <a href="https://www.lib.uidaho.edu/" class="h3 text-dark" target="_blank" rel="noopener">
+            The <img class="img-fluid lib-logo-lg" src="https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png" alt="University of Idaho Library [logo]" style="max-width: 200px;">
+        </a> Presents
+      </p>
     </div>
-</div>
-{%- else -%}
-<div class="container">
-    <div class="row align-items-center">
-        <div id="title" class="{% if site.organization-logo-banner %}col-md-9{% else %}col-12{% endif %}">
-            <h1 class="mt-2"><a class="text-dark" href="{{ site.baseurl }}/" >{{ site.title }}</a></h1>	 
-            {% if site.tagline %}<p>{{ site.tagline }}</p>{% endif %}
+      <div class="col-7 text-center my-0 py-0">
+        <a href="{{ '/' | absolute_url }}" class="text-dark"><img class="figure-img img-fluid" alt="" title="Video Spine branding for Main STreet video" src="/assets/svg/mainstreettitle.svg" data-src="/assets/svg/mainstreettitle.svg"></a>
+      <h1 class="text-center display-3 d-none" >
+        <a href="{{ '/' | absolute_url }}" class="text-dark text-uppercase font-weight-normal notable">Main
+            Street Video</a>
+    </h1>
+  </div>
+  <div class="col-2">
+    <nav class="navbar float-end">
+        <div class="container-fluid px-0">
+            
+            <button class="navbar-toggler btn btn-outline-dark btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Open navigation">
+                <p class="h1 Caveat my-0 mx-0 mx-md-1">
+                    PLAY <br class="d-none d-md-block">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-collection-play" viewBox="0 0 16 16">
+                        <path d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3m2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1m2.765 5.576A.5.5 0 0 0 6 7v5a.5.5 0 0 0 .765.424l4-2.5a.5.5 0 0 0 0-.848z"/>
+                        <path d="M1.5 14.5A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5zm13-1a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-.5-.5h-13A.5.5 0 0 0 1 6v7a.5.5 0 0 0 .5.5z"/>
+                      </svg></p>
+            </button>
+            
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h2 class="offcanvas-title" id="offcanvasNavbarLabel"><a class="text-dark" href="{{ '/' | relative_url }}">{{ site.title }}</a></h2>
+                    <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p class="h5 mb-3 text-start">{{ site.tagline }}</p>
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%} 
+                        {% for nav in navItems %}
+                        {% if nav.stub %}
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-outline-info btn-lg mb-2  text-center{% if page.url == nav.stub %} active{% endif %}" href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
+                        </li>
+                        {%- else -%}
+                        <li class="nav-item dropdown">
+                            {% assign navChildren = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nav.display_name' %}
+                            {%- assign childStubs = navChildren | map: 'stub' -%}
+                            <a class="nav-link btn btn-outline-info mb-2 btn-lg text-center dropdown-toggle{% if childStubs contains page.url %} active{% endif %}" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ nav.display_name }}</a>
+                            <div class="dropdown-menu">
+                                {% for c in navChildren %}
+                                <a class="dropdown-item {% if page.url == c.stub %}active{% endif %}" href="{{ c.stub | relative_url }}">{{ c.display_name }}</a>
+                                {% endfor %}
+                            </div>
+                        </li>
+                        {% endif %}
+                        {%- endfor -%}
+                    </ul>
+    
+                    <div class="mt-5">
+                        <a href="{{ site.organization-link }}" target="_blank" rel="noopener">
+                            <img class="img-fluid" id="mobile-nav-image" src="{{ site.organization-logo-nav | relative_url }}" title="{{ site.organization-name }}" alt="{{ site.organization-name | escape }} home" >
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
-        {% if site.organization-logo-banner %}
-        <div class="col-md-3 d-none d-lg-block text-end">
-            <a class="btn btn-outline-light" href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                <img class="img-fluid" src="{{ site.organization-logo-banner | relative_url }}" title="{{ site.organization-name }}" alt="{{ site.organization-name | escape }} home" >
-            </a>
-        </div>
-        {% endif %}
-    </div>
-</div>
-{%- endif -%}
+    </nav>
+  </div>
+  </div>

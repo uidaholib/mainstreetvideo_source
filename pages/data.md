@@ -2,6 +2,8 @@
 title: Data
 layout: data
 permalink: /data.html
+side-image: /assets/svg/data-vert.svg
+top-image: /assets/svg/data-flat.svg
 ---
 
 ## Collection Metadata

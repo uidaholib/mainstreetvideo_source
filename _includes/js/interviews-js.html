@@ -1,0 +1,29 @@
+{% assign youtube_id = page.object_download | split: '/' | last %}
+{% if youtube_id contains '?' %}{% assign youtube_id = youtube_id | split: '?' | last | split: '&' | first | replace: 'v=','' %}{% endif %}
+<!-- load youtube iframe api -->
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+    var player;
+    // wait for youtube script to finish loading
+    function onYouTubeIframeAPIReady() {
+        // create a player
+        player = new YT.Player('youtubePlayer', {
+                //height: '390',
+                //width: '640',
+                videoId: '{{ youtube_id }}',
+                playerVars: {
+                    'playsinline': 1,
+                    'modestbranding': 1,
+                    'rel': 0
+                }
+        });
+        // on modal open play
+        $('#videoModal').on('show.bs.modal', function () {
+            player.playVideo();
+        });
+        // on modal close stop play
+        $('#videoModal').on('hide.bs.modal', function () {
+            player.stopVideo();
+        });
+    }
+</script>

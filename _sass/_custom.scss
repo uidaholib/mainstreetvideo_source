@@ -2,3 +2,113 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+.notable {
+  font-family: "Notable", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#title-placer {
+  position: absolute;
+  top: 75px;
+  right: 1%;
+  text-align: right;
+  z-index: 100;
+
+  .btn-link {
+    color: white !important;
+  }
+
+  h1 {
+    font-family: 'Caveat';
+    font-size: 5.25em !important;
+    margin:2%;
+  }
+  img{
+    max-width: 350px;
+  }
+}
+
+.border.cover {
+    border-width: 10px !important;
+  }
+  
+  .cover-title {
+  
+    padding: 5px;
+    transform: rotate(-90deg);
+    transform-origin: center bottom;
+    position: absolute;
+   left: -1%;
+    top: 57%;
+    max-height: 58px;
+    text-overflow: ellipsis;
+    @include media-query($on-palm) {
+      left: -59%;
+      overflow: visible;
+    }
+  }
+  
+  .vid-sheath{
+    background-image: url('/assets/img/video_cover_right.jpeg'); 
+    height: 710px; 
+    width:480px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    @include media-query($on-palm) {
+  margin-left:-20px;
+      width:380px;
+    }
+  }
+
+
+.side-spine{
+    height:50%;
+    position:fixed;
+    left:0;
+    top:25%;
+  }
+  
+  .bottom-spine{
+    width:50%;
+    position:fixed;
+    bottom:0;
+    left:25%;
+  }
+  
+  #home-nav {
+    a { 
+        position: absolute;
+        top:200px;
+        font-size: 50px;
+        z-index: 100;;
+    }
+    .previous { left:25px; }
+    .next{ right:25px; }
+    @media screen and (max-width: 576px) {
+      .previous { left:5px; }
+    .next{ right:5px; }
+  a{  font-size:35px;}
+    }
+  }
+  
+  .caveat{
+    font-family: 'caveat';
+  }
+  
+  .neon {
+   
+        text-shadow:  0 0 0.3em #fff, 0 0 0.4em rgb(255, 119, 119), 0 0 0.6em rgb(255, 0, 0), 0 0 0.8em rgb(255, 0, 0), 0 0 1em rgb(255, 0, 0), 0 0 1.2em rgb(255, 0, 0);
+    color: #fff !important;
+    
+  }
+  
+  .neon-box{
+    -webkit-box-shadow:0px 0px 31px 5px rgba(230,21,73,0.89);
+  -moz-box-shadow: 0px 0px 31px 5px rgba(230,21,73,0.89);
+  box-shadow: 0px 0px 31px 5px rgba(230,21,73,0.89);
+  }
+  
+  .nav-stack, .main-mobile{
+  a svg{max-width: 100%;max-height: 70px;}
+  }

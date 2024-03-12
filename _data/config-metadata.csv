@@ -1,14 +1,20 @@
-field,display_name,browse_link,external_link,dc_map,schema_map
-title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
-date,Date Created,,,DCTERMS.date,dateCreated
-description,Description,,,DCTERMS.description,description
-subject,Subjects,true,,DCTERMS.subject,keywords
-location,Location,,,,contentLocation
-latitude,Latitude,,,,
-longitude,Longitude,,,,
-source,Source,,,,
-identifier,Source Identifier,,,,
-type,Type,,,DCTERMS.type,
-format,Format,,,,encodingFormat
-rightsstatement,,,,DCTERMS.rights,license
+field,display_name,browse_link,dc_map,schema_map
+title,Title,,DCTERMS.title,headline
+interviewee,Interviewee,,DCTERMS.creator,creator
+association,Association,,
+interviewee_location,Interviewee Location,
+interviewer,Interviewer,,
+date,Date Created,,DCTERMS.created,dateCreated
+description,Description,,DCTERMS.description,description
+duration,Duration,,
+subject,Subjects Discussed,true,DCTERMS.subject,keywords
+media_recommendations,Media Recommendations,true,,
+transcriber,Transcriber,
+location,Location,,,contentLocation
+latitude,Latitude
+longitude,Longitude
+source,Source
+identifier,Source Identifier
+type,Type,,DCTERMS.type
+format,Format,,,encodingFormat
+rightsstatement,,,DCTERMS.rights,license

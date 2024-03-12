@@ -1,0 +1,21 @@
+<script type="text/javascript" language="javascript" src="{{ '/assets/lib/datatables/datatables.min.js' | relative_url }}"></script>
+<script>
+(function(){
+    $('#item-table').DataTable( {
+        // use DataTables ajax load 
+        ajax: { url: '{{ "/assets/js/inventory.min.json" | relative_url }}', dataSrc: 'objects' },
+        // defer render to speed up large sets
+        "deferRender": true,
+        // enable pagination 
+        "paging": true,
+        "lengthMenu": [[ 25, 50, 100, -1], [ 25, 50, 100, "All"]],
+        // add download features
+        dom: 'B<"row mt-2"<"col-md-6"l><"col-md-6"f>>t<"row"<"col-md-6"i><"col-md-6"p>>', 
+        buttons: [ 'excelHtml5', 'csvHtml5' ],
+        // get the data from json
+        columns: [ { data: '0' },{ data: '1' },{ data: '2' }  ],
+        // sort based on the column
+        order: [[ 0, "asc" ]]
+    });
+})();
+</script>

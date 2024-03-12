@@ -1,0 +1,65 @@
+{% comment %}
+
+    for mainstreet items:
+    for youtube items, adds a thumbnail as button that opens a modal with player.
+    currently requires custom-foot js/interviews-js.html
+
+{%- endcomment -%}
+
+
+
+<style>
+    .image-container {
+    position: relative;
+    display: inline-block; /* Or use another display type that fits your layout */
+}
+
+.image-container img {
+    display: block; /* This removes any bottom margin/whitespace */
+    width: 100%; /* Optional: makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white;
+    font-size: 48px; /* Adjust based on your design */
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 50%; /* Makes the button circular */
+}
+
+</style>
+
+<div class="image-container">
+<button class="btn-link" type="button" data-toggle="modal" data-target="#videoModal">
+    <img src="{{ page.image_small }}" class="img-fluid" alt="{{ page.title }}">
+    <span class="play-button" type="button" data-toggle="modal" data-target="#videoModal" onclick="playVideo()">▶</span>
+    <span class="visually-hidden">play video</span>
+</button></div>
+
+
+
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content text-body">
+            <div class="modal-header">
+                <h5 class="modal-title" id="videoModalLabel">{{ page.title }}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <div id="youtubePlayer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

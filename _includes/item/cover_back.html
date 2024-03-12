@@ -1,0 +1,23 @@
+<div id="item-metadata">
+    <p class="p-5 small">{{page.description_promo}}</p>
+
+    <div class="ms-4" >
+        {% if page["media_recommendations"] %}
+        <p class="field" >You Should Watch--> 
+        {% assign topics = page["media_recommendations"] | split: ";" %}
+        {% for t in topics limit: 14 %}
+        <a class="m-1 btn-light btn btn-sm" href="{{ t | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ t | strip }}</a>
+        {% endfor %}
+        </p>
+        {% endif %}
+        {% if page["subject"] %}
+        <p class="field" >Subjects covered--> 
+        {% assign subjects = page["subject"] | split: ";" %}
+        {% for s in subjects limit: 14 %}
+        <a class="m-1 btn-light btn btn-sm" href="{{ s | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ s | strip }}</a>
+        {% endfor %}
+        </p>
+        {% endif %}
+        
+    </div>
+</div> 
