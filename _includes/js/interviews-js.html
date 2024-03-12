@@ -4,26 +4,33 @@
 <script src="https://www.youtube.com/iframe_api"></script>
 <script>
     var player;
-    // wait for youtube script to finish loading
-    function onYouTubeIframeAPIReady() {
-        // create a player
-        player = new YT.Player('youtubePlayer', {
-                //height: '390',
-                //width: '640',
-                videoId: '{{ youtube_id }}',
-                playerVars: {
-                    'playsinline': 1,
-                    'modestbranding': 1,
-                    'rel': 0
-                }
-        });
-        // on modal open play
-        $('#videoModal').on('show.bs.modal', function () {
-            player.playVideo();
-        });
-        // on modal close stop play
-        $('#videoModal').on('hide.bs.modal', function () {
-            player.stopVideo();
-        });
-    }
+
+// Wait for YouTube IFrame API to finish loading
+function onYouTubeIframeAPIReady() {
+    // Create a player
+    player = new YT.Player('youtubePlayer', {
+        // height: '390',
+        // width: '640',
+        videoId: '{{ youtube_id }}', // Make sure to replace '{{ youtube_id }}' with your actual YouTube video ID
+        playerVars: {
+            'playsinline': 1,
+            'modestbranding': 1,
+            'rel': 0
+        }
+    });
+
+    // On modal open play
+    var videoModal = document.getElementById('videoModal');
+    videoModal.addEventListener('show.bs.modal', function () {
+        player.playVideo();
+    });
+
+    // On modal close stop play
+    videoModal.addEventListener('hide.bs.modal', function () {
+        player.stopVideo();
+    });
+}
+
+
+
 </script>

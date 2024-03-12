@@ -1,69 +1,26 @@
-<div class="row">
-    <div class="col-3 text-center">
-      <p class="mb-0 mt-5 text-center" style="font-family: Caveat;">
-        <a href="https://www.lib.uidaho.edu/" class="h3 text-dark" target="_blank" rel="noopener">
-            The <img class="img-fluid lib-logo-lg" src="https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png" alt="University of Idaho Library [logo]" style="max-width: 200px;">
-        </a> Presents
+<div class="row bg-dark">
+    <div class="d-none d-xl-block col-xl-2">
+      <p class="mb-0 mt-3 mx-3 text-center text-white caveat">
+        <a href="https://www.lib.uidaho.edu/" class="h3 text-white" target="_blank" rel="noopener">
+            <img class="img-fluid lib-logo-xl" src="https://www.lib.uidaho.edu/media/digital/liblogo_transparent.png" alt="University of Idaho Library [logo]" style="max-width: 175px;"></a> 
+            <br>
+            <a class="btn btn-outline-light btn-xl mt-4" type="button" aria-label="Visit Center for Digital Inquiry and Learning  Website" href="https://cdil.lib.uidaho.edu/"  target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-power" viewBox="0 0 16 16">
+                <path d="M7.5 1v7h1V1z"/>
+                <path d="M3 8.812a5 5 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812"/>
+              </svg></a>
+              <a class="btn btn-outline-light btn-xl mt-4 ms-3" type="button" aria-label="Visit the About Page" href="{{ '/about.html' | relative_url }}"  target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-eject" viewBox="0 0 16 16">
+                <path d="M7.27 1.047a1 1 0 0 1 1.46 0l6.345 6.77c.6.638.146 1.683-.73 1.683H1.656C.78 9.5.326 8.455.926 7.816zM14.346 8.5 8 1.731 1.654 8.5zM.5 11.5a1 1 0 0 1 1-1h13a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1h-13a1 1 0 0 1-1-1zm14 0h-13v1h13z"/>
+              </svg></a>
       </p>
     </div>
-      <div class="col-7 text-center my-0 py-0">
+      <div class="col-12 col-md-9 col-xl-8 text-center my-0 py-2 pb-2">
         <a href="{{ '/' | absolute_url }}" class="text-dark"><img class="figure-img img-fluid" alt="" title="Video Spine branding for Main STreet video" src="/assets/svg/mainstreettitle.svg" data-src="/assets/svg/mainstreettitle.svg"></a>
       <h1 class="text-center display-3 d-none" >
         <a href="{{ '/' | absolute_url }}" class="text-dark text-uppercase font-weight-normal notable">Main
             Street Video</a>
     </h1>
   </div>
-  <div class="col-2">
-    <nav class="navbar float-end">
-        <div class="container-fluid px-0">
-            
-            <button class="navbar-toggler btn btn-outline-dark btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Open navigation">
-                <p class="h1 Caveat my-0 mx-0 mx-md-1">
-                    PLAY <br class="d-none d-md-block">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-collection-play" viewBox="0 0 16 16">
-                        <path d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3m2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1m2.765 5.576A.5.5 0 0 0 6 7v5a.5.5 0 0 0 .765.424l4-2.5a.5.5 0 0 0 0-.848z"/>
-                        <path d="M1.5 14.5A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5zm13-1a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-.5-.5h-13A.5.5 0 0 0 1 6v7a.5.5 0 0 0 .5.5z"/>
-                      </svg></p>
-            </button>
-            
-            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                    <h2 class="offcanvas-title" id="offcanvasNavbarLabel"><a class="text-dark" href="{{ '/' | relative_url }}">{{ site.title }}</a></h2>
-                    <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <p class="h5 mb-3 text-start">{{ site.tagline }}</p>
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%} 
-                        {% for nav in navItems %}
-                        {% if nav.stub %}
-                        <li class="nav-item">
-                            <a class="nav-link btn btn-outline-info btn-lg mb-2  text-center{% if page.url == nav.stub %} active{% endif %}" href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
-                        </li>
-                        {%- else -%}
-                        <li class="nav-item dropdown">
-                            {% assign navChildren = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nav.display_name' %}
-                            {%- assign childStubs = navChildren | map: 'stub' -%}
-                            <a class="nav-link btn btn-outline-info mb-2 btn-lg text-center dropdown-toggle{% if childStubs contains page.url %} active{% endif %}" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">{{ nav.display_name }}</a>
-                            <div class="dropdown-menu">
-                                {% for c in navChildren %}
-                                <a class="dropdown-item {% if page.url == c.stub %}active{% endif %}" href="{{ c.stub | relative_url }}">{{ c.display_name }}</a>
-                                {% endfor %}
-                            </div>
-                        </li>
-                        {% endif %}
-                        {%- endfor -%}
-                    </ul>
-    
-                    <div class="mt-5">
-                        <a href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                            <img class="img-fluid" id="mobile-nav-image" src="{{ site.organization-logo-nav | relative_url }}" title="{{ site.organization-name }}" alt="{{ site.organization-name | escape }} home" >
-                        </a>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </nav>
+  <div class="col-12 col-md-3 col-xl-2 pt-0 pt-md-3">
+    {% include collection-nav.html %}
   </div>
   </div>
