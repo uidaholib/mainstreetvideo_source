@@ -1,6 +1,5 @@
 field,display_name,btn,hidden,sort_name
 date,Date,,,Date
-creator,Creator,,,
-subject,,true
-association,,true
-identifier,,,true,Identifier
+association,,true,
+subject,,true,
+media_recommendations,,,true,

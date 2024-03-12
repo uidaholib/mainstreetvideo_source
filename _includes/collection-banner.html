@@ -16,9 +16,9 @@
 <!-- Credits Modal -->
 <div class="modal fade" id="creditsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl">
-    <div class="modal-header">
+    <div class="modal-header bg-dark text-white">
       <h5 class="modal-title" id="exampleModalLabel">Credits</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <button type="button" class="btn-close btn-light" data-bs-dismiss="modal" aria-label="Close"></button>
     </div>
     <div class="modal-content credits-container bg-dark">
       <div class="modal-body bg-dark text-white text-center credits">
@@ -64,7 +64,8 @@
 }
 
 .credits {
-  animation: scrollUp 20s linear infinite;
+  animation: scrollUp 20s linear 0s forwards;
+  animation-delay: -6s;
 }
 
 @keyframes scrollUp {

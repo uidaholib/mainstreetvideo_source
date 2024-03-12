@@ -3,23 +3,7 @@
 layout: default
 custom-foot: js/interviews-js.html
 ---
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
-<div class="row d-none">
-  <div class="col text-center">
-    <p class="my-3 text-center" style="font-family: Caveat;">
-      <a href="https://www.lib.uidaho.edu/" class="h3 text-dark" target="_blank" rel="noopener">
-          The <img class="img-fluid lib-logo-lg" src="https://www.lib.uidaho.edu/media/images/ui_library_horizontal.png" alt="University of Idaho Library [logo]" style="max-width: 200px;">
-      </a> Presents
-    </p>
-    {% include feature/image.html objectid="/assets/svg/mainstreettitle.svg"%}
-
-    <h1 class="mb-0 text-center mr-3 display-1 d-none" >
-      <a href="{{ '/about.html' | absolute_url }}" class="text-dark text-uppercase font-weight-normal notable">Main
-          Street Video</a>
-  </h1>
-</div>
-</div>
-<div class="row">
+<div class="row my-4">
   <div class="col-12 col-lg-6 py-0 px-5">
     {% include feature/video.html objectid="https://youtu.be/NVs2-8j8bh4" %}
   </div>
