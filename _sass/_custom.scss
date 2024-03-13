@@ -112,3 +112,25 @@
   .nav-stack, .main-mobile{
   a svg{max-width: 100%;max-height: 70px;}
   }
+
+  //Credits modal
+
+  .credits-container {
+    display: flex;
+    height: 80vh;
+    overflow: hidden;
+  }
+  
+  .credits {
+    animation: scrollUp 20s linear 0s forwards;
+    animation-delay: -6s;
+  }
+  
+  @keyframes scrollUp {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }
