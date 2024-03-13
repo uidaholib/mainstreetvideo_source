@@ -8,7 +8,7 @@ custom-foot: js/interviews-js.html
     
     <div class="row px-sm-5 mx-sm-5">
         
-        <div class="col-md-6 text-white" style="background-image: url('{{'video_cover_right.jpeg' | prepend: '/assets/img/' | relative_url }}'); height: 710px; width:480px; background-position: center; background-repeat: no-repeat; max-width:480px;">
+        <div class="col-md-6 text-white" style="background-image: url('{{'video_cover_right.jpeg' | prepend: '/assets/img/' | relative_url }}'); height: 710px; width:480px; background-position: center; background-repeat: no-repeat; max-width:100%;">
             {% assign titlewords = page.title | split: " " %}        
 {% capture sidetitle %}Main Street Video | Vol. {{page.objectid | replace: "mainstreet0", "" }} {% endcapture %}
          
@@ -32,7 +32,7 @@ custom-foot: js/interviews-js.html
           
         </div>
 
-        <div class="col-md-6 text-white" style="background-image: url('{{'video_cover_left.jpeg' | prepend: '/assets/img/' | relative_url }}'); height: 710px; width:480px; background-position: center; background-repeat: no-repeat; background-size: cover; max-width:480px;">
+        <div class="col-md-6 text-white" style="background-image: url('{{'video_cover_left.jpeg' | prepend: '/assets/img/' | relative_url }}'); height: 710px; width:480px; background-position: center; background-repeat: no-repeat; background-size: cover; max-width:100%;">
 
             {% include item/cover_back.html %}
             

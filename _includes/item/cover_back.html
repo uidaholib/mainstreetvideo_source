@@ -3,7 +3,7 @@
 
     <div class="ms-4" >
         {% if page["media_recommendations"] %}
-        <p class="field" >Movies Discussed--> 
+        <p class="field d-none d-md-inline" >Movies Discussed--> 
         {% assign topics = page["media_recommendations"] | split: ";" %}
         {% for t in topics limit: 10 %}
         <a class="m-1 btn-light btn btn-sm" href="{{ t | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ t | strip }}</a>
@@ -11,7 +11,7 @@
         </p>
         {% endif %}
         {% if page["subject"] %}
-        <p class="field" >Subjects covered--> 
+        <p class="field d-none d-md-inline" >Subjects covered--> 
         {% assign subjects = page["subject"] | split: ";" %}
         {% for s in subjects limit: 14 %}
         <a class="m-1 btn-light btn btn-sm" href="{{ s | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ s | strip }}</a>
