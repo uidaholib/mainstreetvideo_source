@@ -3,20 +3,20 @@
         <div class="col-12">
             <div class="d-none d-xl-flex">
                 <div class="btn-group mt-3 mb-0 w-100" role="group" aria-label="Basic outlined example">
-                    <a href="{{ '/about.html' | relative_url }}" type="button" class="previous btn btn-outline-light"
-                        aria-label="Go to About page">
+                    <a onclick="navigateTo('previous')" type="button" class="previous btn btn-outline-light"
+                        aria-label="Go to Previous page">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="24" fill="currentColor" class="bi bi-rewind" viewBox="0 0 16 16">
                             <path
                                 d="M9.196 8 15 4.633v6.734zm-.792-.696a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696z" />
                             <path
                                 d="M1.196 8 7 4.633v6.734zm-.792-.696a.802.802 0 0 0 0 1.392l6.363 3.692c.52.302 1.233-.043 1.233-.696V4.308c0-.653-.713-.998-1.233-.696z" />
                         </svg></a>
-                    <a href="{{ '/browse.html' | relative_url }}" type="button" class="play btn btn-outline-light"
-                        aria-label="Go to Browse page"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="24" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
+                    <a onclick="navigateToStaticPage()"type="button" class="play btn btn-outline-light"
+                        aria-label="Go to a random Interview page"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="24" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
                             <path
                                 d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z" />
                         </svg></a>
-                    <a href="{{ '/essay/' | relative_url }}" type="button" class="next btn btn-outline-light" aria-label="Go to essay introduction page">
+                    <a onclick="navigateTo('next')" type="button" class="next btn btn-outline-light" aria-label="Go to next page">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="24" fill="currentColor" class="bi bi-fast-forward" viewBox="0 0 16 16">
                             <path  d="M6.804 8 1 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C.713 12.69 0 12.345 0 11.692V4.308c0-.653.713-.998 1.233-.696z" />
                             <path d="M14.804 8 9 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C8.713 12.69 8 12.345 8 11.692V4.308c0-.653.713-.998 1.233-.696z" />
@@ -91,3 +91,56 @@
         </div>
     </div>
 </nav>
+<script type="application/javascript">
+    var sitePages = [
+      {% for page in site.pages %}{% if page.title %}{% unless page.url contains '404' %}
+          {
+            "title": "{{ page.title | escape }}",
+            "url": "{{ page.url | relative_url }}"
+          }{% unless forloop.last %},{% endunless %}
+        {% endunless %}{% endif %}{% endfor %}
+    ];
+
+    function findCurrentPageIndex(pages) {
+  const currentPage = window.location.pathname;
+  return pages.findIndex(page => page.url === currentPage);
+}
+
+function navigateTo(direction) {
+  const currentIndex = findCurrentPageIndex(sitePages);
+  if (currentIndex === -1) return; // Current page not found in the list
+
+  let targetIndex;
+  if (direction === 'previous') {
+    targetIndex = currentIndex - 1;
+  } else if (direction === 'next') {
+    targetIndex = currentIndex + 1;
+  }
+
+  // Wrap around the array if out of bounds
+  if (targetIndex < 0) {
+    targetIndex = sitePages.length - 1;
+  } else if (targetIndex >= sitePages.length) {
+    targetIndex = 0;
+  }
+
+  window.location.href = sitePages[targetIndex].url;
+}
+
+function navigateToStaticPage() {
+  const interviewPages = sitePages.filter(page => page.title.includes('Interview'));
+  const targetPage = interviewPages[Math.floor(Math.random() * interviewPages.length)];
+
+  const overlay = document.createElement('div');
+  overlay.className = 'static-overlay';
+  document.body.appendChild(overlay);
+  
+  // Wait for the animation to complete before navigating
+  setTimeout(() => {
+    window.location.href = targetPage.url;
+  }, 2000); // Ensure this matches the CSS animation duration
+}
+
+
+  </script>
+  
