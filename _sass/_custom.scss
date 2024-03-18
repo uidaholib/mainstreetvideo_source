@@ -150,3 +150,14 @@
   }
   
   
+  .vcr {
+  
+    position:fixed;
+    bottom: 0;
+    z-index:100;
+    @include media-query($on-desktop) {
+      position:relative;
+      bottom: auto;
+      z-index: 0;
+    }
+  }

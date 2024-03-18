@@ -1,15 +1,14 @@
-<div class="container-fluid">
+<div class="container-fluid {% if page.layout == 'mainstreet-home' %}vcr{% endif %}" >
   <div class="row bg-dark">
-    <div class="d-none d-xl-block col-xl-2">
-      <p class="mb-0 mt-3 mx-3 text-center text-white caveat">
+    <div class="d-none d-lg-block col-lg-2">
+      <p class="mb-0 mt-3 mx-xl-3 text-center text-white caveat">
         <a href="https://www.lib.uidaho.edu/" class="h3 text-white" target="_blank" rel="noopener">
-            <img class="img-fluid lib-logo-xl" src="https://www.lib.uidaho.edu/media/digital/liblogo_transparent.png" alt="University of Idaho Library [logo]" style="max-width: 175px;"></a> 
-            <br>
-            <a class="btn btn-outline-light btn-xl mt-4" type="button" aria-label="Visit home page for this website" href="{{ '/' | relative_url }}"  rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-power" viewBox="0 0 16 16">
+            <img class="img-fluid lib-logo-xl d-none d-lg-block" src="https://www.lib.uidaho.edu/media/digital/liblogo_transparent.png" alt="University of Idaho Library [logo]"></a> 
+            <a class="btn btn-outline-light mt-lg-4 " type="button" aria-label="Visit home page for this website" href="{{ '/' | relative_url }}"  rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-power" viewBox="0 0 16 16">
                 <path d="M7.5 1v7h1V1z"/>
                 <path d="M3 8.812a5 5 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812"/>
               </svg></a> 
-              <button class="btn btn-outline-light btn-xl mt-4 ms-3" data-bs-toggle="modal" data-bs-target="#creditsModal" type="button" aria-label="Open up a Credits Modal for the site" ><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-eject" viewBox="0 0 16 16">
+              <button class="btn btn-outline-light ms-xl-3 mt-lg-4" data-bs-toggle="modal" data-bs-target="#creditsModal" type="button" aria-label="Open up a Credits Modal for the site" ><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-eject" viewBox="0 0 16 16">
                 <path d="M7.27 1.047a1 1 0 0 1 1.46 0l6.345 6.77c.6.638.146 1.683-.73 1.683H1.656C.78 9.5.326 8.455.926 7.816zM14.346 8.5 8 1.731 1.654 8.5zM.5 11.5a1 1 0 0 1 1-1h13a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1h-13a1 1 0 0 1-1-1zm14 0h-13v1h13z"/>
               </svg></button>
       </p>
@@ -17,14 +16,14 @@
 
     </div>
 
-      <div class="col-12 col-md-9 col-xl-8 text-center my-0 py-2 pb-2">
+      <div class="col-12 col-md-9 col-lg-8 text-center my-0 py-2 pb-2">
         <a href="{{ '/' | absolute_url }}" class="text-dark"><img class="figure-img img-fluid" alt="Main Street Video: Oral Histories of the last video store in Moscow, Idaho" title="Video Spine branding for Main Street video" src="{{ '/assets/svg/mainstreettitle.svg' | relative_url }}"  aria-label="go to home page"></a>
       <h1 class="text-center display-3 d-none" >
         <a href="{{ '/' | absolute_url }}" class="text-dark text-uppercase font-weight-normal notable">Main
             Street Video</a>
     </h1>
   </div>
-  <div class="col-12 col-md-3 col-xl-2 pt-0 pt-md-3">
+  <div class="col-12 col-md-3 col-lg-2 pt-0 pt-md-1 pt-lg-3">
     {% include collection-nav.html %}
   </div>
   </div>
