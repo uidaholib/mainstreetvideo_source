@@ -1,4 +1,4 @@
-{% assign youtube_id = page.object_download | split: '/' | last %}
+{% assign youtube_id = page.object_location | split: '/' | last %}
 {% if youtube_id contains '?' %}{% assign youtube_id = youtube_id | split: '?' | last | split: '&' | first | replace: 'v=','' %}{% endif %}
 <!-- load youtube iframe api -->
 <script src="https://www.youtube.com/iframe_api"></script>
