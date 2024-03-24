@@ -4,6 +4,7 @@ layout: essay
 permalink: /essay/cult-classics.html
 side-image: /assets/svg/cult-vert.svg
 top-image: /assets/svg/cult-flat.svg
+custom-foot: js/youtube-clips-modal.html
 ---
 
 
@@ -14,12 +15,10 @@ top-image: /assets/svg/cult-flat.svg
 
 {% include feature/marginnote-image.html id="memento" img="/objects/memento.jpg" title="Movie poster for Memento" link="https://www.youtube.com/watch?v=4CV41hoyS8A" %}
 
+At Howard Hughes, customers could {% include feature/youtube-clip-modal.html text='"browse and wonder"' objectid="mainstreet015" start="1306" %} through their curated 30,000-title collection. 
 
-
-At Howard Hughes, customers could ["browse and wonder"](https://youtu.be/M44t7fyKxSA?t=1306){:target='_blank'}<!--{% include feature/marginnote-nothing.html youtubeid="M44t7fyKxSA" link="https://youtu.be/M44t7fyKxSA?t=1306" id="browse" %}--> through their curated 30,000-title collection. 
-
-For reference: you would need to subscribe to at least 11 streaming services [to replicate their catalog, and even then, you’d still be missing some gems.](https://youtu.be/yE_wGwT_07g?t=3580){:target='_blank'} 
-<!--{% include feature/marginnote-nothing.html youtubeid="yE_wGwT_07g" link="https://youtu.be/yE_wGwT_07g?t=3580" id="missing" %} -->{% include feature/marginnote.html id="intro" text="Click a spine below to jump to another interconnected subsections of this essay."%}
+For reference: {% include feature/youtube-clip-modal.html text="you would need to subscribe to at least 11 streaming services" objectid="https://youtu.be/yE_wGwT_07g" start="3580" %} to replicate their catalog, and even then, you’d still be missing some gems.
+{% include feature/marginnote.html id="intro" text="Click a spine below to jump to another interconnected subsections of this essay."%}
 
 {% include feature/marginnote-image.html id="intro" img="/assets/svg/intro-flat.svg"  title="Horror" link="../essay/"%}
 {% include feature/marginnote-image.html id="horror" img="/assets/svg/horror-flat.svg"  title="Horror" link="horror.html"%}

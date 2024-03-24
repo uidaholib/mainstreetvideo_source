@@ -1,0 +1,28 @@
+{% comment %}
+
+Add a button to open youtube video in a modal and play.
+Requires custom foot youtube-clips-modal.html.
+
+{% include feature/youtube-clip-modal.html text="example" objectid="demo01" start="" %}
+
+Options: 
+    - text - (required) text of the button
+    - objectid - (required) id of a youtube item or a full youtube link 
+    - start - start time of clip
+    - end - end time of clip 
+    - caption - caption below clip (by default with objectid will be title)
+    - link - link over caption (by default with objectid will be item page link)
+
+{% endcomment %}
+{%- if include.objectid contains '/' -%}
+    {% capture video_caption %}{% if include.link %}<a href="{{ include.link }}">{{ include.caption }}</a>{% else %}{{ include.caption }}{% endif %}{% endcapture %}
+    {% capture raw_src %}{{ include.objectid }}{% endcapture %}
+{%- else -%}
+    {%- assign item = site.data[site.metadata] | where: "objectid", include.objectid | first -%}
+    {% capture video_caption %}{% if include.caption %}{% if include.link %}<a href="{{ include.link }}">{{ include.caption }}</a>{% else %}{{ include.caption }}{% endif %}{% else %}<a href="{{ '/items/' | relative_url }}{% if item.parentid %}{{ item.parentid }}.html#{{ item.objectid }}{% else %}{{ item.objectid }}.html{% endif %}">{{ item.title }}</a>{% endif %}{% endcapture %}
+    {% capture raw_src %}{{ item.object_location }}{% endcapture %}
+{%- endif -%}
+{% assign youtube_id = raw_src | split: '/' | last %}
+{% if youtube_id contains 'v=' %}{% assign youtube_id = youtube_id | split: 'v=' | last | split: '&' | first %}
+{% elsif youtube_id contains '?' %}{% assign youtube_id = youtube_id | split: '?' | first %}{%- endif -%}
+<a href="#" data-bs-toggle="modal" data-bs-target="#videoClipModal" data-bs-youtubeid="{{ youtube_id }}" {% if include.start %}data-bs-start="{{ include.start }}" {% endif %}{% if include.end %}data-bs-end="{{ include.end }}" {% endif %}{% if video_caption %}data-bs-caption="{{ video_caption | escape }}" {% endif %}>{{ include.text }}</a> 
