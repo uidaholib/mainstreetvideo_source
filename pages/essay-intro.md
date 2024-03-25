@@ -47,7 +47,7 @@ A gem of Moscow, Idaho, from 1978 to 2020, Howard Hughes (later Main Street Vide
 
 {% include feature/youtube-embed.html youtubeid="aFaSNJ_Vm-c" start="1119" end="1149" %}
 
-In addition to traditional sections like Drama, Science Fiction, and Comedy, Howard Hughes also had sections for award winners, critics’ choice picks, the Criterion collection, and cult classics ([chosen by employees with no formal criteria](https://youtu.be/oozFntFDMIY?t=542){:target='_blank'}). 
+In addition to traditional sections like Drama, Science Fiction, and Comedy, Howard Hughes also had sections for award winners, critics’ choice picks, the Criterion collection, and cult classics, {% include feature/youtube-clip-modal.html text="chosen by employees with no formal criteria" objectid="mainstreet005" start="542" %}
 
 There was the “Director Wall” and the “Actor Wall” which displayed prominent directors and actors’ discographies, not unlike an in-person [IMDB page](https://www.imdb.com/name/nm0000173/?ref_=nv_sr_srsg_0){:target='_blank'}, encouraging customers to experience the trajectory of a filmmaker’s career or discover an underrated role in their favorite actor’s catalog. Customer and eventual board member [Monique Lillard](/items/mainstreet027.html){:target='_blank'} would often tell friends, "I love how things are organized here. For some reason, it matched my mood, it matched my personality."
 
