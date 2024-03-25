@@ -168,10 +168,13 @@
   .tvimage-container {
     cursor: pointer;
     overflow: hidden;
+    figure img{
+      filter: brightness(85%);
+    }
 }
 
 .tvimage-container:hover figure img {
-    filter: brightness(90%);
+    filter: brightness(100%);
 }
 
 .tvimage-container .figure {
