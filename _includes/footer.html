@@ -58,31 +58,27 @@
       </div>
       <div class="modal-content credits-container bg-dark">
         <div class="modal-body bg-dark text-white text-center credits">
-          <h3>The End</h3>
-      <p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p>
-      <p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p><p>Director: John Doe</p>
-      <p>Producer: Jane Smith</p>
-      <!-- Add more credits here -->
+          <p class="h2">FEATURING </p>
+          {%- assign people = site.data[site.metadata] | where_exp: 'item','item.interviewee'  -%}
+          {%- assign people = people | sort: 'interviewee' %}
+        <p class="h3"> Narrators</p>
+      {% for p in people%}
+      <p>{{ p.interviewee | replace: ';',' & ' }}</p>
+      {% endfor %}
+      <p>Interviewers: Monique Lillard and Beau Newsome</p>
+      <p>Interpretive Essayist: Milo Muise</p>    
+      <p>Producer: Courtney Berge</p>
+      <p>Metadata and Processing Work: Courtney Berge</p>
+      <p>Producer: Robert Perret</p>
+      <p>Trailer Producer: Hanwen Dong</p>
+      <p>Design: Devin Becker</p>
+      <p>Vintage Design/Metadata Guru: Klytie Xu</p>
+      <p>Transcriptionista: Andrew Weymouth</p>
+      <p>Media Archivist: Kevin Dobbins</p>
+      <p>Technically of some help: Evan Williamson</p>
+      <p>Writer/Researcher: Amy Thompson</p>
+      <p>Digital Archival Consultant: Sara Szobody</p>
+      <p>Archival Consultant: Dulce Kersting-Lark</p>
       <p>Thank you for watching!</p>
         </div>
         <div class="modal-footer">

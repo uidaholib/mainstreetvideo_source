@@ -97,13 +97,14 @@
 
   .credits-container {
     display: flex;
-    height: 80vh;
-    overflow: hidden;
+    height: 3000px !important; 
+     overflow: hidden;
   }
   
   .credits {
-    animation: scrollUp 20s linear 0s forwards;
-    animation-delay: -6s;
+    animation: scrollUp 50s linear 0s forwards;
+    animation-delay: -22s;
+    height: 3000px !important;
   }
   
   @keyframes scrollUp {
