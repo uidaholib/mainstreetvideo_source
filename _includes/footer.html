@@ -61,11 +61,14 @@
           <p class="h2">FEATURING </p>
           {%- assign people = site.data[site.metadata] | where_exp: 'item','item.interviewee'  -%}
           {%- assign people = people | sort: 'interviewee' %}
-        <p class="h3"> Narrators</p>
+          <p class="h3">Interviewers</p>
+          <p>Monique Lillard</p> 
+        </p>Beau Newsome</p>
+          <p class="h3">Narrators</p>
       {% for p in people%}
-      <p>{{ p.interviewee | replace: ';',' & ' }}</p>
+      <p><a class="text-white" href="{{ '/items/' | append: p.objectid | append: ".html" | relative_url}}">{{ p.interviewee | replace: ';',' & ' }}</a></p>
       {% endfor %}
-      <p>Interviewers: Monique Lillard and Beau Newsome</p>
+      <p>Interviewers: </p>
       <p>Interpretive Essayist: Milo Muise</p>    
       <p>Producer: Courtney Berge</p>
       <p>Metadata and Processing Work: Courtney Berge</p>
