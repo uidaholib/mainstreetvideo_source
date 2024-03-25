@@ -4,6 +4,7 @@ layout: essay
 permalink: /essay/
 side-image: /assets/svg/intro-vert.svg
 top-image: /assets/svg/intro-flat.svg
+custom-foot: js/youtube-clips-modal.html
 ---
 
 # Revisiting Howard Hughes Video Store

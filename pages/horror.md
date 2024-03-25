@@ -4,6 +4,7 @@ layout: essay
 permalink: /essay/horror.html
 side-image: /assets/svg/horror-vert.svg
 top-image: /assets/svg/horror-flat.svg
+custom-foot: js/youtube-clips-modal.html
 ---
 
 # Horror: The Nail in the Video Store’s Coffin (…or is it?)

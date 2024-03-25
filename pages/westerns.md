@@ -4,6 +4,7 @@ layout: essay
 permalink: /essay/westerns.html
 side-image: /assets/svg/westerns-vert.svg
 top-image: /assets/svg/westerns-flat.svg
+custom-foot: js/youtube-clips-modal.html
 ---
 
 # Westerns: The Rural Video Store
