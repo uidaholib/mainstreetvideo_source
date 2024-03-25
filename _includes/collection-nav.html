@@ -52,46 +52,21 @@
             </div>
             <div class="offcanvas-body">
                 {% include svg/nav-stack.html %}
-                <ul class=" d-none navbar-nav justify-content-end flex-grow-1 pe-3">
-                    {%- assign navItems = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent == nil' -%}
-                    {% for nav in navItems %}
-                    {% if nav.stub %}
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-outline-info btn-xl mb-2  text-center{% if page.url == nav.stub %} active{% endif %}"
-                            href="{{ nav.stub | relative_url }}">{{ nav.display_name }}</a>
-                    </li>
-                    {%- else -%}
-                    <li class="nav-item dropdown">
-                        {% assign navChildren = site.data.config-nav | where_exp: 'item', 'item.dropdown_parent ==
-                        nav.display_name' %}
-                        {%- assign childStubs = navChildren | map: 'stub' -%}
-                        <a class="nav-link btn btn-outline-info mb-2 btn-xl text-center dropdown-toggle{% if childStubs contains page.url %} active{% endif %}"
-                            data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                            aria-expanded="false">{{ nav.display_name }}</a>
-                        <div class="dropdown-menu">
-                            {% for c in navChildren %}
-                            <a class="dropdown-item {% if page.url == c.stub %}active{% endif %}"
-                                href="{{ c.stub | relative_url }}">{{ c.display_name }}</a>
-                            {% endfor %}
-                        </div>
-                    </li>
-                    {% endif %}
-                    {%- endfor -%}
-                </ul>
-
+                
                 <div class="mt-5">
-                    <a href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                        <img class="img-fluid" id="mobile-nav-image"
-                            src="{{ site.organization-logo-nav | relative_url }}" title="{{ site.organization-name }}"
-                            alt="{{ site.organization-name | escape }} home">
-                    </a>
+                    <p class="h2 my-3 notable">Brought to you by
+                        <a href="{{ site.organization-link }}" target="_blank" rel="noopener">
+                            <img class="img-fluid bg-dark rounded mt-2" src="{{ site.organization-logo-nav | relative_url }}" title="{{ site.organization-name }}" alt="{{ site.organization-name | escape }} home">
+                        </a>
+                    </p>
                 </div>
 
             </div>
         </div>
     </div>
 </nav>
-<script type="application/javascript">
+
+<script >
     var sitePages = [
       {% for page in site.pages %}{% if page.title %}{% unless page.url contains '404' %}
           {
@@ -142,5 +117,5 @@ function navigateToStaticPage() {
 }
 
 
-  </script>
+</script>
   
