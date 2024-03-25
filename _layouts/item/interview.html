@@ -8,16 +8,11 @@ custom-foot: js/interviews-js.html
     
     <div class="row px-sm-5 mx-sm-5">
         
-        <div class="col-md-6 text-white" style="background-image: url('{{'video_cover_right.jpeg' | prepend: '/assets/img/' | relative_url }}'); height: 710px; width:480px; background-position: center; background-repeat: no-repeat; max-width:100%;">
-            {% assign titlewords = page.title | split: " " %}        
-{% capture sidetitle %}Main Street Video | Vol. {{page.objectid | replace: "mainstreet0", "" }} {% endcapture %}
-         
-            <h1 class="font-italic text-center my-5 cover-title">{{ sidetitle }}</h1>
-         
+        <div class="col-md-6 text-white" style="background-image: url('{{'video_cover_right.jpeg' | prepend: '/assets/img/' | relative_url }}'); height: 710px; width:480px; background-position: center; background-repeat: no-repeat; max-width:100%;">         
           <div class="ms-5 ps-5">
 
             <div class="align-middle">
-                <h2 class="{%unless page.interviewee contains 'Ramalingam' %}h1{% endunless %} pt-3" style="">{{ page.interviewee | replace: ';',' & ' }}</h2>
+                <h2 class="{%unless page.interviewee contains 'Ramalingam' %}h1{% endunless %} pt-2 text-center" style="">{{ page.interviewee | replace: ';',' & ' }}</h2>
                 <div class="border border-danger cover mt-3 mb-1">
                     {% include item/youtube-modal.html %}
                 </div>
