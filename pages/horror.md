@@ -15,21 +15,21 @@ custom-foot: js/youtube-clips-modal.html
 {% include feature/marginnote-image.html id="itfollows" img="/objects/it-follows.jpg" title="Movie poster for It Follows" link="https://www.youtube.com/watch?v=HkZYbOH0ujw"%}
 
 
-Moscow Street Video Co-op closed permanently as of March 2020, due to a perfect storm of factors. Despite the efforts of dedicated customers like [Bekah Miller MacPhee](/items/mainstreet004.html){:target='_blank'} who would {% include feature/youtube-clip-modal.html text="call the store to see if they had a movie" objectid="mainstreet004" start="792" %} before streaming it, the store’s recent years saw a marked decrease in renting and foot traffic.
+Moscow Street Video Co-op closed permanently as of March 2020, due to a perfect storm of factors. Despite the efforts of dedicated customers like [Bekah Miller MacPhee]({{ '/items/mainstreet004.html' | relative_url }}) who would {% include feature/youtube-clip-modal.html text="call the store to see if they had a movie" objectid="mainstreet004" start="792" %} before streaming it, the store’s recent years saw a marked decrease in renting and foot traffic.
 
-Netflix began renting out DVDs by mail in 1998, a service that grew increasingly popular in the 2000s with people swapping their trips to the video store for a trip to the mailbox. (There’s a rumor that Netflix’s founding was inspired by a {% include feature/youtube-clip-modal.html text="particularly egregious Blockbuster late fee" objectid="mainstreet007" start="4695" %}, though this might just be a ["convenient fiction"](https://www.cnbc.com/2017/05/23/netflix-ceo-reed-hastings-on-how-the-company-was-born.html){:target='_blank'}.) Then came streaming, which didn’t even require you to leave your couch. 
+Netflix began renting out DVDs by mail in 1998, a service that grew increasingly popular in the 2000s with people swapping their trips to the video store for a trip to the mailbox. (There’s a rumor that Netflix’s founding was inspired by a {% include feature/youtube-clip-modal.html text="particularly egregious Blockbuster late fee" objectid="mainstreet007" start="4695" %}, though this might just be a ["convenient fiction"](https://www.cnbc.com/2017/05/23/netflix-ceo-reed-hastings-on-how-the-company-was-born.html ){:target='_blank'}.) Then came streaming, which didn’t even require you to leave your couch. 
 
-[Cody Moore](/items/mainstreet009.html){:target='_blank'} comments, “You really have to kind of convince people that [renting] is a better way to consume movies than just clicking a button or on your phone or the TV.” 
+[Cody Moore]({{ '/items/mainstreet009.html' | relative_url }}) comments, “You really have to kind of convince people that [renting] is a better way to consume movies than just clicking a button or on your phone or the TV.” 
 
 {% include feature/youtube-embed.html youtubeid="K13wkAqJQLo" start="368" end=429 %}
 
-[Benjamin Hardcastle](/items/mainstreet007.html){:target='_blank'} thinks {% include feature/youtube-clip-modal.html text="RedBox might have had an even bigger negative impact," objectid="mainstreet007" start="4822" %} given that they made it easy to rent new releases and were placed at convenient locations like grocery stores. In addition, parking was notoriously difficult on Main Street, and the co-op didn’t have a parking lot.
+[Benjamin Hardcastle]({{ '/items/mainstreet007.html' | relative_url }}) thinks {% include feature/youtube-clip-modal.html text="RedBox might have had an even bigger negative impact," objectid="mainstreet007" start="4822" %} given that they made it easy to rent new releases and were placed at convenient locations like grocery stores. In addition, parking was notoriously difficult on Main Street, and the co-op didn’t have a parking lot.
 
-The store also didn’t have a strong online presence. While many think offering online ordering would have helped, it simply wasn’t feasible given the store’s limited resources. As [Lauretta Campbell](/items/mainstreet019.html){:target='_blank'} explains:
+The store also didn’t have a strong online presence. While many think offering online ordering would have helped, it simply wasn’t feasible given the store’s limited resources. As [Lauretta Campbell]({{ '/items/mainstreet019.html' | relative_url }}) explains:
 
 {% include feature/youtube-embed.html youtubeid="n3c_1oNwoJk" start="1844" end=1967 %}
 
-For a sense of what that process might have entailed, [Scarecrow Video in Seattle recently fundraised $200,000](http://blog.scarecrow.com/support-scarecrow-2-1-the-campaign-for-scarecrows-future/){:target='_blank'} to update their website and store infrastructure, allowing for more robust searchability of their collection, recommendations, and real-time inventory updates. [Kate Barr](/items/mainstreet016.html){:target='_blank'} says, "If we're going to be serious about continuing to exist into the 21st century, then {% include feature/youtube-clip-modal.html text="we need to be able to interact in a 21st century kind of way." objectid="mainstreet016" start="284" %}
+For a sense of what that process might have entailed, [Scarecrow Video in Seattle recently fundraised $200,000](http://blog.scarecrow.com/support-scarecrow-2-1-the-campaign-for-scarecrows-future/){:target='_blank'} to update their website and store infrastructure, allowing for more robust searchability of their collection, recommendations, and real-time inventory updates. [Kate Barr]({{ '/items/mainstreet016.html' | relative_url }}) says, "If we're going to be serious about continuing to exist into the 21st century, then {% include feature/youtube-clip-modal.html text="we need to be able to interact in a 21st century kind of way." objectid="mainstreet016" start="284" %}
 
 The switch to a cooperative structure introduced some new challenges as well. The board, while incredibly dedicated and hardworking, were also all volunteers, and many were having to run their own businesses on top of their co-op duties. A large portion of the customer-owners who pledged to pay their ownership fee in installments stopped paying before they met the necessary $200, meaning that {% include feature/youtube-clip-modal.html text="the store didn’t have the funds they had anticipated." objectid="mainstreet019" start="918" %}
 
@@ -39,7 +39,7 @@ Then, COVID-19 arrived in the winter of 2020. Suddenly, many were stuck at home,
 
 However, by that point the store was struggling so severely that implementing these kinds of projects was impossible. 
 
-Not long after the co-op announced its closing, the Kenworthy reported that it would sell the co-op’s 30,000-movie collection. [Melinda Schab](/items/mainstreet030.html){:target='_blank'} was devastated at the news. She had hoped that there was a chance that the store might be resurrected {% include feature/youtube-clip-modal.html text="if the collection had been preserved." objectid="mainstreet029" start="2550" %}
+Not long after the co-op announced its closing, the Kenworthy reported that it would sell the co-op’s 30,000-movie collection. [Melinda Schab]({{ '/items/mainstreet030.html' | relative_url }}) was devastated at the news. She had hoped that there was a chance that the store might be resurrected {% include feature/youtube-clip-modal.html text="if the collection had been preserved." objectid="mainstreet029" start="2550" %}
 
 The speed of these decisions along with limited communication and the emotional fallout of losing this collection resulted in a host of rumors about how and why this deal took place. So, let’s set the record straight:
 
@@ -55,9 +55,9 @@ The speed of these decisions along with limited communication and the emotional 
 
 -       The sale items were largely dispersed locally. Pieces of the collection can now be found in the homes of Moscow residents.{% include feature/marginnote-image.html img="https://drive.google.com/file/d/1wqGe6kCnB-nFkOmLiq4HFO1CnLfoz_qg/view?usp=sharing" caption="Including my own shelves!" %} The [Palouse Cult Film Revival](https://www.palousecultfilms.org){:target='_blank'}, a nonprofit bringing cult film awareness to the community, [received roughly a quarter of the cult section.](https://youtu.be/R_-qilDdzO4?t=3859){:target='_blank'} The University of Idaho library took in everything that didn’t sell to the general public and is currently working on {% include feature/youtube-clip-modal.html text="how to make this collection available to the community." objectid="mainstreet034" start="3117" %}
 
-For [Monique Lillard](/items/mainstreet027.html){:target='_blank'}, “These interviews have brought back for me how much I loved the store, and {% include feature/youtube-clip-modal.html text="how much I really mind that it closed." objectid="mainstreet026" start="4434" %}
+For [Monique Lillard]({{ '/items/mainstreet027.html' | relative_url }}), “These interviews have brought back for me how much I loved the store, and {% include feature/youtube-clip-modal.html text="how much I really mind that it closed." objectid="mainstreet026" start="4434" %}
 
-[Lauretta Campbell](/items/mainstreet019.html){:target='_blank'} finds it bittersweet but comforting to know that the movies at the Kenworthy and all the work they represent will still go on to benefit the community somehow, {% include feature/youtube-clip-modal.html text="just not in the form of a video store." objectid="mainstreet019" start="3812" %}
+[Lauretta Campbell]({{ '/items/mainstreet019.html' | relative_url }}) finds it bittersweet but comforting to know that the movies at the Kenworthy and all the work they represent will still go on to benefit the community somehow, {% include feature/youtube-clip-modal.html text="just not in the form of a video store." objectid="mainstreet019" start="3812" %}
 
 But like every movie, the credits have to roll at some point. Lauretta admits, “The video store was very much loved, and it was a huge benefit to have, but I think everyone kind of knew that {% include feature/youtube-clip-modal.html text="it wasn’t going to be here forever." objectid="mainstreet019" start="3799" %}
 
@@ -84,33 +84,33 @@ So, let’s take stock. What’s the difference between renting and streaming? W
 
 Undeniably, {% include feature/youtube-clip-modal.html text="streaming is more convenient" objectid="mainstreet031" start="3938" %} than having to take a trip down to the video store (and then another trip back to return your movies). With streaming, you have immediate access to a large amount of content with the click of a button. You no longer need to schedule your life around when {% include feature/youtube-clip-modal.html text="your favorite TV show happened to be airing." objectid="mainstreet008" start="2662" %} There’s no worrying about a {% include feature/youtube-clip-modal.html text="scratched disc or late fees." objectid="mainstreet030" start="811" %}
 
-[Dan Orozco](/items/mainstreet011.html){:target='_blank'} admits, “I just got lazy…{% include feature/youtube-clip-modal.html text="The new technology is really kind of insidious." objectid="mainstreet011" start="1791" %}
+[Dan Orozco]({{ '/items/mainstreet011.html' | relative_url }}) admits, “I just got lazy…{% include feature/youtube-clip-modal.html text="The new technology is really kind of insidious." objectid="mainstreet011" start="1791" %}
 
-Streaming can give you the sense that you have access to an unlimited amount of media, but that promise is more illusory than people think. [Kate Barr](/items/mainstreet016.html){:target='_blank'} from Scarecrow Video explains, “The thing that Netflix has done the best is sell the idea that everything is available online, because in reality it’s just not even close…If you take Netflix, Amazon, and Hulu’s collections and you put them all together it's about 36,000 titles, and we have over 140,000.” 
+Streaming can give you the sense that you have access to an unlimited amount of media, but that promise is more illusory than people think. [Kate Barr]({{ '/items/mainstreet016.html' | relative_url }}) from Scarecrow Video explains, “The thing that Netflix has done the best is sell the idea that everything is available online, because in reality it’s just not even close…If you take Netflix, Amazon, and Hulu’s collections and you put them all together it's about 36,000 titles, and we have over 140,000.” 
 
 {% include feature/youtube-embed.html youtubeid="FLcgYJzqW3w" start="3242" end=3313 %}
 
 Streaming services also {% include feature/youtube-clip-modal.html text="rotate their selection" objectid="mainstreet019" start="1384" %} depending on factors like a title’s popularity or licensing agreements, and {% include feature/youtube-clip-modal.html text="you can’t make requests" objectid="mainstreet012" start="2406" %} the way you could at the video store. (I suppose you could tweet at Netflix, but the likelihood they would actually respond to your ask is slim.) 
 
-Immediate, unlimited access might even be detrimental to audience engagement. [Bekah Miller MacPhee](/items/mainstreet004.html){:target='_blank'} describes feeling {% include feature/youtube-clip-modal.html text="more immersed in the experience" objectid="mainstreet004" start="198" %} of watching a movie back in her renting years. Going to the video store fostered more of a relationship with a movie:
+Immediate, unlimited access might even be detrimental to audience engagement. [Bekah Miller MacPhee]({{ '/items/mainstreet004.html' | relative_url }}) describes feeling {% include feature/youtube-clip-modal.html text="more immersed in the experience" objectid="mainstreet004" start="198" %} of watching a movie back in her renting years. Going to the video store fostered more of a relationship with a movie:
 
 {% include feature/youtube-embed.html youtubeid="cCCYH-3R--U" start="1948" end=1998 %}
 
 Having too many options can result in a paralysis of choice, and Howard Hughes’ curation circumvented the “doom scrolling” that often accompanies finding something to watch on a streaming platform. The “event” of {% include feature/youtube-clip-modal.html text="picking up a movie and popping it into your DVD or VHS player" objectid="mainstreet024" start="1311" %} made for a more of a captive audience. 
 
-"{% include feature/youtube-clip-modal.html text="I was more likely to watch a whole movie from Howard Hughes" objectid="mainstreet028" start="702" %} because of the extra effort,” says [Martin McGreevy.](/items/mainstreet029.html){:target='_blank'}
+"{% include feature/youtube-clip-modal.html text="I was more likely to watch a whole movie from Howard Hughes" objectid="mainstreet028" start="702" %} because of the extra effort,” says [Martin McGreevy.]({{ '/items/mainstreet029.html' | relative_url }})
 
 In the West, we’ve been following a trend away from the communal and toward the individual for a while now, whether it be swapping public transit for cars, payphones for cell phones, or movie theaters for home theaters. {% include feature/youtube-clip-modal.html text="The video store was an interesting liminal space:" objectid="mainstreet030" start="1392" %} a social meeting ground supporting a solitary (or intimate, at least) venture—watching a movie in the privacy of your home. 
 
 While {% include feature/youtube-clip-modal.html text="many valued the sociability" objectid="mainstreet026" start="1443" %} of going out and {% include feature/youtube-clip-modal.html text="having somebody to engage with about movies," objectid="mainstreet003" start="2063" %} there’s always those who would rather skip the human interaction.
 
-After all, existing in society comes with its drawbacks, as anyone who’s had a movie theater experience {% include feature/youtube-clip-modal.html text="ruined by someone’s loud talking" objectid="mainstreet031" start="5555" %} can tell you. For [Monique Lillard](/items/mainstreet027.html){:target='_blank'}, though, the tradeoff is worth it: "Moments when the whole audience gasps or laughs {% include feature/youtube-clip-modal.html text="enhances the experience, too." objectid="mainstreet010" start="1702" %}
+After all, existing in society comes with its drawbacks, as anyone who’s had a movie theater experience {% include feature/youtube-clip-modal.html text="ruined by someone’s loud talking" objectid="mainstreet031" start="5555" %} can tell you. For [Monique Lillard]({{ '/items/mainstreet027.html' | relative_url }}), though, the tradeoff is worth it: "Moments when the whole audience gasps or laughs {% include feature/youtube-clip-modal.html text="enhances the experience, too." objectid="mainstreet010" start="1702" %}
 
-While we’re right to pay attention to the changes that come with streaming, we can be careful not to fall into a trap of romanticization. [Russell Meeuf](/items/mainstreet031.html){:target='_blank'} explains, 
+While we’re right to pay attention to the changes that come with streaming, we can be careful not to fall into a trap of romanticization. [Russell Meeuf]({{ '/items/mainstreet031.html' | relative_url }}) explains, 
 
 {% include feature/youtube-embed.html youtubeid="q_D2PVnsCqU" start="2791" end=2884 %}
 
-[Martin McGreevy](/items/mainstreet029.html){:target='_blank'} sums up {% include feature/youtube-clip-modal.html text="the hope of many" objectid="mainstreet028" start="2120" %} in the Moscow film community:
+[Martin McGreevy]({{ '/items/mainstreet029.html' | relative_url }}) sums up {% include feature/youtube-clip-modal.html text="the hope of many" objectid="mainstreet028" start="2120" %} in the Moscow film community:
 
 {% include feature/quote.md text="I just hope that film as a medium continues and we're not all the more sequestered in the virtual reality headset…I think I always hope for you know the experience where we all sit in front of the modern cave painting and watch a film." %}
 
@@ -130,7 +130,7 @@ If there’s one thing a good horror movie knows, it’s that the dead are never
 _Do you miss the curation?_
 
 
--       [Kanopy](https://www.kanopy.com/en/){:target='_blank'} is “{% include feature/youtube-clip-modal.html text="the closest thing to a virtual video store" objectid="mainstreet007" start="5159" %}<!--{% include feature/marginnote-nothing.html youtubeid="sZGTvs8Ll8U" link="https://youtu.be/sZGTvs8Ll8U?t=5159)" id="virtual" %},” according to [Benjamin Hardcastle](/items/mainstreet007.html){:target='_blank'}. This streaming service partners with public libraries and universities, offering free access to a wide variety of both classic and contemporary cinema.-->
+-       [Kanopy](https://www.kanopy.com/en/){:target='_blank'} is “{% include feature/youtube-clip-modal.html text="the closest thing to a virtual video store" objectid="mainstreet007" start="5159" %}<!--{% include feature/marginnote-nothing.html youtubeid="sZGTvs8Ll8U" link="https://youtu.be/sZGTvs8Ll8U?t=5159)" id="virtual" %},” according to [Benjamin Hardcastle]({{ '/items/mainstreet007.html' | relative_url }}). This streaming service partners with public libraries and universities, offering free access to a wide variety of both classic and contemporary cinema.-->
 
 
 -       [The Criterion Channel](https://www.criterionchannel.com){:target='_blank'} provides you with a rotating selection of their catalog, including curated spotlights on directors, genres, and themes. 
