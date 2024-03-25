@@ -12,17 +12,17 @@ use with feature/youtube-clip-modal.html
 
 {% endcomment %}
 <div class="modal fade" id="videoClipModal" tabindex="-1" aria-labelledby="videoClipModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
         <div class="modal-content text-body">
             <div class="modal-header">
-                <h5 class="modal-title" id="videoClipModalLabel">{{ page.title }}</h5>
+                <h1 class="modal-title h3" id="videoClipModalLabel">{{ page.title }}</h1>
                 <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close">
                 </button>
             </div>
             <div class="modal-body">
                 <figure class="mx-auto">
                     <div id="youtubePlayer" class="ratio ratio-16x9"></div>
-                    <figcaption id="videoClipModalCaption"></figcaption>
+                    <figcaption class="text-center" id="videoClipModalCaption"></figcaption>
                 </figure>
             </div>
         </div>
