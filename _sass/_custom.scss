@@ -102,8 +102,8 @@
   }
   
   .credits {
-    animation: scrollUp 50s linear 0s forwards;
-    animation-delay: -22s;
+    animation: scrollUp 70s linear 0s forwards;
+    animation-delay: -28s;
     height: 3000px !important;
   }
   
@@ -162,3 +162,36 @@
       z-index: 0;
     }
   }
+
+  // Home page TV effect with button
+
+  .tvimage-container {
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.tvimage-container:hover figure img {
+    filter: brightness(90%);
+}
+
+.tvimage-container .figure {
+    margin: 0;
+}
+
+.position-absolute {
+    z-index: 2;
+}
+
+.tvimage-container a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.25s ease;
+    z-index: 1;
+}
+
+
