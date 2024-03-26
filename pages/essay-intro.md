@@ -9,19 +9,11 @@ custom-foot: js/youtube-clips-modal.html
 
 # Revisiting Howard Hughes Video Store
 
-
 {:style="font-size:1.7rem;width:55%;margin-top:2em;"}
-## A 3-Part Essay Exploring the History and Impact of Moscow, Idaho's <span style="text-decoration:underline">Downtown Video Store</span>_{% include feature/marginnote.html id="intro" text="Our video store was known for most of its life as *Howard Hughes Video Store* and for its final years as *Main Street Video*." %}
+## A 3-Part Essay Exploring the History and Impact of Moscow, Idaho's <span style="text-decoration:underline">Downtown Video Store</span> {% include feature/marginnote.html id="intro" text="Our video store was known for most of its life as *Howard Hughes Video Store* and for its final years as *Main Street Video*." %}
 
 {:style="font-size:1.5rem"}
 ***by Milo Muise***
-
-
-
-
-
-
-
 
 In the recent Netflix documentary [*White Hot: The Rise & Fall of Abercrombie & Fitch*](https://www.netflix.com/title/81323741){:target='_blank'} (2022), an interviewee attempts to describe a shopping mall: {% include feature/marginnote.html id="intro" text="Click a spine below to jump to another interconnected subsections of this essay."%}
 
@@ -31,7 +23,7 @@ In the recent Netflix documentary [*White Hot: The Rise & Fall of Abercrombie & 
 
 {% include feature/marginnote-image.html id="westerns" img="/assets/svg/westerns-flat.svg"  title="Westerns" link="westerns.html" %}
 
-{% include feature/quote.md text="Imagine a search engine that you could walk through. Or an online catalog that's an acutal place." %}
+{% include feature/quote.md text="Imagine a search engine that you could walk through. Or an online catalog that's an actual place." %}
 
 While comical to those of us who grew up in the time when malls were the hub of economic and social transactions alike, it’s telling that we’ve reached a new era where this once-pervasive cultural site now requires definition.
 
@@ -43,13 +35,13 @@ For those who have never been:
 
 In short, imagine Howard Hughes Video Store. 
 
-A gem of Moscow, Idaho, from 1978 to 2020, Howard Hughes (later Main Street Video Co-op) grew from a section in an appliance shop into a full-fledged business of its own. Not only a place to rent a vast array of films, it was a place for the local film community to gather and grow. "People walked in, and they were comfortable," customer and accountant [Andrea Beckett](/items/mainstreet002.html){:target='_blank'} said of the store. 
+A gem of Moscow, Idaho, from 1978 to 2020, Howard Hughes (later Main Street Video Co-op) grew from a section in an appliance shop into a full-fledged business of its own. Not only a place to rent a vast array of films, it was a place for the local film community to gather and grow. "People walked in, and they were comfortable," customer and accountant [Andrea Beckett]({{ '/items/mainstreet002.html' | relative_url }}) said of the store. 
 
 {% include feature/youtube-embed.html youtubeid="aFaSNJ_Vm-c" start="1119" end="1149" %}
 
-In addition to traditional sections like Drama, Science Fiction, and Comedy, Howard Hughes also had sections for award winners, critics’ choice picks, the Criterion collection, and cult classics ([chosen by employees with no formal criteria](https://youtu.be/oozFntFDMIY?t=542){:target='_blank'}). 
+In addition to traditional sections like Drama, Science Fiction, and Comedy, Howard Hughes also had sections for award winners, critics’ choice picks, the Criterion collection, and cult classics, {% include feature/youtube-clip-modal.html text="chosen by employees with no formal criteria" objectid="mainstreet005" start="542" %}
 
-There was the “Director Wall” and the “Actor Wall” which displayed prominent directors and actors’ discographies, not unlike an in-person [IMDB page](https://www.imdb.com/name/nm0000173/?ref_=nv_sr_srsg_0){:target='_blank'}, encouraging customers to experience the trajectory of a filmmaker’s career or discover an underrated role in their favorite actor’s catalog. Customer and eventual board member [Monique Lillard](/items/mainstreet027.html){:target='_blank'} would often tell friends, "I love how things are organized here. For some reason, it matched my mood, it matched my personality."
+There was the “Director Wall” and the “Actor Wall” which displayed prominent directors and actors’ discographies, not unlike an in-person [IMDB page](https://www.imdb.com/name/nm0000173/?ref_=nv_sr_srsg_0){:target='_blank'}, encouraging customers to experience the trajectory of a filmmaker’s career or discover an underrated role in their favorite actor’s catalog. Customer and eventual board member [Monique Lillard]({{ '/items/mainstreet027.html' | relative_url }}) would often tell friends, "I love how things are organized here. For some reason, it matched my mood, it matched my personality."
 
 {% include feature/youtube-embed.html youtubeid="7DBz0dpndVk" start="231" end="251" %}
 
