@@ -66,7 +66,7 @@ You could also look to other customers for suggestions. [Kenton Bird]({{ '/items
 
 {% include feature/youtube-embed.html youtubeid="yE_wGwT_07g" start="1142" end=1171 %}
 
-In the video store, the great question of our era played out in real time: what are we going to watch? Is this worth a full-priced rental, or should it be saved for {% include feature/youtube-clip-modal.html text="99 cent night99 cent night" objectid="mainstreet026" start="314" %}?
+In the video store, the great question of our era played out in real time: what are we going to watch? Is this worth a full-priced rental, or should it be saved for {% include feature/youtube-clip-modal.html text="99 cent night" objectid="mainstreet026" start="314" %}?
 
 [Elijah Ting]({{ '/items/mainstreet033.html' | relative_url }}) remembers {% include feature/youtube-clip-modal.html text="crowding in the store with his family," objectid="mainstreet032" start="1175" %} looking around and debating their options.
 
@@ -80,7 +80,7 @@ The selection was just the beginning of the renting ritual. Many families descri
 
 Movies were also a way of connecting across generations. Watching the 1985 series [_MacGyver_](https://www.imdb.com/title/tt0088559/){:target='_blank'} gave [Eric Nilsson and Janice Willard’s]({{ '/items/mainstreet012.html' | relative_url }}) kids insight into their parents’ generation and {% include feature/youtube-clip-modal.html text="cultural touchstones." objectid="mainstreet012" start="1085" %} Professor [Ben Beard]({{ '/items/mainstreet006.html' | relative_url }}) required his classes to watch [_The Princess Bride_](https://www.youtube.com/watch?v=O3CIXEAjcc8){:target='_blank'} (1987) so that they would {% include feature/youtube-clip-modal.html text="understand his jokes." objectid="mainstreet006" start="256" %}
 
-Film connects people across time: whenever you watch a film, you become a part of every audience that has ever seen it. Here, [Monique Lillard]({{ '/items/mainstreet027.html' | relative_url }}) recounts her family's experience watching the 1932 Laurel and Hardy movie [_The Music Box_:](https://www.youtube.com/watch?v=pD8I6SG_DAU){:target='_blank'}
+Film connects people across time: whenever you watch a film, you become a part of every audience that has ever seen it. Here, [Monique Lillard]({{ '/items/mainstreet026.html' | relative_url }}) recounts her family's experience watching the 1932 Laurel and Hardy movie [_The Music Box_:](https://www.youtube.com/watch?v=pD8I6SG_DAU){:target='_blank'}
 {% include feature/youtube-embed.html youtubeid="7DBz0dpndVk" start="5170" end=5258 %}
 
 Even after the movie was over and returned (hopefully without a late fee), the experience remained. Movies gave families and friends a shared language, a form of communication that lives on far beyond the scroll of the credits or the closure of a video store.
@@ -102,7 +102,7 @@ Before there was Howard Hughes Video Store, there was Howard Hughes Appliance. O
 
 The plan worked, and Howard Hughes began acquiring more tapes, eventually growing from a corner in the appliance store to its own brick and mortar location. Even after the appliance store stopped being financially tied to the video store, Howard Hughes would sometimes {% include feature/youtube-clip-modal.html text="offer free rentals to make an appliance sale happen." objectid="mainstreet014" start="1716" %}
 
-Whenever the store faced an uncertain future, the community stepped up. In 2007, four local business owners banded together to buy the store, ensuring it stayed open--despite the fact that none of the new owners were particularly passionate about movies. Gary Myers, [Kelly Moore]({{ '/items/mainstreet034.html' | relative_url }}), [Pat Engle]({{ '/items/mainstreet023.html' | relative_url }}), and Deb Reynolds were essential to the store's longevity.
+Whenever the store faced an uncertain future, the community stepped up. In 2007, four local business owners banded together to buy the store, ensuring it stayed open--despite the fact that none of the new owners were particularly passionate about movies. Gary Myers, [Kelly Moore]({{ '/items/mainstreet033.html' | relative_url }}), [Pat Engle]({{ '/items/mainstreet022.html' | relative_url }}), and Deb Reynolds were essential to the store's longevity.
 
 The video store became one of the gems of downtown Moscow. Its central location made it a meeting place for the community: "{% include feature/youtube-clip-modal.html text="You’d see everybody," objectid="mainstreet026" start="1039" %} everybody who’s anybody at the video store, and you’d stop and have conversations in that very Moscow way that we do."
 
