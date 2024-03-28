@@ -15,13 +15,7 @@ custom-foot: js/youtube-clips-modal.html
 {:style="font-size:1.5rem"}
 ***by Milo Muise***
 
-In the recent Netflix documentary [*White Hot: The Rise & Fall of Abercrombie & Fitch*](https://www.netflix.com/title/81323741){:target='_blank'} (2022), an interviewee attempts to describe a shopping mall: {% include feature/marginnote.html id="intro" text="Click a spine below to jump to another interconnected subsections of this essay."%}
-
-{% include feature/marginnote-image.html id="cult" img="/assets/svg/cult-flat.svg"  title="Cult Classics" link="cult-classics.html" %}
-
-{% include feature/marginnote-image.html id="horror" img="/assets/svg/horror-flat.svg"  title="Horror" link="horror.html" %}
-
-{% include feature/marginnote-image.html id="westerns" img="/assets/svg/westerns-flat.svg"  title="Westerns" link="westerns.html" %}
+In the recent Netflix documentary [*White Hot: The Rise & Fall of Abercrombie & Fitch*](https://www.netflix.com/title/81323741){:target='_blank'} (2022), an interviewee attempts to describe a shopping mall: 
 
 {% include feature/quote.md text="Imagine a search engine that you could walk through. Or an online catalog that's an actual place." %}
 

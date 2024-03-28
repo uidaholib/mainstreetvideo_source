@@ -18,11 +18,6 @@ custom-foot: js/youtube-clips-modal.html
 At Howard Hughes, customers could {% include feature/youtube-clip-modal.html text='"browse and wonder"' objectid="mainstreet015" start="1306" %} through their curated 30,000-title collection. 
 
 For reference: {% include feature/youtube-clip-modal.html text="you would need to subscribe to at least 11 streaming services" objectid="mainstreet018" start="3580" %} to replicate their catalog, and even then, you’d still be missing some gems.
-{% include feature/marginnote.html id="intro" text="Click a spine below to jump to another interconnected subsections of this essay."%}
-
-{% include feature/marginnote-image.html id="intro" img="/assets/svg/intro-flat.svg"  title="Horror" link="../essay/"%}
-{% include feature/marginnote-image.html id="horror" img="/assets/svg/horror-flat.svg"  title="Horror" link="horror.html"%}
-{% include feature/marginnote-image.html id="westerns" img="/assets/svg/westerns-flat.svg"  title="Westerns" link="westerns.html"%}
 
 Whether you were drawn to the new releases, the robust foreign film section, or classic early cinema, {% include feature/youtube-clip-modal.html text="everyone could get something they liked." objectid="mainstreet019" start="401" %}
 
@@ -60,9 +55,10 @@ Ultimately, Kate says, "the size isn’t as important as the curation."
 ***
 
 {:.subsection}
+{% include feature/marginnote-image.html id="thing" img="/objects/the-thing.jpg" title="Movie poster for The Thing" link="https://www.youtube.com/watch?v=5ftmr17M-a4" %}
+
 ## *The Thing* (1982): A Tangible Experience
 
-{% include feature/marginnote-image.html id="thing" img="/objects/the-thing.jpg" title="Movie poster for The Thing" link="https://www.youtube.com/watch?v=5ftmr17M-a4" %}
 
 
 If the internet has ushered us into the age of digital, video rental stores belong to a time of tangibility. Stepping over the door’s threshold, you entered a place whose sole purpose was to house movies, more movies than you could imagine or ever expect to watch. As customer [Luke Gresback]({{ '/items/mainstreet020.html' | relative_url }}) remembers, “When I was really short and tiny the racks would go above my head, I was swimming in movies, literally." 
@@ -79,7 +75,7 @@ While DVDs offered improved visuals and sound, tapes were more durable. Barring 
 
 {% include feature/quote.md text="We had a box of old VHS. It’s like old car parts, basically. Something breaks on a VHS tape, you just dig through the box, find it, fix it, and you can splice the actual film or tape or whatever. You think you’re cutting out a huge part of the movie, but you’re really only cutting like half a second or something." source="Beau Newsome, Manager" source-link="https://youtu.be/OtA4nKLxLjk?t=655" %}
 
-That being said, tape _would_ deteriorate if played repeatedly, as one group of girls learned after watching some pivotal scenes from [*Dirty Dancing*](https://www.youtube.com/watch?v=eIcmQNy9FsM){:target='_blank'} a few too many times...{% include feature/marginnote-image.html img="https://fringearts.com/wp-content/uploads/2015/07/Dirty-Dancing-still1.jpg" caption="The title doesn't lie!" %}
+That being said, tape _would_ deteriorate if played repeatedly, as one group of girls learned after watching some pivotal scenes from [*Dirty Dancing*](https://www.youtube.com/watch?v=eIcmQNy9FsM){:target='_blank'} a few too many times...
 
 {% include feature/youtube-embed.html youtubeid="Ecy-KIISucc" start="2259" end="2300" %}
 
@@ -93,7 +89,7 @@ Given that movies are always being released, Howard Hughes had to balance acquir
 
 After moving from the store’s large location on 5<sup>th</sup> Street to its final (smaller) home on Main Street, space became a more pressing issue. Employees put the VHS in storage and turned the movies so that their spines faced out rather than the covers, which {% include feature/youtube-clip-modal.html text="disappointed customers who liked to browse using the cover images." objectid="mainstreet034" start="2699" %}
 
-Even as foot traffic diminished, a core group of customers kept up with their rental ritual: stopping in to wander the aisles, {% include feature/youtube-clip-modal.html text="reading the back of the boxes," objectid="mainstreet004" start="224" %}{% include feature/marginnote-image.html img="https://m.media-amazon.com/images/I/81WsPHghMpL._SL1500_.jpg" caption="The back cover for _Mean Girls_ (2004)" %} taking the box to the front desk where it’s swapped for a jewel case with *hopefully* the correct movie, and then out the door, eager to get home and watch. 
+Even as foot traffic diminished, a core group of customers kept up with their rental ritual: stopping in to wander the aisles, {% include feature/youtube-clip-modal.html text="reading the back of the boxes," objectid="mainstreet004" start="224" %} taking the box to the front desk where it’s swapped for a jewel case with *hopefully* the correct movie, and then out the door, eager to get home and watch. 
 
 {% include feature/youtube-embed.html youtubeid="hWFiSo2fRzI" start="1858" %}
 
@@ -119,7 +115,8 @@ For [Beau Newsome]({{ '/items/mainstreet003.html' | relative_url }}), working at
 
 His taste diversified as he received recommendations from his coworkers, sending him deeper into {% include feature/youtube-clip-modal.html text="award winners, art house cinema, and underground classics." objectid="mainstreet003" start="487" %}
 
-Many of the employees were inspired by [Quentin Tarantino](https://www.vulture.com/2015/08/best-quentin-tarantino-movies-ranked.html ){:target='_blank'} who famously worked at a video store before finding success in the movie industry.{% include feature/marginnote-image.html img="https://preview.redd.it/prx14uulfp041.png?auto=webp&s=fece4621bb0073cb68cd92e211398e2bdae22236" caption="Quentin Tarantino as a video clerk" %} [Connor O’Rourke]({{ '/items/mainstreet032.html' | relative_url }}) grew up dreaming about someday working at a video store, imagining it as "the perfect job."
+
+Many of the employees were inspired by [Quentin Tarantino](https://www.vulture.com/2015/08/best-quentin-tarantino-movies-ranked.html ){:target='_blank'} who famously worked at a video store before finding success in the movie industry.[Connor O’Rourke]({{ '/items/mainstreet032.html' | relative_url }}) grew up dreaming about someday working at a video store, imagining it as "the perfect job."
 
 {% include feature/youtube-embed.html youtubeid="6twwXQH40Lg" start="71" %}
 
@@ -127,7 +124,7 @@ Every self-respecting video store featured a small television, usually by the co
 
 They stayed away from picks with swearing, gore, and nudity, but that doesn’t mean there was never controversy. [Benjamin Hardcastle]({{ '/items/mainstreet007.html' | relative_url }}) remembers when they were {% include feature/youtube-clip-modal.html text="written up in the paper" objectid="mainstreet007" start="2500" %} over the outrage that they played [*The Cable Guy* (1996)](https://www.youtube.com/watch?v=rhhI_qYOacw){:target='_blank'} in the store.
 
-There was also a young customer who was afraid of the Gollum {% include feature/marginnote-image.html img="https://www.looper.com/img/gallery/gollums-entire-backstory-explained/intro-1584137078.jpg" %} character from _Lord of the Rings_, so they would {% include feature/youtube-clip-modal.html text="switch to a different movie" objectid="mainstreet007" start="2500" %} if it was playing when she stopped in.
+There was also a young customer who was afraid of the Gollum character from _Lord of the Rings_, so they would {% include feature/youtube-clip-modal.html text="switch to a different movie" objectid="mainstreet007" start="2500" %} if it was playing when she stopped in.
 
 Staff had the privilege to display their “employee picks,” where each staff member could showcase their personal favorites within the store’s vast collection. Customers often found that one employee was especially aligned with their taste and grew to trust their recommendations. 
 
