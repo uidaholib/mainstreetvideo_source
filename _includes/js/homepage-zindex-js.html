@@ -1,0 +1,18 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Select the modal and the tv image container
+  var offcanvasNavbar = document.getElementById('offcanvasNavbar');
+  var tvImageContainer = document.getElementById('tvimage-container');
+
+  // Listen for the show event
+  offcanvasNavbar.addEventListener('show.bs.offcanvas', function () {
+    tvImageContainer.style.zIndex = "-1"; // Set z-index to -1 when modal is shown
+  });
+
+  // Listen for the hide event
+  offcanvasNavbar.addEventListener('hide.bs.offcanvas', function () {
+    tvImageContainer.style.zIndex = ""; // Remove z-index when modal is hidden
+  });
+});
+
+</script>

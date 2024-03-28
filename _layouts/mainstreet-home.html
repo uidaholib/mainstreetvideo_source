@@ -1,14 +1,14 @@
 ---
 # Default home page with boxes providing collection stats
 layout: default
-custom-foot: js/interviews-js.html;js/youtube-clips-modal.html
+custom-foot: js/interviews-js.html;js/youtube-clips-modal.html;js/homepage-zindex-js.html
 ---
 <div class="container-fluid">
 
   <div class="row my-2">
 
     <div class="col-12 col-lg-6 py-0 text-center">
-      <div class="tvimage-container position-relative">
+      <div id="tvimage-container" class="position-relative">
           <a data-bs-toggle="modal" data-bs-target="#videoClipModal" data-bs-youtubeid="NVs2-8j8bh4">
               <!-- Ensure this a-tag has the stretched-link class to make the entire div clickable -->
               <figure class="figure mx-3">

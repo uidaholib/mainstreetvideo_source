@@ -165,17 +165,17 @@
 
   // Home page TV effect with button
 
-  .tvimage-container {
+  #tvimage-container {
     cursor: pointer;
     overflow: hidden;
    
 }
 
-.tvimage-container:hover figure img {
+#tvimage-container:hover figure img {
     filter: brightness(85%);
 }
 
-.tvimage-container .figure {
+#tvimage-container .figure {
     margin: 0;
 }
 
@@ -183,7 +183,7 @@
     z-index: 2;
 }
 
-.tvimage-container a::before {
+#tvimage-container a::before {
     content: "";
     position: absolute;
     top: 0;
