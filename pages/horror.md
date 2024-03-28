@@ -29,7 +29,7 @@ The store also didn’t have a strong online presence. While many think offering
 
 {% include feature/youtube-embed.html youtubeid="n3c_1oNwoJk" start="1844" end=1967 %}
 
-For a sense of what that process might have entailed, [Scarecrow Video in Seattle recently fundraised $200,000](http://blog.scarecrow.com/support-scarecrow-2-1-the-campaign-for-scarecrows-future/){:target='_blank'} to update their website and store infrastructure, allowing for more robust searchability of their collection, recommendations, and real-time inventory updates. [Kate Barr]({{ '/items/mainstreet016.html' | relative_url }}) says, "If we're going to be serious about continuing to exist into the 21st century, then {% include feature/youtube-clip-modal.html text="we need to be able to interact in a 21st century kind of way." objectid="mainstreet016" start="284" %}
+For a sense of what that process might have entailed, [Scarecrow Video in Seattle recently fundraised $200,000](https://scarecrowvideo.org/donate){:target='_blank'} to update their website and store infrastructure, allowing for more robust searchability of their collection, recommendations, and real-time inventory updates. [Kate Barr]({{ '/items/mainstreet016.html' | relative_url }}) says, "If we're going to be serious about continuing to exist into the 21st century, then {% include feature/youtube-clip-modal.html text="we need to be able to interact in a 21st century kind of way." objectid="mainstreet016" start="284" %}
 
 The switch to a cooperative structure introduced some new challenges as well. The board, while incredibly dedicated and hardworking, were also all volunteers, and many were having to run their own businesses on top of their co-op duties. A large portion of the customer-owners who pledged to pay their ownership fee in installments stopped paying before they met the necessary $200, meaning that {% include feature/youtube-clip-modal.html text="the store didn’t have the funds they had anticipated." objectid="mainstreet019" start="918" %}
 
@@ -53,7 +53,7 @@ The speed of these decisions along with limited communication and the emotional 
 -       The Kenworthy did not sell the entire collection. {% include feature/youtube-clip-modal.html text="They retained over 2000 items" objectid="mainstreet001" start="3462" %} including important pieces of cinematic history, the Criterion Collection,{% include feature/marginnote-image.html img="https://s3.wp.wsu.edu/uploads/sites/825/2016/11/french-film-jpeg.jpg" caption="PFFF flier from 2016" %} French films (for the annual Palouse French Film Festival), and the entirety of _Mystery Science Theater 3000_. While they don’t foresee renting these to the public, you _can_ [rent out the Kenworthy](https://www.kenworthy.org/rentals/){:target='_blank'} to watch what they kept.
 
 
--       The sale items were largely dispersed locally. Pieces of the collection can now be found in the homes of Moscow residents.{% include feature/marginnote-image.html img="https://drive.google.com/file/d/1wqGe6kCnB-nFkOmLiq4HFO1CnLfoz_qg/view?usp=sharing" caption="Including my own shelves!" %} The [Palouse Cult Film Revival](https://www.palousecultfilms.org){:target='_blank'}, a nonprofit bringing cult film awareness to the community, [received roughly a quarter of the cult section.](https://youtu.be/R_-qilDdzO4?t=3859){:target='_blank'} The University of Idaho library took in everything that didn’t sell to the general public and is currently working on {% include feature/youtube-clip-modal.html text="how to make this collection available to the community." objectid="mainstreet034" start="3117" %}
+-       The sale items were largely dispersed locally. Pieces of the collection can now be found in the homes of Moscow residents. The [Palouse Cult Film Revival](https://www.palousecultfilms.org){:target='_blank'}, a nonprofit bringing cult film awareness to the community, [received roughly a quarter of the cult section.](https://youtu.be/R_-qilDdzO4?t=3859){:target='_blank'} The University of Idaho library took in everything that didn’t sell to the general public and is currently working on {% include feature/youtube-clip-modal.html text="how to make this collection available to the community." objectid="mainstreet034" start="3117" %}
 
 For [Monique Lillard]({{ '/items/mainstreet027.html' | relative_url }}), “These interviews have brought back for me how much I loved the store, and {% include feature/youtube-clip-modal.html text="how much I really mind that it closed." objectid="mainstreet026" start="4434" %}
 
@@ -74,7 +74,7 @@ But like every movie, the credits have to roll at some point. Lauretta admits, �
 
 When looking at the history of cinema, one adage proves true: the only constant is change. [Moviemaking is a unique marriage of art and technology,](https://www.scienceandmediamuseum.org.uk/objects-and-stories/very-short-history-of-cinema){:target='_blank'} so with advances in technology come [innovations in films and their distribution.](https://www.newyorker.com/culture/culture-desk/technologies-that-changed-the-art-of-cinema){:target='_blank'} Often, these developments are met with resistance. 
 
-In the late 1920s, the silent film era was ending, with ["talkies”](https://publish.iupress.indiana.edu/projects/the-birth-of-the-talkies){:target='_blank'} synchronizing sound and image for the first time. [Silent film stars were not pleased,](https://birthmoviesdeath.com/2014/08/31/talkie-terror-the-transition-from-silents-to-sound){:target='_blank'} and there was a general sense of nostalgia for silent films, [not unlike the nostalgia many of us feel for 35mm film](https://www.rutgersuniversitypress.org/flickers-of-film/9780813576015){:target='_blank'} and other technologies rapidly becoming a thing of the past.
+In the late 1920s, the silent film era was ending, with ["talkies”](https://publish.iupress.indiana.edu/projects/the-birth-of-the-talkies){:target='_blank'} synchronizing sound and image for the first time. Silent film stars were not pleased, and there was a general sense of nostalgia for silent films, [not unlike the nostalgia many of us feel for 35mm film](https://www.rutgersuniversitypress.org/flickers-of-film/9780813576015/){:target='_blank'} and other technologies rapidly becoming a thing of the past.
 
 {% include feature/marginnote-image.html img="https://www.looper.com/img/gallery/the-best-practical-effects-in-horror-ranked/the-fly-1643646676.webp" caption="Practical effects in _The Fly_ (1986)" %} That’s not to say that all progress is good progress or that we should automatically welcome the rise of CGI with open arms. (I personally remain an ardent lover of [practical effects](https://www.looper.com/752412/the-best-practical-effects-in-horror-ranked/){:target='_blank'}.) 
 
@@ -162,10 +162,10 @@ _Do you miss getting to talk to people about movies?_
 _Do you miss tangible media?_
 
 
--       Use [Scarecrow Video’s rent-by-mail service](http://blog.scarecrow.com/scarecrow-rent-by-mail/){:target='_blank'}! Scarecrow Video will mail you your rental along with a return mailer, and you can enjoy their incredible collection from home. 
+-       Use [Scarecrow Video’s rent-by-mail service](https://scarecrowvideo.org/rent-by-mail){:target='_blank'}! Scarecrow Video will mail you your rental along with a return mailer, and you can enjoy their incredible collection from home. 
 
 
--       {% include feature/marginnote-image.html img="https://s3.us-west-2.amazonaws.com/org.hollywoodtheatre.m/media/images/mm-front_2.width-800.format-webp.webp" caption="Movie Madness in Portland, OR" %} If you’re wanting an in-person experience, head to Seattle to visit [Scarecrow Video](http://blog.scarecrow.com){:target='_blank'} or Portland to check out [Movie Madness](https://moviemadness.org){:target='_blank'}. In addition to its 80,000-title collection, the latter features a museum with movie memorabilia, including pieces from _The Godfather: Part II_, _Psycho_, _Fight Club_, and _Pulp Fiction_. (As a lover of Movie Madness, I'll also plug that they have have an _incredible_ horror section delightfully organized by the films’ horrific element, including “perverted science” and “killer kids.”)
+-       {% include feature/marginnote-image.html img="https://s3.us-west-2.amazonaws.com/org.hollywoodtheatre.m/media/images/mm-front_2.width-800.format-webp.webp" caption="Movie Madness in Portland, OR" %} If you’re wanting an in-person experience, head to Seattle to visit [Scarecrow Video](https://scarecrowvideo.org/posts){:target='_blank'} or Portland to check out [Movie Madness](https://moviemadness.org){:target='_blank'}. In addition to its 80,000-title collection, the latter features a museum with movie memorabilia, including pieces from _The Godfather: Part II_, _Psycho_, _Fight Club_, and _Pulp Fiction_. (As a lover of Movie Madness, I'll also plug that they have have an _incredible_ horror section delightfully organized by the films’ horrific element, including “perverted science” and “killer kids.”)
 
 
 -       Fuel your nostalgia and watch some [35 mm film trailers](https://thefilmstage.com/watch-hundreds-of-35mm-film-trailers-will-be-your-new-nostalgia-obsession/){:target='_blank'}.
@@ -195,7 +195,7 @@ _Do you miss bonus features?_
 _Do you have an inordinate amount of time and/or money?_
 
 
--       Build your own video store in your basement, [like this guy did](https://www.tiktok.com/@thevideobunker){:target='_blank'}.
+-       Build your own video store in your basement, [like this guy did](https://nypost.com/2021/03/10/man-builds-full-on-video-rental-store-in-his-basement/){:target='_blank'}.
 
 ** **
 

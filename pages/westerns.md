@@ -14,13 +14,13 @@ custom-foot: js/youtube-clips-modal.html
 {% include feature/marginnote-image.html id="meeks" img="/objects/meeks-cutoff.jpg" title="Movie poster for Meek's Cutoff" link="https://www.youtube.com/watch?v=5rhNrz2hX_o"%}
 
 
-In the ultimate depressing cult children’s movie (how’s that for a [genre you won’t find on Netflix](https://news.onecountry.com/entertainment/fairly-odd-subgenre-categories-on-netflix/]){:target='_blank'}), [_Babe: Pig in the City_ (1998)](https://www.youtube.com/watch?v=XoMZtqQq3LQ){:target='_blank'}, George Miller&mdash;Yes, the George Miller of [_Mad Max_](https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/George_Miller_at_Fury_Road_premiere.jpg/742px-George_Miller_at_Fury_Road_premiere.jpg?20151022145136) fame&mdash;tells the story of a pig who must leave for the city, hoping to make enough money to save the farm he calls home.
+In the ultimate depressing cult children’s movie (how’s that for a [genre you won’t find on Netflix](https://qz.com/quartzy/1482571/netflixs-strangely-specific-hidden-search-categories]){:target='_blank'}), [_Babe: Pig in the City_ (1998)](https://www.youtube.com/watch?v=XoMZtqQq3LQ){:target='_blank'}, George Miller&mdash;Yes, the George Miller of [_Mad Max_](https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/George_Miller_at_Fury_Road_premiere.jpg/742px-George_Miller_at_Fury_Road_premiere.jpg?20151022145136) fame&mdash;tells the story of a pig who must leave for the city, hoping to make enough money to save the farm he calls home.
 
 It’s a familiar tale that sets up a common dichotomy between the country and the city: the former is a charming idyll, while the latter is a cultural hotspot. With places like Howard Hughes Video Store and the Kenworthy Performing Arts Center, Moscow, Idaho tested the truth of these (dubious) claims, offering its residents an access to art and entertainment that would be notable no matter the population size.
 
 Howard Hughes Video Store didn’t just give Moscow access to movies; it gave Moscow access to the world beyond the town’s isolated borders. Before going to Howard Hughes, [Melinda Schab]({{ '/items/mainstreet029.html' | relative_url }}) had {% include feature/youtube-clip-modal.html text="never seen a foreign film." objectid="mainstreet029" start="149" %} [Martin McGreevy]({{ '/items/mainstreet028.html' | relative_url }}) would spend time in the {% include feature/youtube-clip-modal.html text="European section," objectid="mainstreet028" start="347" %} where he discovered Lynne Ramsay’s [_Ratcatcher_](https://www.criterion.com/films/716-ratcatcher) (1999) and German arthouse films.
 
-[Mitchell Lopez]({{ '/items/mainstreet021.html' | relative_url }}) likens the video store to his family running the Mexican restaurant [La Casa Lopez](http://www.lacasalopez.com){:target='_blank'}: not everyone can afford to travel to Mexico, but they can get a taste of it at the restaurant. Using employee recommendations and an eclectic list from his dad, Mitchell began to "understand what our world was made of."
+[Mitchell Lopez]({{ '/items/mainstreet021.html' | relative_url }}) likens the video store to his family running the Mexican restaurant [La Casa Lopez](https://lacasalopez.squarespace.com/){:target='_blank'}: not everyone can afford to travel to Mexico, but they can get a taste of it at the restaurant. Using employee recommendations and an eclectic list from his dad, Mitchell began to "understand what our world was made of."
 
 {% include feature/youtube-embed.html youtubeid="hWFiSo2fRzI" start="251" end=288 %}
 
@@ -106,7 +106,7 @@ Whenever the store faced an uncertain future, the community stepped up. In 2007,
 
 The video store became one of the gems of downtown Moscow. Its central location made it a meeting place for the community: "{% include feature/youtube-clip-modal.html text="You’d see everybody," objectid="mainstreet026" start="1039" %} everybody who’s anybody at the video store, and you’d stop and have conversations in that very Moscow way that we do."
 
-Residents would stop in after grabbing coffee at [One World](http://www.owc-moscow.com){:target='_blank'}, or lunch at [Mikey’s](https://mikeysgyros.com){:target='_blank'}, or seeing a movie at the [Kenworthy](https://www.kenworthy.org){:target='_blank'} and get their video fix before heading home.
+Residents would stop in after grabbing coffee at [One World](https://www.owc-moscow.com){:target='_blank'}, or lunch at [Mikey’s](https://mikeysgyros.com){:target='_blank'}, or seeing a movie at the [Kenworthy](https://www.kenworthy.org){:target='_blank'} and get their video fix before heading home.
 
 The Kenworthy had an especially close relationship with Howard Hughes. If the Kenworthy’s projector ever stopped working, or an issue arose with their planned screening, 
 
