@@ -29,7 +29,7 @@ Customers like [Forrest Ellsworth]({{ '/items/mainstreet025.html' | relative_url
 
 The collection was also a way for customers to learn about different cinematic traditions across time and place. For [Ian Pannkuk]({{ '/items/mainstreet015.html' | relative_url }}), the foreign film section offered a chance to explore the affective differences between German and French films. His teen obsession with [Fritz Lang](https://www.criterion.com/search#stq=fritz+lang){:target='_blank'} gave him insight into the transition from silent films to talkies. 
 
-For others, it helped hone their personal cinematic palate. [Courtney Berge]({{ '/items/mainstreet035.html' | relative_url }}) describes how early on, "It was like a time of discovery, and I was figuring out my own tastes and learning about what I liked in film."
+For others, it helped hone their personal cinematic palate. [Courtney Berge]({{ '/items/mainstreet034.html' | relative_url }}) describes how early on, "It was like a time of discovery, and I was figuring out my own tastes and learning about what I liked in film."
 
 {% include feature/youtube-embed.html youtubeid="-3OomYpHSI4" start="3509" end="3529" %}
 

@@ -1,3 +1,7 @@
-<div class="ratio ratio-16x9 my-5 w-75">
-    <iframe src="https://www.youtube-nocookie.com/embed/{{ include.youtubeid }}?rel=0&modestbranding=1&start={{ include.start | default: '0' }}{% if include.end %}&end={{ include.end }}{% endif %}" allowfullscreen></iframe>
+{%- assign item = site.data[site.metadata] | where_exp: "i", "i.object_location contains include.youtubeid" | first -%}
+<div class="my-5 w-75">
+<div class="ratio ratio-16x9">
+    <iframe title="{{ item.title | escape }}" src="https://www.youtube-nocookie.com/embed/{{ include.youtubeid }}?rel=0&modestbranding=1&start={{ include.start | default: '0' }}{% if include.end %}&end={{ include.end }}{% endif %}" allowfullscreen></iframe>
+</div>
+<figcaption><small><a href="{{ '/items/' | relative_url }}{{ item.objectid }}.html">{{ item.title }}</a></small></figcaption>
 </div>
