@@ -3,6 +3,6 @@
 <label for="{{include.id}}" class="margin-toggle mb-3">&#8853;</label>
 <input type="checkbox" id="{{include.id}}" class="margin-toggle" />
 <span class="marginnote {{include.class}}"><a href="{% if include.link %}{{include.link}}{% elsif item.objectid %}{{ item.objectid | append: '.html' | prepend: '/items/' | relative_url }}{% else %}{{ image_src }}{% endif %}">
-<img alt="{{ item.description | default: item.title | default: item.caption | escape }}" src="{{image_src | relative_url}}" style="width:{{ include.image-width | default: '70'}}%" /></a>
+<img alt="{{ item.description | default: item.title | default: include.title | default: include.caption | escape }}" src="{{image_src | relative_url}}" style="width:{{ include.image-width | default: '70'}}%" /></a>
 <br>
 <span class="pt-4 figure-caption text-center">{{include.caption }}</span></span>
