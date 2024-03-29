@@ -27,7 +27,7 @@ If you couldn’t find what you were looking for, manager [Beau Newsome]({{ '/it
 
 Customers like [Forrest Ellsworth]({{ '/items/mainstreet025.html' | relative_url }}) would capitalize on the store’s five-movie rental deal to expand his knowledge of film and explore the catalog. In addition to three movies chosen intentionally, he would pick one that he had heard about, and one random selection. This is how he discovered some of his favorite movies, including [*Come and See*  (1985)](https://www.criterion.com/films/28895-come-and-see){:target='_blank'}, [*McCabe & Mrs. Miller* (1971)](https://www.criterion.com/films/28712-mccabe-mrs-miller){:target='_blank'}, and [*Magnolia* (1999)](https://www.youtube.com/watch?v=KnamcFv_N9Q){:target='_blank'}. For an especially transcendent experience, watch that last one with {% include feature/youtube-clip-modal.html text="Chicken McNuggets." objectid="mainstreet024" %}
 
-The collection was also a way for customers to learn about different cinematic traditions across time and place. For [Ian Pannkuk]({{ '/items/mainstreet015.html' | relative_url }}), the foreign film section offered a chance to explore the affective differences between German and French films. His teen obsession with [Fritz Lang](https://www.criterion.com/search#stq=fritz+lang){:target='_blank'} gave him insight into the transition from silent films to talkies. 
+The collection was also a way for customers to learn about different cinematic traditions across time and place. For [Lily Pannkuk]({{ '/items/mainstreet015.html' | relative_url }}), the foreign film section offered a chance to explore the affective differences between German and French films. His teen obsession with [Fritz Lang](https://www.criterion.com/search#stq=fritz+lang){:target='_blank'} gave him insight into the transition from silent films to talkies. 
 
 For others, it helped hone their personal cinematic palate. [Courtney Berge]({{ '/items/mainstreet034.html' | relative_url }}) describes how early on, "It was like a time of discovery, and I was figuring out my own tastes and learning about what I liked in film."
 
@@ -132,11 +132,11 @@ When customer [Bekah Miller MacPhee]({{ '/items/mainstreet004.html' | relative_u
 
 The staff had a contest amongst themselves to see whose picks would be the most rented during a given stretch—Connor O’Rourke was the winner all but once, {% include feature/youtube-clip-modal.html text="at least, according to Connor himself" objectid="mainstreet031" start="1349" %}.
 
-Even if your taste _didn’t_ magically align with an employee’s, they worked to get to know what you liked and recommend accordingly. [Ian Pannkuk]({{ '/items/mainstreet015.html' | relative_url }}) describes how when regular customers came in, "employees who knew them well could say, {% include feature/youtube-clip-modal.html text="‘Hey, I just got in a new movie, and when I saw the cover, I thought of you.’" objectid="mainstreet015" start="1671" %}
+Even if your taste _didn’t_ magically align with an employee’s, they worked to get to know what you liked and recommend accordingly. [Lily Pannkuk]({{ '/items/mainstreet015.html' | relative_url }}) describes how when regular customers came in, "employees who knew them well could say, {% include feature/youtube-clip-modal.html text="‘Hey, I just got in a new movie, and when I saw the cover, I thought of you.’" objectid="mainstreet015" start="1671" %}
 
 If they led you astray too many times, {% include feature/youtube-clip-modal.html text="you might even get a free rental out of the deal." objectid="mainstreet031" start="1563" %}
 
-Howard Hughes was a place for staff and customers to share their love of movies in both big and small ways. Ian loved the quiet moments in the store, standing with customers and watching whatever was playing on the monitor. 
+Howard Hughes was a place for staff and customers to share their love of movies in both big and small ways. Lily loved the quiet moments in the store, standing with customers and watching whatever was playing on the monitor. 
 
 As Ben puts it, "I felt like it was an honorable profession to give people entertainment." 
 
