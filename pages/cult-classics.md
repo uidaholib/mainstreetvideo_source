@@ -23,7 +23,7 @@ Whether you were drawn to the new releases, the robust foreign film section, or 
 
 If you couldn’t find what you were looking for, manager [Beau Newsome]({{ '/items/mainstreet003.html' | relative_url }}) would add it to his infamous list and do his best to get it for you: 
 
-{% include feature/quote.md text="My tastes were fairly out there, and even when it was back in the appliance shop they tried to accommodate us." source="Eric Nilsson, Customer" source-link="https://youtu.be/PU9z-3neIPk?t=326" %}
+{% include feature/youtube-clip-quote.html text="My tastes were fairly out there, and even when it was back in the appliance shop they tried to accommodate us." objectid="mainstreet012" start="326" source="Eric Nilsson, Customer" %}
 
 Customers like [Forrest Ellsworth]({{ '/items/mainstreet025.html' | relative_url }}) would capitalize on the store’s five-movie rental deal to expand his knowledge of film and explore the catalog. In addition to three movies chosen intentionally, he would pick one that he had heard about, and one random selection. This is how he discovered some of his favorite movies, including [*Come and See*  (1985)](https://www.criterion.com/films/28895-come-and-see){:target='_blank'}, [*McCabe & Mrs. Miller* (1971)](https://www.criterion.com/films/28712-mccabe-mrs-miller){:target='_blank'}, and [*Magnolia* (1999)](https://www.youtube.com/watch?v=KnamcFv_N9Q){:target='_blank'}. For an especially transcendent experience, watch that last one with {% include feature/youtube-clip-modal.html text="Chicken McNuggets." objectid="mainstreet024" %}
 
@@ -35,7 +35,7 @@ For others, it helped hone their personal cinematic palate. [Courtney Berge]({{ 
 
 Counterintuitively, some of the collection’s worth might have lay in its _bad_ movies:
 
-{% include feature/quote.md text="I thought some of our most valuable movies were the worst movies, the movies that nobody would ever think to preserve because they’re not going to be streaming on Netflix." source="Monique Lillard, Customer & Board Member" source-link="https://youtu.be/n3c_1oNwoJk?t=4084" %}
+{% include feature/youtube-clip-quote.html text="I thought some of our most valuable movies were the worst movies, the movies that nobody would ever think to preserve because they’re not going to be streaming on Netflix." objectid="mainstreet026" start="4084" source="Monique Lillard, Customer & Board Member" %}
 
 For a taste, check out [*Werewolves on Wheels* (1971)](https://www.youtube.com/watch?v=YQDDGbSJN0o){:target='_blank'}{% include feature/marginnote-image.html img="https://upload.wikimedia.org/wikipedia/en/7/73/Werewolvesonwheels.jpg" caption="_Werewolves on Wheels_" %} and [*Vampiyaz: Brothaz in Blood* (2004).](https://vimeo.com/504606578){:target='_blank'}{% include feature/marginnote-image.html img="https://m.media-amazon.com/images/M/MV5BY2I2MjNiN2UtZWJlZC00ODA2LWIyNDQtNzY1MmFiODMxZDE2XkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_FMjpg_UX1000_.jpg" caption="_Vampiyaz: Brothaz in Blood_" %}
 
@@ -73,7 +73,7 @@ DVDs were sleeker, trading the boxy VHS for compact packaging and a flat, shiny 
 
 While DVDs offered improved visuals and sound, tapes were more durable. Barring their tendency to melt if left {% include feature/youtube-clip-modal.html text="too long in a hot car" objectid="mainstreet003" start="745" %}, their malfunctions were few and generally easy to fix:
 
-{% include feature/quote.md text="We had a box of old VHS. It’s like old car parts, basically. Something breaks on a VHS tape, you just dig through the box, find it, fix it, and you can splice the actual film or tape or whatever. You think you’re cutting out a huge part of the movie, but you’re really only cutting like half a second or something." source="Beau Newsome, Manager" source-link="https://youtu.be/OtA4nKLxLjk?t=655" %}
+{% include feature/youtube-clip-quote.html text="We had a box of old VHS. It’s like old car parts, basically. Something breaks on a VHS tape, you just dig through the box, find it, fix it, and you can splice the actual film or tape or whatever. You think you’re cutting out a huge part of the movie, but you’re really only cutting like half a second or something." objectid="mainstreet003" start="655" source="Beau Newsome, Manager" %}
 
 That being said, tape _would_ deteriorate if played repeatedly, as one group of girls learned after watching some pivotal scenes from [*Dirty Dancing*](https://www.youtube.com/watch?v=eIcmQNy9FsM){:target='_blank'} a few too many times...
 

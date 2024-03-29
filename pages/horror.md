@@ -110,9 +110,9 @@ While we’re right to pay attention to the changes that come with streaming, we
 
 {% include feature/youtube-embed.html youtubeid="q_D2PVnsCqU" start="2791" end=2884 %}
 
-[Martin McGreevy]({{ '/items/mainstreet029.html' | relative_url }}) sums up {% include feature/youtube-clip-modal.html text="the hope of many" objectid="mainstreet028" start="2120" %} in the Moscow film community:
+[Martin McGreevy]({{ '/items/mainstreet028.html' | relative_url }}) sums up the hope of many in the Moscow film community:
 
-{% include feature/quote.md text="I just hope that film as a medium continues and we're not all the more sequestered in the virtual reality headset…I think I always hope for you know the experience where we all sit in front of the modern cave painting and watch a film." %}
+{% include feature/youtube-clip-quote.html text="I just hope that film as a medium continues and we're not all the more sequestered in the virtual reality headset… I think I always hope for you know the experience where we all sit in front of the modern cave painting and watch a film." objectid="mainstreet028" start="2120" source="Martin McGreevy, Customer" %}
 
 
 ***

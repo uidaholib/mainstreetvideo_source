@@ -1,0 +1,25 @@
+{% comment %}
+combo of blockquote and youtube-clip-modal 
+
+    Options:
+    - "text" = text from the quote or source
+    - "source" = [optional] who said the quote / where the quoted text is coming from 
+    - "source-link" = [optional]  link to the source (center, right, left)
+    - "color" = [optional] a Bootstrap color (primary, secondary, success, danger, warning, info, light, dark)
+    - "align" = [optional] text alignment (center, right, left)
+{%- endcomment -%}
+{%- if include.objectid contains '/' -%}
+    {% capture video_caption %}{% if include.link %}<a href="{{ include.link }}">{{ include.caption }}</a>{% else %}{{ include.caption }}{% endif %}{% endcapture %}
+    {% capture raw_src %}{{ include.objectid }}{% endcapture %}
+{%- else -%}
+    {%- assign item = site.data[site.metadata] | where: "objectid", include.objectid | first -%}
+    {% capture video_caption %}{% if include.caption %}{% if include.link %}<a href="{{ include.link }}">{{ include.caption }}</a>{% else %}{{ include.caption }}{% endif %}{% else %}<a href="{{ '/items/' | relative_url }}{% if item.parentid %}{{ item.parentid }}.html#{{ item.objectid }}{% else %}{{ item.objectid }}.html{% endif %}">{{ item.title }}</a>{% endif %}{% endcapture %}
+    {% capture raw_src %}{{ item.object_location }}{% endcapture %}
+{%- endif -%}
+{% assign youtube_id = raw_src | split: '/' | last %}
+{% if youtube_id contains 'v=' %}{% assign youtube_id = youtube_id | split: 'v=' | last | split: '&' | first %}
+{% elsif youtube_id contains '?' %}{% assign youtube_id = youtube_id | split: '?' | first %}{%- endif -%}
+<div class="epigraph">
+<blockquote><p class="border-left ps-1 ps-md-4 {% if include.color %}text-{{ include.color }}{% endif %} {% if include.align %}text-{{ include.align }}{% endif %}">{{ include.text }}</p>
+<footer><a href="#" data-bs-toggle="modal" data-bs-target="#videoClipModal" data-bs-youtubeid="{{ youtube_id }}" {% if include.start %}data-bs-start="{{ include.start }}" {% endif %}{% if include.end %}data-bs-end="{{ include.end }}" {% endif %}{% if video_caption %}data-bs-caption="{{ video_caption | escape }}" {% endif %}>{{ include.source | markdownify }}</a></footer></blockquote>
+</div>  

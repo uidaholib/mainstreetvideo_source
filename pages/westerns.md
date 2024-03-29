@@ -34,7 +34,7 @@ After renting [_Pi_](https://www.youtube.com/watch?v=jo18VIoR2xU){:target='_blan
 
 Howard Hughes also gave residents a reliable way to watch movies even as the internet became more robust. Into the late 2000s, internet service in rural areas was still limited. Video files were especially large, and your viewing experience would be plagued by lags and buffering if your connection wasn’t up to the task. As a result, many stuck with VHS and DVDs. 
 
-{% include feature/quote.md text="We were out in the country and had a horrible connection to like any network, so we would just always rent movies." source="Henry Gregson, Customer" source-link="htttps://youtu.be/kvPYz7YNgCU?t=95" %}
+{% include feature/youtube-clip-quote.html text="We were out in the country and had a horrible connection to like any network, so we would just always rent movies." objectid="mainstreet013" start="95" source="Henry Gregson, Customer" %}
 
 Howard Hughes was a store that knew and loved its clientele, even {% include feature/youtube-clip-modal.html text="slowing its transition from VHS to DVD" objectid="mainstreet011" start="484" %} to maintain access for those who were reluctant to adjust to new technology. As movie theater prices skyrocketed, the video store was an affordable place to stay current on new releases (if you were willing to wait). 
 
@@ -68,9 +68,9 @@ You could also look to other customers for suggestions. [Kenton Bird]({{ '/items
 
 In the video store, the great question of our era played out in real time: what are we going to watch? Is this worth a full-priced rental, or should it be saved for {% include feature/youtube-clip-modal.html text="99 cent night" objectid="mainstreet026" start="314" %}?
 
-[Elijah Ting]({{ '/items/mainstreet033.html' | relative_url }}) remembers {% include feature/youtube-clip-modal.html text="crowding in the store with his family," objectid="mainstreet032" start="1175" %} looking around and debating their options.
+[Elijah Ting]({{ '/items/mainstreet032.html' | relative_url }}) remembers {% include feature/youtube-clip-modal.html text="crowding in the store with his family," objectid="mainstreet032" start="1175" %} looking around and debating their options.
 
-{% include feature/quote.md text="It was like a really magical time to contemplate going to the store and getting to watch a film, and then we would watch it as a family and like make popcorn and everything." source="Martin McGreevy, Customer" source-link="https://youtu.be/kxuq9cl4qR8?t=117" %}
+{% include feature/youtube-clip-quote.html text="It was like a really magical time to contemplate going to the store and getting to watch a film, and then we would watch it as a family and like make popcorn and everything." objectid="mainstreet028" start="117" source="Martin McGreevy, Customer" %}
 
 The {% include feature/youtube-clip-modal.html text="bulk rental deals were especially helpful" objectid="mainstreet019" start="353" %} in allowing everyone to find something they wanted (and preventing too many in-store meltdowns).
 
@@ -110,7 +110,7 @@ Residents would stop in after grabbing coffee at [One World](https://www.owc-mos
 
 The Kenworthy had an especially close relationship with Howard Hughes. If the Kenworthy’s projector ever stopped working, or an issue arose with their planned screening, 
 
-{% include feature/quote.md text="We just ran down the street and said, ‘What can we show for free this weekend?’ and we were always able to find something." source="Jamie Hill, Customer & Kenworthy Employee" source-link="https://youtu.be/R_-qilDdzO4?t=604" %}
+{% include feature/youtube-clip-quote.html text="We just ran down the street and said, ‘What can we show for free this weekend?’ and we were always able to find something." source="Jamie Hill, Customer & Kenworthy Employee" objectid="mainstreet001" start="604" %}
 
 The video store would trade the Kenworthy free rentals for their Saturday morning cartoon series in exchange for {% include feature/youtube-clip-modal.html text="cast-off movie posters." objectid="mainstreet031" start="4573101" %}
 
