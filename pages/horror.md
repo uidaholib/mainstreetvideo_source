@@ -39,12 +39,12 @@ Then, COVID-19 arrived in the winter of 2020. Suddenly, many were stuck at home,
 
 However, by that point the store was struggling so severely that implementing these kinds of projects was impossible. 
 
-Not long after the co-op announced its closing, the Kenworthy reported that it would sell the co-op’s 30,000-movie collection. [Melinda Schab]({{ '/items/mainstreet030.html' | relative_url }}) was devastated at the news. She had hoped that there was a chance that the store might be resurrected {% include feature/youtube-clip-modal.html text="if the collection had been preserved." objectid="mainstreet029" start="2550" %}
+Not long after the co-op announced its closing, the Kenworthy reported that it would sell the co-op’s 30,000-movie collection. [Melinda Schab]({{ '/items/mainstreet029.html' | relative_url }}) was devastated at the news. She had hoped that there was a chance that the store might be resurrected {% include feature/youtube-clip-modal.html text="if the collection had been preserved." objectid="mainstreet029" start="2550" %}
 
 The speed of these decisions along with limited communication and the emotional fallout of losing this collection resulted in a host of rumors about how and why this deal took place. So, let’s set the record straight:
 
 
--       The collection was not sold to the Kenworthy; it was transferred there as a {% include feature/youtube-clip-modal.html text="debt settlement," objectid="mainstreet009" start="1774" %}resolving a balance the co-op owned to the store’s previous owners. 
+-       The collection was not sold to the Kenworthy; it was transferred there as a {% include feature/youtube-clip-modal.html text="debt settlement," objectid="mainstreet009" start="1774" %} resolving a balance the co-op owned to the store’s previous owners. 
 
 
 -       While the Kenworthy tried to find a library or organization willing to take the collection intact, there wasn’t enough interest. The collection takes up such a substantial amount of space—{% include feature/youtube-clip-modal.html text="roughly 1400 square feet" objectid="mainstreet001" start="4106" %}—that even finding a place to store it would be difficult. 
@@ -55,7 +55,7 @@ The speed of these decisions along with limited communication and the emotional 
 
 -       The sale items were largely dispersed locally. Pieces of the collection can now be found in the homes of Moscow residents. The [Palouse Cult Film Revival](https://www.palousecultfilms.org){:target='_blank'}, a nonprofit bringing cult film awareness to the community, [received roughly a quarter of the cult section.](https://youtu.be/R_-qilDdzO4?t=3859){:target='_blank'} The University of Idaho library took in everything that didn’t sell to the general public and is currently working on {% include feature/youtube-clip-modal.html text="how to make this collection available to the community." objectid="mainstreet034" start="3117" %}
 
-For [Monique Lillard]({{ '/items/mainstreet027.html' | relative_url }}), “These interviews have brought back for me how much I loved the store, and {% include feature/youtube-clip-modal.html text="how much I really mind that it closed." objectid="mainstreet026" start="4434" %}
+For [Monique Lillard]({{ '/items/mainstreet026.html' | relative_url }}), “These interviews have brought back for me how much I loved the store, and {% include feature/youtube-clip-modal.html text="how much I really mind that it closed." objectid="mainstreet026" start="4434" %}
 
 [Lauretta Campbell]({{ '/items/mainstreet019.html' | relative_url }}) finds it bittersweet but comforting to know that the movies at the Kenworthy and all the work they represent will still go on to benefit the community somehow, {% include feature/youtube-clip-modal.html text="just not in the form of a video store." objectid="mainstreet019" start="3812" %}
 
@@ -98,13 +98,13 @@ Immediate, unlimited access might even be detrimental to audience engagement. [B
 
 Having too many options can result in a paralysis of choice, and Howard Hughes’ curation circumvented the “doom scrolling” that often accompanies finding something to watch on a streaming platform. The “event” of {% include feature/youtube-clip-modal.html text="picking up a movie and popping it into your DVD or VHS player" objectid="mainstreet024" start="1311" %} made for a more of a captive audience. 
 
-"{% include feature/youtube-clip-modal.html text="I was more likely to watch a whole movie from Howard Hughes" objectid="mainstreet028" start="702" %} because of the extra effort,” says [Martin McGreevy.]({{ '/items/mainstreet029.html' | relative_url }})
+"{% include feature/youtube-clip-modal.html text="I was more likely to watch a whole movie from Howard Hughes" objectid="mainstreet028" start="702" %} because of the extra effort,” says [Martin McGreevy.]({{ '/items/mainstreet028.html' | relative_url }})
 
 In the West, we’ve been following a trend away from the communal and toward the individual for a while now, whether it be swapping public transit for cars, payphones for cell phones, or movie theaters for home theaters. {% include feature/youtube-clip-modal.html text="The video store was an interesting liminal space:" objectid="mainstreet030" start="1392" %} a social meeting ground supporting a solitary (or intimate, at least) venture—watching a movie in the privacy of your home. 
 
 While {% include feature/youtube-clip-modal.html text="many valued the sociability" objectid="mainstreet026" start="1443" %} of going out and {% include feature/youtube-clip-modal.html text="having somebody to engage with about movies," objectid="mainstreet003" start="2063" %} there’s always those who would rather skip the human interaction.
 
-After all, existing in society comes with its drawbacks, as anyone who’s had a movie theater experience {% include feature/youtube-clip-modal.html text="ruined by someone’s loud talking" objectid="mainstreet031" start="5555" %} can tell you. For [Monique Lillard]({{ '/items/mainstreet027.html' | relative_url }}), though, the tradeoff is worth it: "Moments when the whole audience gasps or laughs {% include feature/youtube-clip-modal.html text="enhances the experience, too." objectid="mainstreet010" start="1702" %}
+After all, existing in society comes with its drawbacks, as anyone who’s had a movie theater experience {% include feature/youtube-clip-modal.html text="ruined by someone’s loud talking" objectid="mainstreet031" start="5555" %} can tell you. For [Monique Lillard]({{ '/items/mainstreet026.html' | relative_url }}), though, the tradeoff is worth it: "Moments when the whole audience gasps or laughs {% include feature/youtube-clip-modal.html text="enhances the experience, too." objectid="mainstreet010" start="1702" %}
 
 While we’re right to pay attention to the changes that come with streaming, we can be careful not to fall into a trap of romanticization. [Russell Meeuf]({{ '/items/mainstreet031.html' | relative_url }}) explains, 
 

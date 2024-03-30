@@ -28,9 +28,9 @@ Movies also opened up a sense of possibility, especially in younger viewers. The
 
 Some endeavored to go into the film industry itself. [Luke Gresback]({{ '/items/mainstreet020.html' | relative_url }}) is now a filmmaker in Los Angeles ("kind of an annoying sentence to say," {% include feature/youtube-clip-modal.html text="he apologizes" objectid="mainstreet020" start="343" %}) who credits his artistic sensibilities in part with the movies he rented from Howard Hughes.
 
-After renting [_Pi_](https://www.youtube.com/watch?v=jo18VIoR2xU){:target='_blank'} (1998) as a teen, [Martin McGreevy]({{ '/items/mainstreet029.html' | relative_url }}) moved to New York City and ended up {% include feature/youtube-clip-modal.html text="working with director Darren Aronofsky" objectid="mainstreet028" start="1247" %} on some of his later projects, including [_Black Swan_](https://www.youtube.com/watch?v=5jaI1XOB-bs){:target='_blank'} (2010).{% include feature/marginnote-image.html img="https://m.media-amazon.com/images/M/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_.jpg" caption="_Black Swan_ (2010)" %} 
+After renting [_Pi_](https://www.youtube.com/watch?v=jo18VIoR2xU){:target='_blank'} (1998) as a teen, [Martin McGreevy]({{ '/items/mainstreet028.html' | relative_url }}) moved to New York City and ended up {% include feature/youtube-clip-modal.html text="working with director Darren Aronofsky" objectid="mainstreet028" start="1247" %} on some of his later projects, including [_Black Swan_](https://www.youtube.com/watch?v=5jaI1XOB-bs){:target='_blank'} (2010).{% include feature/marginnote-image.html img="https://m.media-amazon.com/images/M/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_.jpg" caption="_Black Swan_ (2010)" %} 
 
-[Russell Meeuf]({{ '/items/mainstreet031.html' | relative_url }}), who now teaches film and media studies at the University of Idaho, {% include feature/youtube-clip-modal.html text="first got into the habit of studying movies" objectid="mainstreet030" start="3047" %} thanks to his childhood video store rentals.
+[Russell Meeuf]({{ '/items/mainstreet030.html' | relative_url }}), who now teaches film and media studies at the University of Idaho, {% include feature/youtube-clip-modal.html text="first got into the habit of studying movies" objectid="mainstreet030" start="3047" %} thanks to his childhood video store rentals.
 
 Howard Hughes also gave residents a reliable way to watch movies even as the internet became more robust. Into the late 2000s, internet service in rural areas was still limited. Video files were especially large, and your viewing experience would be plagued by lags and buffering if your connection wasn’t up to the task. As a result, many stuck with VHS and DVDs. 
 
@@ -125,7 +125,7 @@ In the face of the video store’s shuttering, [Cody Moore]({{ '/items/mainstree
 
 {% include feature/youtube-embed.html youtubeid="K13wkAqJQLo" start="3260" end=3416 %}
 
-You can still see remnants of the store around town: {% include feature/youtube-clip-modal.html text="the shelves that used to hold videos were donated" objectid="mainstreet023" start="2110" %} to the food pantry at [Inland Oasis](https://www.inlandoasis.org). [Sandra Kelly]({{ '/items/mainstreet024.html' | relative_url }}) says that it gives her joy whenever she sees them knowing they traveled from nonprofit to nonprofit.
+You can still see remnants of the store around town: {% include feature/youtube-clip-modal.html text="the shelves that used to hold videos were donated" objectid="mainstreet023" start="2110" %} to the food pantry at [Inland Oasis](https://www.inlandoasis.org). [Sandra Kelly]({{ '/items/mainstreet023.html' | relative_url }}) says that it gives her joy whenever she sees them knowing they traveled from nonprofit to nonprofit.
 
 Even the creation of this oral history project is a testament to the Moscow community’s commitment to and love of Howard Hughes. 
 
