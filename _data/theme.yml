@@ -106,7 +106,8 @@ font-cdn: <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;7
 # the template uses Bootstrap Icons, https://icons.getbootstrap.com/
 # find the names on the BI icons page, e.g. file-image
 #
-# icons: 
+icons: 
+  video-clip: collection-play
 #   icon-image: image
 #   icon-audio: soundwave
 #   icon-video: film
