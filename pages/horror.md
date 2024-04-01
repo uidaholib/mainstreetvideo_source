@@ -17,7 +17,7 @@ custom-foot: js/youtube-clips-modal.html
 
 Moscow Street Video Co-op closed permanently as of March 2020, due to a perfect storm of factors. Despite the efforts of dedicated customers like [Bekah Miller MacPhee]({{ '/items/mainstreet004.html' | relative_url }}) who would {% include feature/youtube-clip-modal.html text="call the store to see if they had a movie" objectid="mainstreet004" start="792" %} before streaming it, the store’s recent years saw a marked decrease in renting and foot traffic.
 
-Netflix began renting out DVDs by mail in 1998, a service that grew increasingly popular in the 2000s with people swapping their trips to the video store for a trip to the mailbox. (There’s a rumor that Netflix’s founding was inspired by a {% include feature/youtube-clip-modal.html text="particularly egregious Blockbuster late fee" objectid="mainstreet007" start="4695" %}, though this might just be a ["convenient fiction"](https://www.cnbc.com/2017/05/23/netflix-ceo-reed-hastings-on-how-the-company-was-born.html ){:target='_blank'}.) Then came streaming, which didn’t even require you to leave your couch. 
+Netflix began renting out DVDs by mail in 1998, a service that grew increasingly popular in the 2000s with people swapping their trips to the video store for a trip to the mailbox. (There’s a rumor that Netflix’s founding was inspired by a {% include feature/youtube-clip-modal.html text="particularly egregious Blockbuster late fee" objectid="mainstreet007" start="4695" %}, though this might just be a ["convenient fiction"](https://www.cnbc.com/2017/05/23/netflix-ceo-reed-hastings-on-how-the-company-was-born.html ){:target='_blank' rel='noopener'}.) Then came streaming, which didn’t even require you to leave your couch. 
 
 [Cody Moore]({{ '/items/mainstreet009.html' | relative_url }}) comments, “You really have to kind of convince people that [renting] is a better way to consume movies than just clicking a button or on your phone or the TV.” 
 
@@ -29,7 +29,7 @@ The store also didn’t have a strong online presence. While many think offering
 
 {% include feature/youtube-embed.html youtubeid="n3c_1oNwoJk" start="1844" end=1967 %}
 
-For a sense of what that process might have entailed, [Scarecrow Video in Seattle recently fundraised $200,000](https://scarecrowvideo.org/donate){:target='_blank'} to update their website and store infrastructure, allowing for more robust searchability of their collection, recommendations, and real-time inventory updates. [Kate Barr]({{ '/items/mainstreet016.html' | relative_url }}) says, "If we're going to be serious about continuing to exist into the 21st century, then {% include feature/youtube-clip-modal.html text="we need to be able to interact in a 21st century kind of way" objectid="mainstreet016" start="284" %}.
+For a sense of what that process might have entailed, [Scarecrow Video in Seattle recently fundraised $200,000](https://scarecrowvideo.org/donate){:target='_blank' rel='noopener'} to update their website and store infrastructure, allowing for more robust searchability of their collection, recommendations, and real-time inventory updates. [Kate Barr]({{ '/items/mainstreet016.html' | relative_url }}) says, "If we're going to be serious about continuing to exist into the 21st century, then {% include feature/youtube-clip-modal.html text="we need to be able to interact in a 21st century kind of way" objectid="mainstreet016" start="284" %}.
 
 The switch to a cooperative structure introduced some new challenges as well. The board, while incredibly dedicated and hardworking, were also all volunteers, and many were having to run their own businesses on top of their co-op duties. A large portion of the customer-owners who pledged to pay their ownership fee in installments stopped paying before they met the necessary $200, meaning that {% include feature/youtube-clip-modal.html text="the store didn’t have the funds they had anticipated" objectid="mainstreet019" start="918" %}.
 
@@ -47,9 +47,9 @@ The speed of these decisions along with limited communication and the emotional 
 
 - While the Kenworthy tried to find a library or organization willing to take the collection intact, there wasn’t enough interest. The collection takes up such a substantial amount of space—{% include feature/youtube-clip-modal.html text="roughly 1400 square feet" objectid="mainstreet001" start="4106" %}—that even finding a place to store it would be difficult. 
 
-- The Kenworthy did not sell the entire collection. {% include feature/youtube-clip-modal.html text="They retained over 2000 items" objectid="mainstreet001" start="3462" %} including important pieces of cinematic history, the Criterion Collection,{% include feature/marginnote-image.html img="https://s3.wp.wsu.edu/uploads/sites/825/2016/11/french-film-jpeg.jpg" caption="PFFF flier from 2016" %} French films (for the annual Palouse French Film Festival), and the entirety of _Mystery Science Theater 3000_. While they don’t foresee renting these to the public, you _can_ [rent out the Kenworthy](https://www.kenworthy.org/rentals/){:target='_blank'} to watch what they kept.
+- The Kenworthy did not sell the entire collection. {% include feature/youtube-clip-modal.html text="They retained over 2000 items" objectid="mainstreet001" start="3462" %} including important pieces of cinematic history, the Criterion Collection,{% include feature/marginnote-image.html img="https://s3.wp.wsu.edu/uploads/sites/825/2016/11/french-film-jpeg.jpg" caption="PFFF flier from 2016" %} French films (for the annual Palouse French Film Festival), and the entirety of _Mystery Science Theater 3000_. While they don’t foresee renting these to the public, you _can_ [rent out the Kenworthy](https://www.kenworthy.org/rentals/){:target='_blank' rel='noopener'} to watch what they kept.
 
-- The sale items were largely dispersed locally. Pieces of the collection can now be found in the homes of Moscow residents. The [Palouse Cult Film Revival](https://www.palousecultfilms.org){:target='_blank'}, a nonprofit bringing cult film awareness to the community, [received roughly a quarter of the cult section](https://youtu.be/R_-qilDdzO4?t=3859){:target='_blank'}. The University of Idaho library took in everything that didn’t sell to the general public and is currently working on {% include feature/youtube-clip-modal.html text="how to make this collection available to the community" objectid="mainstreet034" start="3117" %}.
+- The sale items were largely dispersed locally. Pieces of the collection can now be found in the homes of Moscow residents. The [Palouse Cult Film Revival](https://www.palousecultfilms.org){:target='_blank' rel='noopener'}, a nonprofit bringing cult film awareness to the community, [received roughly a quarter of the cult section](https://youtu.be/R_-qilDdzO4?t=3859){:target='_blank' rel='noopener'}. The University of Idaho library took in everything that didn’t sell to the general public and is currently working on {% include feature/youtube-clip-modal.html text="how to make this collection available to the community" objectid="mainstreet034" start="3117" %}.
 
 For [Monique Lillard]({{ '/items/mainstreet026.html' | relative_url }}), “These interviews have brought back for me how much I loved the store, and {% include feature/youtube-clip-modal.html text="how much I really mind that it closed" objectid="mainstreet026" start="4434" %}.
 
@@ -65,13 +65,13 @@ But like every movie, the credits have to roll at some point. Lauretta admits, "
 {% include feature/marginnote-image.html id="dontlook" img="/objects/dont-look-now.jpg" title="Movie poster for Don't Look Now" link="https://www.youtube.com/watch?v=BI9bYR0SoMs" %}
 
 
-When looking at the history of cinema, one adage proves true: the only constant is change. [Moviemaking is a unique marriage of art and technology](https://www.scienceandmediamuseum.org.uk/objects-and-stories/very-short-history-of-cinema){:target='_blank'}, so with advances in technology come [innovations in films and their distribution](https://www.newyorker.com/culture/culture-desk/technologies-that-changed-the-art-of-cinema){:target='_blank'}. Often, these developments are met with resistance. 
+When looking at the history of cinema, one adage proves true: the only constant is change. [Moviemaking is a unique marriage of art and technology](https://www.scienceandmediamuseum.org.uk/objects-and-stories/very-short-history-of-cinema){:target='_blank' rel='noopener'}, so with advances in technology come [innovations in films and their distribution](https://www.newyorker.com/culture/culture-desk/technologies-that-changed-the-art-of-cinema){:target='_blank' rel='noopener'}. Often, these developments are met with resistance. 
 
-In the late 1920s, the silent film era was ending, with ["talkies"](https://publish.iupress.indiana.edu/projects/the-birth-of-the-talkies){:target='_blank'} synchronizing sound and image for the first time. Silent film stars were not pleased, and there was a general sense of nostalgia for silent films, [not unlike the nostalgia many of us feel for 35mm film](https://www.rutgersuniversitypress.org/flickers-of-film/9780813576015/){:target='_blank'} and other technologies rapidly becoming a thing of the past.
+In the late 1920s, the silent film era was ending, with ["talkies"](https://publish.iupress.indiana.edu/projects/the-birth-of-the-talkies){:target='_blank' rel='noopener'} synchronizing sound and image for the first time. Silent film stars were not pleased, and there was a general sense of nostalgia for silent films, [not unlike the nostalgia many of us feel for 35mm film](https://www.rutgersuniversitypress.org/flickers-of-film/9780813576015/){:target='_blank' rel='noopener'} and other technologies rapidly becoming a thing of the past.
 
-{% include feature/marginnote-image.html img="https://www.looper.com/img/gallery/the-best-practical-effects-in-horror-ranked/the-fly-1643646676.webp" caption="Practical effects in _The Fly_ (1986)" %} That’s not to say that all progress is good progress or that we should automatically welcome the rise of CGI with open arms. (I personally remain an ardent lover of [practical effects](https://www.looper.com/752412/the-best-practical-effects-in-horror-ranked/){:target='_blank'}.) 
+{% include feature/marginnote-image.html img="https://www.looper.com/img/gallery/the-best-practical-effects-in-horror-ranked/the-fly-1643646676.webp" caption="Practical effects in _The Fly_ (1986)" %} That’s not to say that all progress is good progress or that we should automatically welcome the rise of CGI with open arms. (I personally remain an ardent lover of [practical effects](https://www.looper.com/752412/the-best-practical-effects-in-horror-ranked/){:target='_blank' rel='noopener'}.) 
 
-Rather, it’s to point out that when we are nostalgic for VHS or the video store, we are joining a long lineage of nostalgic film fans. [Nostalgia might define cinematic history](https://www.rutgersuniversitypress.org/flickers-of-film/9780813576015){:target='_blank'} more than any other affect.  
+Rather, it’s to point out that when we are nostalgic for VHS or the video store, we are joining a long lineage of nostalgic film fans. [Nostalgia might define cinematic history](https://www.rutgersuniversitypress.org/flickers-of-film/9780813576015){:target='_blank' rel='noopener'} more than any other affect.  
 
 So, let’s take stock. What’s the difference between renting and streaming? What do we miss when we miss the video store? How do our watching habits signal shifts in our cultural priorities and values?
 
@@ -123,35 +123,35 @@ If there’s one thing a good horror movie knows, it’s that the dead are never
 _Do you miss the curation?_
 
 
-- [Kanopy](https://www.kanopy.com/en/){:target='_blank'} is {% include feature/youtube-clip-modal.html text='"the closest thing to a virtual video store"' objectid="mainstreet007" start="5159" %} according to [Benjamin Hardcastle]({{ '/items/mainstreet007.html' | relative_url }}). This streaming service partners with public libraries and universities, offering free access to a wide variety of both classic and contemporary cinema.
+- [Kanopy](https://www.kanopy.com/en/){:target='_blank' rel='noopener'} is {% include feature/youtube-clip-modal.html text='"the closest thing to a virtual video store"' objectid="mainstreet007" start="5159" %} according to [Benjamin Hardcastle]({{ '/items/mainstreet007.html' | relative_url }}). This streaming service partners with public libraries and universities, offering free access to a wide variety of both classic and contemporary cinema.
 
-- [The Criterion Channel](https://www.criterionchannel.com){:target='_blank'} provides you with a rotating selection of their catalog, including curated spotlights on directors, genres, and themes. 
+- [The Criterion Channel](https://www.criterionchannel.com){:target='_blank' rel='noopener'} provides you with a rotating selection of their catalog, including curated spotlights on directors, genres, and themes. 
 
-- [Mubi](https://mubi.com){:target='_blank'} is a streaming service that boasts hand-picked film curation. They offer a limited, rotating selection of films, much like your favorite “employee picks” shelf. 
+- [Mubi](https://mubi.com){:target='_blank' rel='noopener'} is a streaming service that boasts hand-picked film curation. They offer a limited, rotating selection of films, much like your favorite “employee picks” shelf. 
 
 
 _Do you miss getting to talk to people about movies?_
 
 
-- Get into [podcasts](https://discoverpods.com/movie-podcasts/){:target='_blank'}! You just might feel like [you’re back in the video store](https://screenrant.com/best-movie-podcasts-according-to-ranker/){:target='_blank'} overhearing [conversations between customers and staff](https://www.wrapbook.com/blog/best-filmmaking-podcasts){:target='_blank'}.
+- Get into [podcasts](https://discoverpods.com/movie-podcasts/){:target='_blank' rel='noopener'}! You just might feel like [you’re back in the video store](https://screenrant.com/best-movie-podcasts-according-to-ranker/){:target='_blank' rel='noopener'} overhearing [conversations between customers and staff](https://www.wrapbook.com/blog/best-filmmaking-podcasts){:target='_blank' rel='noopener'}.
 
-- Join the [Letterboxd](https://letterboxd.com){:target='_blank'} community to log and rate movies and converse with fellow film lovers.
+- Join the [Letterboxd](https://letterboxd.com){:target='_blank' rel='noopener'} community to log and rate movies and converse with fellow film lovers.
 
-- Go to the [Kenworthy](https://www.kenworthy.org){:target='_blank'} or your local movie theater. If you’re in Moscow, you can [rent the Kenworthy](https://www.kenworthy.org/rentals/){:target='_blank'} and screen whatever you want with whoever you want!
+- Go to the [Kenworthy](https://www.kenworthy.org){:target='_blank' rel='noopener'} or your local movie theater. If you’re in Moscow, you can [rent the Kenworthy](https://www.kenworthy.org/rentals/){:target='_blank' rel='noopener'} and screen whatever you want with whoever you want!
 
-- Get involved with a local film group, like the [Palouse Cult Film Revival](https://www.palousecultfilms.org){:target='_blank'}, or start one of your own. 
+- Get involved with a local film group, like the [Palouse Cult Film Revival](https://www.palousecultfilms.org){:target='_blank' rel='noopener'}, or start one of your own. 
 
-- If documentaries are your thing, [Influence Film Club](http://influencefilmclub.com/clubs/){:target='_blank'} helps you set up your own film club and offers discussion guides, director interviews, and more to “support real people having real interactions more often.” 
+- If documentaries are your thing, [Influence Film Club](http://influencefilmclub.com/clubs/){:target='_blank' rel='noopener'} helps you set up your own film club and offers discussion guides, director interviews, and more to “support real people having real interactions more often.” 
 
 
 _Do you miss tangible media?_
 
 
-- Use [Scarecrow Video’s rent-by-mail service](https://scarecrowvideo.org/rent-by-mail){:target='_blank'}! Scarecrow Video will mail you your rental along with a return mailer, and you can enjoy their incredible collection from home. 
+- Use [Scarecrow Video’s rent-by-mail service](https://scarecrowvideo.org/rent-by-mail){:target='_blank' rel='noopener'}! Scarecrow Video will mail you your rental along with a return mailer, and you can enjoy their incredible collection from home. 
 
-- {% include feature/marginnote-image.html img="https://s3.us-west-2.amazonaws.com/org.hollywoodtheatre.m/media/images/mm-front_2.width-800.format-webp.webp" caption="Movie Madness in Portland, OR" %} If you’re wanting an in-person experience, head to Seattle to visit [Scarecrow Video](https://scarecrowvideo.org/posts){:target='_blank'} or Portland to check out [Movie Madness](https://moviemadness.org){:target='_blank'}. In addition to its 80,000-title collection, the latter features a museum with movie memorabilia, including pieces from _The Godfather: Part II_, _Psycho_, _Fight Club_, and _Pulp Fiction_. (As a lover of Movie Madness, I'll also plug that they have have an _incredible_ horror section delightfully organized by the films’ horrific element, including “perverted science” and “killer kids.”)
+- {% include feature/marginnote-image.html img="https://s3.us-west-2.amazonaws.com/org.hollywoodtheatre.m/media/images/mm-front_2.width-800.format-webp.webp" caption="Movie Madness in Portland, OR" %} If you’re wanting an in-person experience, head to Seattle to visit [Scarecrow Video](https://scarecrowvideo.org/posts){:target='_blank' rel='noopener'} or Portland to check out [Movie Madness](https://moviemadness.org){:target='_blank' rel='noopener'}. In addition to its 80,000-title collection, the latter features a museum with movie memorabilia, including pieces from _The Godfather: Part II_, _Psycho_, _Fight Club_, and _Pulp Fiction_. (As a lover of Movie Madness, I'll also plug that they have have an _incredible_ horror section delightfully organized by the films’ horrific element, including “perverted science” and “killer kids.”)
 
-- Fuel your nostalgia and watch some [35 mm film trailers](https://thefilmstage.com/watch-hundreds-of-35mm-film-trailers-will-be-your-new-nostalgia-obsession/){:target='_blank'}.
+- Fuel your nostalgia and watch some [35 mm film trailers](https://thefilmstage.com/watch-hundreds-of-35mm-film-trailers-will-be-your-new-nostalgia-obsession/){:target='_blank' rel='noopener'}.
 
 
 _Do you miss browsing?_
@@ -162,16 +162,16 @@ _Do you miss browsing?_
 _Do you miss bonus features?_
 
 
-- [Youtube](http://youtube.com){:target='_blank'} hosts a wide variety of [filmmakers and film enthusiasts](https://www.frontrowinsurance.com/articles/top-20-filmmaking-youtube-channels){:target='_blank'} sharing [their craft](https://www.premiumbeat.com/blog/youtube-channels-for-filmmakers-2021/){:target='_blank'}.
+- [Youtube](http://youtube.com){:target='_blank' rel='noopener'} hosts a wide variety of [filmmakers and film enthusiasts](https://www.frontrowinsurance.com/articles/top-20-filmmaking-youtube-channels){:target='_blank' rel='noopener'} sharing [their craft](https://www.premiumbeat.com/blog/youtube-channels-for-filmmakers-2021/){:target='_blank' rel='noopener'}.
 
-- [Criterion’s _Current_](https://www.criterion.com/current/posts){:target='_blank'} is full of insightful film criticism that will give you a deepened understanding of important films.
+- [Criterion’s _Current_](https://www.criterion.com/current/posts){:target='_blank' rel='noopener'} is full of insightful film criticism that will give you a deepened understanding of important films.
 
-- [Listen](https://cinephiliabeyond.org/the-must-hear-commentary-list/) to these [audio film commentaries](https://thedirectorscommentary.tumblr.com){:target='_blank'}, now available online.
+- [Listen](https://cinephiliabeyond.org/the-must-hear-commentary-list/) to these [audio film commentaries](https://thedirectorscommentary.tumblr.com){:target='_blank' rel='noopener'}, now available online.
 
 
 _Do you have an inordinate amount of time and/or money?_
 
-- Build your own video store in your basement, [like this guy did](https://nypost.com/2021/03/10/man-builds-full-on-video-rental-store-in-his-basement/){:target='_blank'}.
+- Build your own video store in your basement, [like this guy did](https://nypost.com/2021/03/10/man-builds-full-on-video-rental-store-in-his-basement/){:target='_blank' rel='noopener'}.
 
 ****
 

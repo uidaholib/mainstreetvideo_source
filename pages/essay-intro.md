@@ -15,7 +15,7 @@ custom-foot: js/youtube-clips-modal.html
 {:style="font-size:1.5rem"}
 ***by Milo Muise***
 
-In the recent Netflix documentary [*White Hot: The Rise & Fall of Abercrombie & Fitch*](https://www.imdb.com/title/tt19034522/){:target='_blank'} (2022), an interviewee attempts to describe a shopping mall: {% include feature/marginnote.html id="intro" text="Click a spine below to jump to another interconnected subsections of this essay."%}
+In the recent Netflix documentary [*White Hot: The Rise & Fall of Abercrombie & Fitch*](https://www.imdb.com/title/tt19034522/){:target='_blank' rel='noopener'} (2022), an interviewee attempts to describe a shopping mall: {% include feature/marginnote.html id="intro" text="Click a spine below to jump to another interconnected subsections of this essay."%}
 
 {% include feature/marginnote-image.html id="cult" img="/assets/svg/cult-flat.svg"  title="Cult Classics" link="cult-classics.html" %}
 
@@ -41,7 +41,7 @@ A gem of Moscow, Idaho, from 1978 to 2020, Howard Hughes (later Main Street Vide
 
 In addition to traditional sections like Drama, Science Fiction, and Comedy, Howard Hughes also had sections for award winners, critics’ choice picks, the Criterion collection, and cult classics, {% include feature/youtube-clip-modal.html text="chosen by employees with no formal criteria" objectid="mainstreet005" start="542" %}.
 
-There was the “Director Wall” and the “Actor Wall” which displayed prominent directors and actors’ discographies, not unlike an in-person [IMDB page](https://www.imdb.com/name/nm0000173/){:target='_blank'}, encouraging customers to experience the trajectory of a filmmaker’s career or discover an underrated role in their favorite actor’s catalog. Customer and eventual board member [Monique Lillard]({{ '/items/mainstreet026.html' | relative_url }}) would often tell friends, "I love how things are organized here. For some reason, it matched my mood, it matched my personality."
+There was the “Director Wall” and the “Actor Wall” which displayed prominent directors and actors’ discographies, not unlike an in-person [IMDB page](https://www.imdb.com/name/nm0000173/){:target='_blank' rel='noopener'}, encouraging customers to experience the trajectory of a filmmaker’s career or discover an underrated role in their favorite actor’s catalog. Customer and eventual board member [Monique Lillard]({{ '/items/mainstreet026.html' | relative_url }}) would often tell friends, "I love how things are organized here. For some reason, it matched my mood, it matched my personality."
 
 {% include feature/youtube-embed.html youtubeid="7DBz0dpndVk" start="231" end="251" %}
 
