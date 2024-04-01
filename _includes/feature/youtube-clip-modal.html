@@ -25,4 +25,4 @@ Options:
 {% assign youtube_id = raw_src | split: '/' | last %}
 {% if youtube_id contains 'v=' %}{% assign youtube_id = youtube_id | split: 'v=' | last | split: '&' | first %}
 {% elsif youtube_id contains '?' %}{% assign youtube_id = youtube_id | split: '?' | first %}{%- endif -%}
-<a href="#" data-bs-toggle="modal" data-bs-target="#videoClipModal" data-bs-youtubeid="{{ youtube_id }}" {% if include.start %}data-bs-start="{{ include.start }}" {% endif %}{% if include.end %}data-bs-end="{{ include.end }}" {% endif %}{% if video_caption %}data-bs-caption="{{ video_caption | escape }}" {% endif %}>{{ include.text }}</a> 
+<a href="#" role="button" data-bs-toggle="modal" data-bs-target="#videoClipModal" data-bs-youtubeid="{{ youtube_id }}" {% if include.start %}data-bs-start="{{ include.start }}" {% endif %}{% if include.end %}data-bs-end="{{ include.end }}" {% endif %}{% if video_caption %}data-bs-caption="{{ video_caption | escape }}" {% endif %}>{{ include.text }} <svg class="bi icon-sprite" aria-label="open video clip"><use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#video-clip"/></svg></a>
