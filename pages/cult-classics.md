@@ -10,6 +10,10 @@ custom-foot: js/youtube-clips-modal.html
 
 # Cult Classics: The Video Store as Cultural Artifact
 
+{:style="font-size:1.5rem;font-style: italic;"}
+by <a href="#bio" class="text-dark" data-bs-toggle="modal" data-bs-target="#bioModal"><u>Milo Muise</u>
+
+{% include milo-modal.html %}
 
 ## _Memento_ (2000): The Collection
 

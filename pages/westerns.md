@@ -9,6 +9,11 @@ custom-foot: js/youtube-clips-modal.html
 
 # Westerns: The Rural Video Store
 
+{:style="font-size:1.5rem;font-style: italic;"}
+by <a href="#bio" class="text-dark" data-bs-toggle="modal" data-bs-target="#bioModal"><u>Milo Muise</u>
+
+{% include milo-modal.html %}
+
 ## _Meek’s Cutoff_ (2010): Accessibility
 
 {% include feature/marginnote-image.html id="meeks" img="/objects/meeks-cutoff.jpg" title="Movie poster for Meek's Cutoff" link="https://www.youtube.com/watch?v=5rhNrz2hX_o"%}

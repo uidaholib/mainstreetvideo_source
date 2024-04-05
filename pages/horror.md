@@ -7,8 +7,12 @@ top-image: /assets/svg/horror-flat.svg
 custom-foot: js/youtube-clips-modal.html
 ---
 
-# Horror: The Nail in the Video Store’s Coffin (…or is it?)
+# Horror: The Nail in the Video Store’s Coffin <br>(…or is it?)
 
+{:style="font-size:1.5rem;font-style: italic;"}
+by <a href="#bio" class="text-dark" data-bs-toggle="modal" data-bs-target="#bioModal"><u>Milo Muise</u>
+
+{% include milo-modal.html %}
 
 ## _It Follows_ (2014): Main Street Video’s Final Days
 

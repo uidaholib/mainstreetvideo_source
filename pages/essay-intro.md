@@ -12,8 +12,10 @@ custom-foot: js/youtube-clips-modal.html
 {:style="font-size:1.7rem;width:55%;margin-top:2em;"}
 ## A 3-Part Essay Exploring the History and Impact of Moscow, Idaho's <span style="text-decoration:underline">Downtown Video Store</span> {% include feature/marginnote.html id="intro" text="Our video store was known for most of its life as *Howard Hughes Video Store* and for its final years as *Main Street Video*." %}
 
-{:style="font-size:1.5rem"}
-***by Milo Muise***
+{:style="font-size:1.5rem;font-style: italic;"}
+by <a href="#bio" class="text-dark" data-bs-toggle="modal" data-bs-target="#bioModal"><u>Milo Muise</u>
+
+{% include milo-modal.html %}
 
 In the recent Netflix documentary [*White Hot: The Rise & Fall of Abercrombie & Fitch*](https://www.imdb.com/title/tt19034522/){:target='_blank' rel='noopener'} (2022), an interviewee attempts to describe a shopping mall: {% include feature/marginnote.html id="intro" text="Click a spine below to jump to another interconnected subsections of this essay."%}
 

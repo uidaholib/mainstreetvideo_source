@@ -1,0 +1,14 @@
+<!-- Modal -->
+<div class="modal fade" id="bioModal" tabindex="-1" aria-labelledby="bioModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body monda text-left">
+          {% capture milo %}{% include milo.md %}{% endcapture %}
+         <div class="h5">{{ milo | markdownify}}</div> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary monda" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
