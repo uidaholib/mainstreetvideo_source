@@ -13,7 +13,7 @@ custom-foot: js/youtube-clips-modal.html
 ## A 3-Part Essay Exploring the History and Impact of Moscow, Idaho's <span style="text-decoration:underline">Downtown Video Store</span> {% include feature/marginnote.html id="intro" text="Our video store was known for most of its life as *Howard Hughes Video Store* and for its final years as *Main Street Video*." %}
 
 {:style="font-size:1.5rem;font-style: italic;"}
-by <a href="#bio" class="text-dark" data-bs-toggle="modal" data-bs-target="#bioModal"><u>Milo Muise</u></a>
+by <a href="#bio" role="button" class="text-dark" data-bs-toggle="modal" data-bs-target="#bioModal">Milo Muise</a>
 
 {% include milo-modal.html %}
 
