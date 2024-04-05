@@ -52,41 +52,45 @@
 <!-- Credits Modal -->
 <div class="modal fade" id="creditsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
-      <div class="modal-header bg-dark text-white">
-        <h5 class="modal-title" id="exampleModalLabel">Credits</h5>
-        <button type="button" class="fs-3 btn btn-outline-light border-0" data-bs-dismiss="modal" aria-label="Close" style="cursor: pointer !important;">X</button>
-      </div>
-      <div class="modal-content credits-container bg-dark">
-        <div class="modal-body bg-dark text-white text-center credits">
-          <p class="h2">FEATURING </p>
-          {%- assign people = site.data[site.metadata] | where_exp: 'item','item.interviewee'  -%}
-          {%- assign people = people | sort: 'interviewee' %}
-          <p class="h3">Interviewers</p>
-          <p>Monique Lillard</p> 
-        </p>Beau Newsome</p>
-          <p class="h3">Narrators</p>
-      {% for p in people%}
-      <p><a class="text-white" href="{{ '/items/' | append: p.objectid | append: ".html" | relative_url}}">{{ p.interviewee | replace: ';',' & ' }}</a></p>
-      {% endfor %}
-      <p>Interviewers: </p>
-      <p>Interpretive Essayist: Milo Muise</p>    
-      <p>Producer: Courtney Berge</p>
-      <p>Metadata and Processing Work: Courtney Berge</p>
-      <p>Producer: Robert Perret</p>
-      <p>Trailer Producer: Hanwen Dong</p>
-      <p>Design: Devin Becker</p>
-      <p>Vintage Design/Metadata Guru: Klytie Xu</p>
-      <p>Transcriptionista: Andrew Weymouth</p>
-      <p>Media Archivist: Kevin Dobbins</p>
-      <p>Technically of some help: Evan Williamson</p>
-      <p>Writer/Researcher: Amy Thompson</p>
-      <p>Digital Archival Consultant: Sara Szobody</p>
-      <p>Archival Consultant: Dulce Kersting-Lark</p>
-      <p>Thank you for watching!</p>
+        <div class="modal-header bg-dark text-white">
+            <h1 class="modal-title h3" id="exampleModalLabel">Credits</h1>
+            <button type="button" class="fs-3 btn btn-outline-light border-0" data-bs-dismiss="modal" aria-label="Close" style="cursor: pointer !important;">X</button>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <div class="modal-content credits-container bg-dark">
+            <div class="modal-body bg-dark text-white text-center credits">
+                <h2 class="h2 mb-4">FEATURING </h2>
+                <p class="h3">Interviewers</p>
+                <p>Monique Lillard<br> 
+                Beau Newsome</p>
+
+                {%- assign people = site.data[site.metadata] | where_exp: 'item','item.interviewee'  -%}
+                {%- assign people = people | sort: 'interviewee' %}
+                <h3>Narrators</h3>
+                <p>
+                {% for p in people %}
+                {{ p.interviewee | replace: ';',' & ' }}<br>
+                {% endfor %}</p>
+
+                <h3>Crew</h3>
+                <p>Interpretive Essayist: Milo Muise</p>    
+                <p>Producers: Courtney Berge</p>
+                <p>Metadata and Processing Work: Courtney Berge</p>
+                <p>Producer: Robert Perret</p>
+                <p>Trailer Producer: Hanwen Dong</p>
+                <p>Design: Devin Becker</p>
+                <p>Vintage Design/Metadata Guru: Klytie Xu</p>
+                <p>Transcriptionista: Andrew Weymouth</p>
+                <p>Media Archivist: Kevin Dobbins</p>
+                <p>Technically of some help: Evan Williamson</p>
+                <p>Writer/Researcher: Amy Thompson</p>
+                <p>Digital Archival Consultant: Sara Szobody</p>
+                <p>Archival Consultant: Dulce Kersting-Lark</p>
+                <p class="h3 mt-4">Thank you for watching!</p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+</div>
