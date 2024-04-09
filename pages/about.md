@@ -11,11 +11,26 @@ top-image: /assets/svg/about-flat.svg
 ---
 
 
-## About Main Street Video
+## About the Collection 
 
-The Main Street Video collection presents 34 oral history interviews captured in 2021 exploring the phenomena of the "local video store", documenting Howard Hughes Video and Main Street Video Coop in Moscow, Idaho.
+The Main Street Video collection presents 34 oral history interviews captured in 2021 exploring the phenomena of the "local video store" and documenting the history of Howard Hughes Video and Main Street Video Coop in Moscow, Idaho. This exhibit collects those interviews, which were conducted by former board member Monique Lillard and former employee and store manager Beau Newsome; it also provides interpetive essays written by Milo Muise (MFA '22) to connect those interviews to larger local and historical trends. 
 
-Howard Hughes Video / The Moscow Video Co-Op was a cornerstone of Moscow's unique culture and one of the last remaining video stores in the country.
+For more on the collection and the history of the video store in Moscow, see this article by Dulce Kersting-Lark. 
+
+To view a list of particants: 
+ <button data-bs-toggle="modal" data-bs-target="#creditsModal" type="button" aria-label="Open up a Credits Modal for the site" class="btn btn-outline-info fs-4">Roll Credits!</button>
+
+ (or check out the [list below](#credits))
+
+The collection came together as part of the Library's effort to contextualilze  its acquisition of the Main Street Video Co-op's collection in 2020.  Main Street Video sold some of their collection via a large sale at the Kenworthy after it officially closed; the remaining 13,000+ DVDs and VHS tapes were then donated to the library's Special Collections & Archives Department.
+
+
+
+For more 
+
+## History of the Howard Hughes Video Store / Main Street Video Co-op
+
+Howard Hughes Video / Main Street Video Co-op was a cornerstone of Moscow's unique culture and one of the last remaining video stores in the country.
 The University of Idaho Archives and Special Collections adopted their inventory of films when they closed and launched this oral history project to document the history and impact of this important local institution. 
 Interviews were recorded via Zoom with employees, customers, and other people associated with the store.
 
@@ -54,3 +69,6 @@ The economic hardships created by the COVID-19 pandemic did not spare the video 
 - (sometime between 2013 and 2015): Pat Engle, Neil Franklin, Kelly Moore, and Deb Reynolds are owners 
 - 2015/16: Moscow Food Co-op joins with staff of Howard Hughes Video to create the Main Street Video Cooperative. Bylaws approved December 2015. 
 - March 2020: Main Street Video Co-op closes 
+
+## Credits
+
