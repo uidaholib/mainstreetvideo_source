@@ -17,16 +17,9 @@ The Main Street Video collection presents 34 oral history interviews captured in
 
 For more on the collection and the history of the video store in Moscow, see this article by Dulce Kersting-Lark. 
 
-To view a list of particants: 
- <button data-bs-toggle="modal" data-bs-target="#creditsModal" type="button" aria-label="Open up a Credits Modal for the site" class="btn btn-outline-info fs-4">Roll Credits!</button>
+To view a list of particants: <button data-bs-toggle="modal" data-bs-target="#creditsModal" type="button" aria-label="Open up a Credits Modal for the site" class="btn btn-outline-info fs-4">Roll Credits!</button>
 
- (or check out the [list below](#credits))
-
-The collection came together as part of the Library's effort to contextualilze  its acquisition of the Main Street Video Co-op's collection in 2020.  Main Street Video sold some of their collection via a large sale at the Kenworthy after it officially closed; the remaining 13,000+ DVDs and VHS tapes were then donated to the library's Special Collections & Archives Department.
-
-
-
-For more 
+(or check out the [list below](#credits))
 
 ## History of the Howard Hughes Video Store / Main Street Video Co-op
 
@@ -72,3 +65,26 @@ The economic hardships created by the COVID-19 pandemic did not spare the video 
 
 ## Credits
 
+<h3">Interviewers</h3>
+<p>Monique Lillard<br>Beau Newsome</p>
+{%- assign people = site.data[site.metadata] | where_exp: 'item','item.interviewee'  -%}
+{%- assign people = people | sort: 'interviewee' %}
+<h3>Narrators</h3>
+<p>
+{% for p in people %}
+<a href="{{ p.objectid | append: '.html' | prepend: '/items/' | relative_url }}">{{ p.interviewee | replace: ';',' & ' }}</a><br>
+{% endfor %}</p>
+<h3>Crew</h3>
+<p>Interpretive Essayist: Milo Muise</p>    
+<p>Producer: Courtney Berge</p>
+<p>Metadata and Processing Work: Courtney Berge</p>
+<p>Producer: Robert Perret</p>
+<p>Trailer Producer: Hanwen Dong</p>
+<p>Design: Devin Becker</p>
+<p>Vintage Design/Metadata Guru: Klytie Xu</p>
+<p>Transcriptionista: Andrew Weymouth</p>
+<p>Media Archivist: Kevin Dobbins</p>
+<p>Technically of some help: Evan Williamson</p>
+<p>Writer/Researcher: Amy Thompson</p>
+<p>Digital Archival Consultant: Sara Szobody</p>
+<p>Archival Consultant: Dulce Kersting-Lark</p>
