@@ -1,7 +1,17 @@
 <script type="text/javascript" language="javascript" src="{{ '/assets/lib/datatables/datatables.min.js' | relative_url }}"></script>
 <script>
 (function(){
-    $('#item-table').DataTable( {
+    // set up filter by dropdown
+    $.fn.dataTableExt.afnFiltering.push(
+        function( oSettings, aData, iDataIndex ) {
+            var collectionFilter = document.getElementById("groupSelect").value;
+            // show everything
+            if (collectionFilter == "all") { return true; }
+            else { return aData[1] == collectionFilter; }
+        }
+    );
+
+    var table = $('#item-table').DataTable( {
         // use DataTables ajax load 
         ajax: { url: '{{ "/assets/js/inventory.min.json" | relative_url }}', dataSrc: 'objects' },
         // defer render to speed up large sets
@@ -17,5 +27,11 @@
         // sort based on the column
         order: [[ 0, "asc" ]]
     });
+
+    /* Add event listeners to collectionSelect */
+	$('#groupSelect').change( function() {
+		table.draw();
+	});
+
 })();
 </script>
