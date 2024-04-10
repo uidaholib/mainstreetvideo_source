@@ -8,12 +8,12 @@
         "deferRender": true,
         // enable pagination 
         "paging": true,
-        "lengthMenu": [[ 25, 50, 100, -1], [ 25, 50, 100, "All"]],
+        "lengthMenu": [[ 100, 250, 500,  -1], [ 100, 250, 500, "All"]],
         // add download features
         dom: 'B<"row mt-2"<"col-md-6"l><"col-md-6"f>>t<"row"<"col-md-6"i><"col-md-6"p>>', 
         buttons: [ 'excelHtml5', 'csvHtml5' ],
         // get the data from json
-        columns: [ { data: '0' },{ data: '1' },{ data: '2' }  ],
+        columns: [ { data: '0' },{ data: '1' },{ data: '2' },{ data: '3' }   ],
         // sort based on the column
         order: [[ 0, "asc" ]]
     });

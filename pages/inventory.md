@@ -18,6 +18,7 @@ The table below provides sorting and basic search of a **draft** inventory of fi
                 <th scope="col">Title</th>
                 <th scope="col">Genre</th>
                 <th scope="col">Type</th>
+                <th scope="col">Box Number</th>
             </tr>
         </thead>
     </table>
