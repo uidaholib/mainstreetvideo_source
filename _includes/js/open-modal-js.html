@@ -1,0 +1,9 @@
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+    if (!sessionStorage.getItem('modalShown')) {
+        var myModal = new bootstrap.Modal(document.getElementById('homepageModal'), {});
+        myModal.show();
+        sessionStorage.setItem('modalShown', 'true');
+    }
+});
+</script>

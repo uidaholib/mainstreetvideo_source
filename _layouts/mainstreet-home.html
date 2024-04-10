@@ -1,8 +1,9 @@
 ---
 # Default home page with boxes providing collection stats
 layout: default
-custom-foot: js/interviews-js.html;js/youtube-clips-modal.html;js/homepage-zindex-js.html
+custom-foot: js/interviews-js.html;js/youtube-clips-modal.html;js/homepage-zindex-js.html;js/open-modal-js.html
 ---
+{% include index/homepage-modal.html button="display-none?" %}
 <div class="container-fluid">
 
   <div class="row my-2">
@@ -15,7 +16,7 @@ custom-foot: js/interviews-js.html;js/youtube-clips-modal.html;js/homepage-zinde
                   <img class="figure-img img-fluid rounded" alt="" title="click to see item" src="{{ '/assets/img/tvimage.png' | relative_url}}" >
                   <figcaption class="figure-caption text-center"></figcaption>
               </figure>
-              <a class="btn btn-lg btn-dark position-absolute top-50 start-50 translate-middle caveat fs-3" role="button" data-bs-toggle="modal" data-bs-target="#videoClipModal" data-bs-youtubeid="NVs2-8j8bh4"><svg width="40" height="40" viewBox="0 0 40 40" fill="white" xmlns="http://www.w3.org/2000/svg">
+              <a class="btn btn-lg btn-dark position-absolute top-50 start-50 translate-middle caveat fs-3" role="button" data-bs-toggle="modal" data-bs-target="#videoClipModal" data-bs-youtubeid="36OBPU7_NlI"><svg width="40" height="40" viewBox="0 0 40 40" fill="white" xmlns="http://www.w3.org/2000/svg">
                 <path d="M21.8862 14.2714H3.14657C2.29878 14.2714 1.61086 14.9593 1.61086 15.8071V26.5242C1.61086 27.4224 2.3385 28.15 3.23668 28.15H21.8871C22.7853 28.15 23.513 27.4224 23.513 26.5242V15.8972C23.512 14.9991 22.7843 14.2714 21.8862 14.2714Z" />
                 <path d="M9.79871 12.1573C11.5786 10.3774 11.5786 7.49166 9.79871 5.71178C8.01882 3.93189 5.13306 3.93189 3.35317 5.71178C1.57328 7.49166 1.57328 10.3774 3.35317 12.1573C5.13306 13.9372 8.01882 13.9372 9.79871 12.1573Z" />
                 <path d="M23.699 11.7349C26.0435 9.39045 26.0435 5.58938 23.699 3.24496C21.3546 0.900533 17.5536 0.900534 15.2091 3.24496C12.8647 5.58939 12.8647 9.39045 15.2091 11.7349C17.5536 14.0793 21.3546 14.0793 23.699 11.7349Z" />

@@ -1,0 +1,46 @@
+<!-- Button trigger modal -->
+<div class="text-center mb-3">
+    <button id="homepageModalButton" type="button" class="d-none btn btn-{{ include.color | default: 'primary' }}"
+        data-bs-toggle="modal" data-bs-target="#homepageModal">{{ include.button }}</button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="homepageModal" tabindex="-1" role="dialog" aria-labelledby="homepageModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col">
+                        {% include feature/image.html objectid="/assets/img/flyer.png"
+                        link="about.html" caption=false target-blank=true
+                        alt="Workbook: The Seminal History and Prospective Future of Blacks at the University of Idaho"
+                        %}
+                    </div>
+                    <div class="col">
+                        <h3 class="mb-4">Join us at the Kenworthy this April!</h3>
+                        <p>
+                            Join us at the Kenworthy Theatre in April for the launch of the Main Street Video project,
+                            an oral history exploration of the last video store in Moscow!</p>
+                        <p>
+                            The Moscow Film Society and University of Idaho Library will present the Main Street Video
+                            Staff Picks series, featuring three films that reflect the video store's iconic
+                            employee-curated shelf:
+                        </p>
+                        <ul>
+                            <li><a href="https://www.kenworthy.org/events-calendar/the-thing/" target="_blank">The
+                                    Thing, April 10th at 7pm</a></li>
+                            <li> <a href="https://www.kenworthy.org/events-calendar/nausicaa-of-the-valley-of-the-wind/"
+                                    target="_blank">Nausicaä of the Valley of the Wind, April 17th at 7pm</a></li>
+                            <li><a href="https://www.kenworthy.org/events-calendar/office-space/" target="_blank">Office
+                                    Space, April 24th at 7pm</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+</div>
