@@ -9,7 +9,7 @@ top-image: /assets/svg/inventory-flat.svg
 
 ## Film Inventory
 
-The table below provides sorting and basic search of a **draft** inventory of films that were donated to Special Collections from Main Street Video. 
+The table below provides sorting and basic search of an inventory of the **11,140 films** that were donated to Special Collections from Main Street Video. 
 
 <div class="table-responsive-md">
     <table id="item-table" class="table table-striped">

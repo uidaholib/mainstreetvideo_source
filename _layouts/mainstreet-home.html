@@ -33,15 +33,17 @@ custom-foot: js/interviews-js.html;js/youtube-clips-modal.html;js/homepage-zinde
       </p>
 
       <p class="mb-3 px-3">
-        <a href="essay/" class="mt-4">Collection Essays</a> by Milo Muise.
+        <a href="essay/" class="mt-4 text-dark">Collection Essays</a> by Milo Muise.
       </p>
 
       <p class="mb-3 px-3">
-        <a href="browse.html" class="mt-4">Interviews</a> conducted by: <br> Monique Lillard and Beau Newsome.
+        <a href="browse.html" class="mt-4 text-dark">Interviews</a> conducted by: <br> Monique Lillard and Beau Newsome.
       </p>
       
       <p class="mb-3">
-          <button data-bs-toggle="modal" data-bs-target="#creditsModal" type="button" aria-label="Open up a Credits Modal for the site" class="btn btn-outline-info fs-4">Roll Credits</button>
+        <a href="{{ '/essay/' | relative_url }}" role="button" class="btn btn-outline-info fs-4">Read the Essays</a>
+        <a href="{{ 'browse.html' | relative_url }}" role="button" class="btn btn-outline-info fs-4 ms-2">Browse Interviews</a>
+        <button data-bs-toggle="modal" data-bs-target="#creditsModal" type="button" aria-label="Open up a Credits Modal for the site" class="btn btn-outline-info fs-4 ms-2">Roll Credits</button>
       </p>
 
     </div>
