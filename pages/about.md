@@ -3,7 +3,7 @@ title: About
 layout: essay
 permalink: /about.html
 # include CollectionBuilder info at bottom
-credits: true
+credits: false
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 side-image: /assets/svg/about-vert.svg
@@ -11,32 +11,28 @@ top-image: /assets/svg/about-flat.svg
 ---
 
 
+{% include feature/nav-menu.html sections="About the Collection;Historical Background;Timeline;Credits" %}
+
+
 ## About the Collection 
 
-The Main Street Video collection presents 34 oral history interviews captured in 2021 exploring the phenomena of the "local video store" and documenting the history of Howard Hughes Video and Main Street Video Coop in Moscow, Idaho. This exhibit collects those interviews, which were conducted by former board member Monique Lillard and former employee and store manager Beau Newsome; it also provides interpetive essays written by Milo Muise (MFA '22) to connect those interviews to larger local and historical trends. 
+Main Street Video presents 34 oral history interviews captured in 2021 exploring the phenomena of the "local video store" and documenting the history of Howard Hughes Video and the Main Street Video Co-op in Moscow, Idaho. The interviews were conducted by former board member Monique Lillard and former employee and store manager Beau Newsome. The exhibit also features a series of [interpetive essays]({{'/essay/' | relative_url }}) written by Milo Muise (MFA '22) that contextualize those interviews with larger local and historical trends. 
 
-For more on the collection and the history of the video store in Moscow, see this article by Dulce Kersting-Lark. 
-
-To view a list of particants: <button data-bs-toggle="modal" data-bs-target="#creditsModal" type="button" aria-label="Open up a Credits Modal for the site" class="btn btn-outline-info fs-4">Roll Credits!</button>
-
-(or check out the [list below](#credits))
-
-## History of the Howard Hughes Video Store / Main Street Video Co-op
+{% include feature/image.html objectid="https://webpages.uidaho.edu/library/spec/harvester/objects/small/vid-store_sm.jpg" caption="Geoff Crimmins/Daily News photo. - Store front of Howard Hughes Video" link="https://harvester.lib.uidaho.edu/posts/2024/03/31/video.html"%}
 
 Howard Hughes Video / Main Street Video Co-op was a cornerstone of Moscow's unique culture and one of the last remaining video stores in the country.
 The University of Idaho Archives and Special Collections adopted their inventory of films when they closed and launched this oral history project to document the history and impact of this important local institution. 
 Interviews were recorded via Zoom with employees, customers, and other people associated with the store.
 
-<div class="row">
-    <div class="col-md text-center">
-        <figure class="figure mx-3">
-            <img class="figure-img img-fluid rounded lazyload" alt="main street video store front" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" data-src="{{ '/assets/img/mainstreet-video-argonaut.jpg' | relative_url }}" >
-            <figcaption class="figure-caption"><a href="https://www.uiargonaut.com/2020/05/04/mainstreet-video-closes-its-door/">Outside of the Main Street Video Co-Op, Saydee Brass, Argonaut</a></figcaption>
-        </figure>
-    </div>
-</div>
+{% capture dulce %}For more on the collection and the history of the video store in Moscow, see this [Harvester blog post by Dulce Kersting-Lark](https://harvester.lib.uidaho.edu/posts/2024/03/31/video.html). {% endcapture %}
 
-## Background
+{% include feature/marginnote.html id="intro" text=dulce %}
+
+To view a list of particants: <button data-bs-toggle="modal" data-bs-target="#creditsModal" type="button" aria-label="Open up a Credits Modal for the site" class="btn btn-outline-info fs-4">Roll Credits!</button>
+
+(or check out the [list below](#credits))
+
+## Historical Background
 
 In 1977, the first compact yet still semi-affordable video home system, or VHS, became available to the general American public. Vast improvements in technology allowed people to use a video cassette recorder, or VCR, to record live TV to watch on their own time or purchase pre-recorded content such as feature films that people could watch in their own homes. To capitalize on the national trend, entrepreneur Howard Hughes of Moscow opened Howard Hughes Appliance, TV, and Video Store in 1978. He quickly learned in order to sell VCRs, the store needed to also stock pre-recorded VHS tapes to demonstrate how to use the machines. Once people bought the machines, Hughes then offered up the tapes for people to rent.  
 
@@ -44,9 +40,13 @@ Hughes sold the business in 1996 to Don Frei and Kevin Peterson, who kept the re
 
 When the new owners relocated the appliance store to a larger space in 2000, the video rental portion stayed at the current location on Washington Street downtown Moscow but kept the same name. Frei and Peterson eventually sold Howard Hughes Video to four Moscow residents and business owners in 2007, Gary Myers, Kelly Moore, Pat Engle and Deb Reynolds. They incorporated their business as Main Street Video, Inc, but also kept the business name as Howard Hughes Video. Shortly after purchasing the video store, they moved it to 520 S. Main Street, where it remained until its closure in 2020.  
 
+{% include feature/image.html objectid="/assets/img/mainstreet-video-argonaut.jpg" caption="Outside of the Main Street Video Co-Op, Saydee Brass, Argonaut" link="https://www.uiargonaut.com/2020/05/04/mainstreet-video-closes-its-door/" %}
+
 Facing economic troubles in 2015, the owners of Howard Hughes Video wanted to sell the business. In order to save the business, a group of Moscow residents came together to find a way to save the video rental store from closing. They ultimately decided to buy the store and turn it into a cooperative business, creating the Main Street Video Cooperative. Organized as a nonprofit, the Main Street Video Co-op operated with a Board of Directors and all customers had the opportunity to become members or "owners" for a fee of $200. Ownership was not compulsory to rent movies but did come with perks and other discounts, and fees and any donations collected helped the Co-op pay for the purchase of the business from the current owners. The Main Street Video Co-op officially took charge of the store on January 1st, 2018. 
 
 The economic hardships created by the COVID-19 pandemic did not spare the video rental store, and the Main Street Video Co-op made the difficult decision to close permanently in March of 2020. The dream of maintaining a diverse collection of films continued, however, and the entire film library was transferred to the Kenworthy Performing Arts Center, a historic theatre and community performing art venue located next door to the Co-op. The Kenworthy cherished the value of the collection and so planned to reach out to donate parts to other local non-profits and libraries that could benefit from the collection. To recoup costs however, the Kenworthy ultimately sold to the public a large portion of the collection, then donated the rest to the University of Idaho Library Special Collections and Archives.  
+
+
 
 ## Timeline
 
@@ -65,7 +65,7 @@ The economic hardships created by the COVID-19 pandemic did not spare the video 
 
 ## Credits
 
-<h3">Interviewers</h3>
+<h3>Interviewers</h3>
 <p>Monique Lillard<br>Beau Newsome</p>
 {%- assign people = site.data[site.metadata] | where_exp: 'item','item.interviewee'  -%}
 {%- assign people = people | sort: 'interviewee' %}

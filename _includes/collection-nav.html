@@ -69,13 +69,237 @@
 </nav>
 
 <script >
-    var sitePages = [
-      {% for page in site.pages %}{% if page.title %}{% unless page.url contains '404' %}
+    var sitePages = [        
+
           {
-            "title": "{{ page.title | escape }}",
-            "url": "{{ page.url | relative_url }}"
-          }{% unless forloop.last %},{% endunless %}
-        {% endunless %}{% endif %}{% endfor %}
+            "title": "Film Inventory",
+            "url": "/digital/mainstreet/inventory.html"
+          },
+        
+          {
+            "title": "Recommendations",
+            "url": "/digital/mainstreet/recommendations.html"
+          },
+        
+          {
+            "title": "Site Search",
+            "url": "/digital/mainstreet/search/"
+          },
+        
+          {
+            "title": "Subjects",
+            "url": "/digital/mainstreet/subjects.html"
+          },        
+        
+          {
+            "title": "Home",
+            "url": "/digital/mainstreet/"
+          },
+          {
+            "title": "About",
+            "url": "/digital/mainstreet/about.html"
+          },
+          
+          {
+            "title": "Browse",
+            "url": "/digital/mainstreet/browse.html"
+          },
+        
+          
+          {
+            "title": "Revisiting Howard Hughes Video Store",
+            "url": "/digital/mainstreet/essay/"
+          },
+
+          {
+            "title": "Cult Classics: The Video Store as Cultural Artifact",
+            "url": "/digital/mainstreet/essay/cult-classics.html"
+          },
+
+          {
+            "title": "Westerns: The Rural Video Store",
+            "url": "/digital/mainstreet/essay/westerns.html"
+          },
+
+          {
+            "title": "Horror: The Nail in the Video Store’s Coffin (…or is it?)",
+            "url": "/digital/mainstreet/essay/horror.html"
+          },
+        
+          {
+            "title": "Data",
+            "url": "/digital/mainstreet/data.html"
+          },
+          
+          {
+            "title": "Interview with Jamie Hill",
+            "url": "/digital/mainstreet/items/mainstreet001.html"
+          },
+        
+          {
+            "title": "Interview with Andrea Beckett",
+            "url": "/digital/mainstreet/items/mainstreet002.html"
+          },
+        
+          {
+            "title": "Interview with Beau Newsome",
+            "url": "/digital/mainstreet/items/mainstreet003.html"
+          },
+        
+          {
+            "title": "Interview with Bekah Miller MacPhee",
+            "url": "/digital/mainstreet/items/mainstreet004.html"
+          },
+        
+          {
+            "title": "Interview with Ben James",
+            "url": "/digital/mainstreet/items/mainstreet005.html"
+          },
+        
+          {
+            "title": "Interview with Ben and Katy Beard",
+            "url": "/digital/mainstreet/items/mainstreet006.html"
+          },
+        
+          {
+            "title": "Interview with Benjamin Hardcastle",
+            "url": "/digital/mainstreet/items/mainstreet007.html"
+          },
+        
+          {
+            "title": "Interview with Ramalingam and Fulfer Family",
+            "url": "/digital/mainstreet/items/mainstreet008.html"
+          },
+        
+          {
+            "title": "Interview with Cody Moore",
+            "url": "/digital/mainstreet/items/mainstreet009.html"
+          },
+        
+          {
+            "title": "Interview with Dale Graden",
+            "url": "/digital/mainstreet/items/mainstreet010.html"
+          },
+        
+          {
+            "title": "Interview with Dan Orozco",
+            "url": "/digital/mainstreet/items/mainstreet011.html"
+          },
+        
+          {
+            "title": "Interview with Eric Nilsson and Janice Willard",
+            "url": "/digital/mainstreet/items/mainstreet012.html"
+          },
+        
+          {
+            "title": "Interview with Henry Gregson",
+            "url": "/digital/mainstreet/items/mainstreet013.html"
+          },
+        
+          {
+            "title": "Interview with Howard Hughes",
+            "url": "/digital/mainstreet/items/mainstreet014.html"
+          },
+        
+          {
+            "title": "Interview with Lily Pannkuk",
+            "url": "/digital/mainstreet/items/mainstreet015.html"
+          },
+        
+          {
+            "title": "Interview with Kate Barr",
+            "url": "/digital/mainstreet/items/mainstreet016.html"
+          },
+        
+          {
+            "title": "Interview with Katy and Soona Schmidt",
+            "url": "/digital/mainstreet/items/mainstreet017.html"
+          },
+        
+          {
+            "title": "Interview with Kenton Bird and Gerri Sayler",
+            "url": "/digital/mainstreet/items/mainstreet018.html"
+          },
+        
+          {
+            "title": "Interview with Lauretta Campbell",
+            "url": "/digital/mainstreet/items/mainstreet019.html"
+          },
+        
+          {
+            "title": "Interview with Luke Gresback",
+            "url": "/digital/mainstreet/items/mainstreet020.html"
+          },
+        
+          {
+            "title": "Interview with Mitchell Lopez",
+            "url": "/digital/mainstreet/items/mainstreet021.html"
+          },
+        
+          {
+            "title": "Interview with Pat Engle [2]",
+            "url": "/digital/mainstreet/items/mainstreet022.html"
+          },
+        
+          {
+            "title": "Interview with Sandra Kelly",
+            "url": "/digital/mainstreet/items/mainstreet023.html"
+          },
+        
+          {
+            "title": "Interview with Forrest Ellsworth",
+            "url": "/digital/mainstreet/items/mainstreet024.html"
+          },
+        
+          {
+            "title": "Interview with Dennis West",
+            "url": "/digital/mainstreet/items/mainstreet025.html"
+          },
+        
+          {
+            "title": "Interview with Monique Lillard",
+            "url": "/digital/mainstreet/items/mainstreet026.html"
+          },
+        
+          {
+            "title": "Interview with Christen Atwood",
+            "url": "/digital/mainstreet/items/mainstreet027.html"
+          },
+        
+          {
+            "title": "Interview with Martin McGreevy",
+            "url": "/digital/mainstreet/items/mainstreet028.html"
+          },
+        
+          {
+            "title": "Interview with Melinda Schab",
+            "url": "/digital/mainstreet/items/mainstreet029.html"
+          },
+        
+          {
+            "title": "Interview with Russell Meeuf",
+            "url": "/digital/mainstreet/items/mainstreet030.html"
+          },
+        
+          {
+            "title": "Interview with Connor O&#39;Rourke",
+            "url": "/digital/mainstreet/items/mainstreet031.html"
+          },
+        
+          {
+            "title": "Interview with Elijah Ting and Jessica Ryan Wilcox",
+            "url": "/digital/mainstreet/items/mainstreet032.html"
+          },
+        
+          {
+            "title": "Interview with Kelly Moore",
+            "url": "/digital/mainstreet/items/mainstreet033.html"
+          },
+        
+          {
+            "title": "Interview with Courtney Berge",
+            "url": "/digital/mainstreet/items/mainstreet034.html"
+          }
     ];
 
     function findCurrentPageIndex(pages) {
