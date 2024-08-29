@@ -200,3 +200,24 @@
 }
 
 
+@media (min-width: 1400px) {
+  .main-home.col-xxl-7 {
+      flex: 0 0 auto;
+      width: 50%;
+  }
+  .main-home.col-xxl-5 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+}
+
+@media (min-width: 1450px) {
+  .main-home.col-xxl-7 {
+      flex: 0 0 auto;
+      width: 58.33333333%;
+  }
+  .main-home.col-xxl-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+}

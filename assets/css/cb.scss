@@ -28,6 +28,15 @@ $on-jumbo:        1200px;
     }
 }
 
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1500px
+);
+
 /* buttons to theme */
 {% assign btns = site.data.config-theme-colors | where_exp: "item","item.color != nil" %} 
 {% for btn in btns %}
