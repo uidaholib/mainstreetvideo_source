@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet033,1,00:00:03.210,00:00:05.370,Monique Lillard,"Okay, we are recording all right.",2021-05-07_elijahting_jessicaryanwilcox_videostore_transcript.vtt
 mainstreet033,2,00:00:06.629,00:00:07.620,Monique Lillard,i'm monique lillard.,2021-05-07_elijahting_jessicaryanwilcox_videostore_transcript.vtt
 mainstreet033,3,00:00:08.700,00:00:16.740,Monique Lillard,"half as part of the University of Idaho library, we are doing an oral History project about the video rental store in Moscow Idaho.",2021-05-07_elijahting_jessicaryanwilcox_videostore_transcript.vtt

@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet026,1,00:00:00.930,00:00:01.680,Monique Lillard,everything's alright.,2021-08-16_denniswest_videostore_transcript.vtt
 mainstreet026,2,00:00:07.230,00:00:08.580,Monique Lillard,"Alright, we are recording.",2021-08-16_denniswest_videostore_transcript.vtt
 mainstreet026,3,00:00:09.599,00:00:13.440,Monique Lillard,My name is monique lillard and we are doing an audio recording.,2021-08-16_denniswest_videostore_transcript.vtt

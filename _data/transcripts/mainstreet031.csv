@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet031,1,00:00:01.800,00:00:02.790,,It takes a minute.,2021-06-25_russellmeeuf_videostore_transcript.vtt
 mainstreet031,2,00:00:04.710,00:00:13.920,Monique Lillard,"All right, we're recording i'm monique lillard and I am The interviewer for a series of interviews being done by the University of Idaho library.",2021-06-25_russellmeeuf_videostore_transcript.vtt
 mainstreet031,3,00:00:14.940,00:00:27.240,Monique Lillard,As part of an oral History project remembering the video rental store in downtown Moscow that was called Howard Hughes and then became called the Main Street video co op.,2021-06-25_russellmeeuf_videostore_transcript.vtt

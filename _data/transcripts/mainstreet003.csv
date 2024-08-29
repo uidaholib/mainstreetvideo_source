@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet003,1,00:00:01.589,00:00:03.870,Monique Lillard,"Alright, it looks as if we are recording.",2021-03-18_beaunewsome_videostore_transcript.vtt
 mainstreet003,2,00:00:04.290,00:00:23.040,Monique Lillard,"Is march 17 2021 and we are doing a recording for the University of Idaho law, excuse me, the University of Idaho library oral History project concerning the video rental store in Moscow Idaho.",2021-03-18_beaunewsome_videostore_transcript.vtt
 mainstreet003,3,00:00:24.330,00:00:39.300,Monique Lillard,"we're going to go on for about one hour and we can meet again if you if you think there's more to say, and we were just talking before the recording started that you might want to add in some dates and all that and that's totally fine okay.",2021-03-18_beaunewsome_videostore_transcript.vtt

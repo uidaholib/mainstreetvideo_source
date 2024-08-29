@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet002,1,00:00:01.770,00:00:10.230,Monique Lillard,"Okay, we should be recording now and, as I say, i'm just gonna try something let's see if I can do it no that's not how I do it.",2021-03-19_andreabeckett_videostore_transcript.vtt
 mainstreet002,2,00:00:13.139,00:00:19.260,Monique Lillard,"All right, there we go there, we go I might fiddle with this every now and then i'm still getting used to doing this you're only my second.",2021-03-19_andreabeckett_videostore_transcript.vtt
 mainstreet002,3,00:00:19.290,00:00:22.350,Monique Lillard,interview here so okay so.,2021-03-19_andreabeckett_videostore_transcript.vtt

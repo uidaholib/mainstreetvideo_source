@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet024,1,00:00:03.330,00:00:11.519,Monique Lillard,"There we go and it is recording all right, my name is monique lillard I am with the University of Idaho library.",2021-05-05_sandrakelly_videostore_transcript.vtt
 mainstreet024,2,00:00:12.030,00:00:29.910,Monique Lillard,"We are doing an oral History project regarding the video store in Moscow Idaho today is may 5 CINCO de Mayo of 2021 and i'm sitting here with Sandra Kelly, and have you had a chance to sign the release form.",2021-05-05_sandrakelly_videostore_transcript.vtt
 mainstreet024,3,00:00:30.480,00:00:32.190,Sandra Kelly,"I have signed a release form, thank you.",2021-05-05_sandrakelly_videostore_transcript.vtt

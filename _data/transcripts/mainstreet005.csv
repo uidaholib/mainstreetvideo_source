@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet005,1,00:00:00.329,00:00:02.520,Ben James,want me to do a little intro right off the BAT here.,2021-05-19_benjames_videostore_transcript.vtt
 mainstreet005,2,00:00:02.790,00:00:04.110,Beau Newsome,Well i'll just do a quick one.,2021-05-19_benjames_videostore_transcript.vtt
 mainstreet005,3,00:00:04.319,00:00:05.190,Beau Newsome,So.,2021-05-19_benjames_videostore_transcript.vtt

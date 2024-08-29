@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet035,1,00:00:02.879,00:00:12.360,Monique Lillard,"Okay, it looks as if it's recording my name is monique lillard and I am doing this oral History project for the University of Idaho libraries.",2021-07-02_courtneyberge_videostore_transcript.vtt
 mainstreet035,2,00:00:13.830,00:00:31.110,Monique Lillard,"We are doing a project about the video rental store in downtown Moscow Idaho today is July 2 2021 and I am here with someone to interview, have you have you signed the release.",2021-07-02_courtneyberge_videostore_transcript.vtt
 mainstreet035,3,00:00:31.530,00:00:31.920,Courtney Berge,I have.,2021-07-02_courtneyberge_videostore_transcript.vtt

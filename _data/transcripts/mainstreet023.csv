@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet023,1,00:00:01.469,00:00:01.949,Monique Lillard,Okay.,2021-04-28_patengle_videostore_transcript.vtt
 mainstreet023,2,00:00:02.040,00:00:05.430,Monique Lillard,"Now there we go, we are recording now very good.",2021-04-28_patengle_videostore_transcript.vtt
 mainstreet023,3,00:00:05.670,00:00:12.090,Monique Lillard,So I am monique lillard I am interviewing people as part of an oral history.,2021-04-28_patengle_videostore_transcript.vtt

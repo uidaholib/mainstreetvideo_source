@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet006,1,00:00:01.800,00:00:02.129,Beau Newsome,Okay.,2021-04-09_benbeard_katybeard_videostore_transcript.vtt
 mainstreet006,2,00:00:02.340,00:00:06.359,Beau Newsome,looks like we're recording you might see a little recording sign on your table.,2021-04-09_benbeard_katybeard_videostore_transcript.vtt
 mainstreet006,3,00:00:07.560,00:00:10.320,Beau Newsome,"All right, well, my name is Bo newsome i'm here with.",2021-04-09_benbeard_katybeard_videostore_transcript.vtt

@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet021,1,00:00:02.129,00:00:13.110,Monique Lillard,"Alright, we are recording I am monique lillard i'm working for the University of Idaho library, which is doing an oral History project of the.",2021-04-29_mitchelllopez_videostore_transcript.vtt
 mainstreet021,2,00:00:13.290,00:00:15.000,Mitchell Lopez,Video store the video rental.,2021-04-29_mitchelllopez_videostore_transcript.vtt
 mainstreet021,3,00:00:15.000,00:00:16.080,,store here in town.,2021-04-29_mitchelllopez_videostore_transcript.vtt

@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet015,1,00:00:01.469,00:00:03.149,Beau Newsome,Okay we're recording can you hear me.,2021-05-01_ianpannkuk_videostore_transcript.vtt
 mainstreet015,2,00:00:03.570,00:00:07.680,Beau Newsome,yeah awesome so I guess First things first did you sign the waiver.,2021-05-01_ianpannkuk_videostore_transcript.vtt
 mainstreet015,3,00:00:08.069,00:00:09.030,Beau Newsome,As a consent form.,2021-05-01_ianpannkuk_videostore_transcript.vtt

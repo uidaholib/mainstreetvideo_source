@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet001,1,00:00:01.890,00:00:02.250,Beau Newsome,Okay.,2021-05-11_jamiehill_videostore_transcript.vtt
 mainstreet001,2,00:00:03.300,00:00:05.040,Beau Newsome,So you're a little record button up there.,2021-05-11_jamiehill_videostore_transcript.vtt
 mainstreet001,3,00:00:05.640,00:00:07.230,Jamie Hill,yeah says he's going.,2021-05-11_jamiehill_videostore_transcript.vtt

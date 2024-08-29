@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet025,1,00:00:01.140,00:00:09.210,Monique Lillard,"Okay, and now it's recording all right, I am monique lillard I am here with the University of Idaho.",2021-08-13_forestellsworth_videostore_transcript.vtt
 mainstreet025,2,00:00:10.679,00:00:13.980,Monique Lillard,Video so i'm just adjusting with okay.,2021-08-13_forestellsworth_videostore_transcript.vtt
 mainstreet025,3,00:00:15.059,00:00:23.490,Monique Lillard,"Oral oral history of the video rental store that was here in Moscow, sometimes we call it Howard Hughes video sometimes we call it mainstream video.",2021-08-13_forestellsworth_videostore_transcript.vtt

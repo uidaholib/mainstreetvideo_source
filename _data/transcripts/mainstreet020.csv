@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet020,1,00:00:02.639,00:00:10.889,Monique Lillard,"There we go I think we're recording, so I am monique lillard I am interviewing on behalf of the University of Idaho library.",2021-04-21_lukegresback_videostore_transcript.vtt
 mainstreet020,2,00:00:11.519,00:00:25.590,Monique Lillard,"For an oral History project about the video rental store right here in Moscow Idaho i'm going to have my interview subject state his name in just a moment, but first I want to ask, have you sign the waiver and release.",2021-04-21_lukegresback_videostore_transcript.vtt
 mainstreet020,3,00:00:25.650,00:00:30.930,Monique Lillard,I have very good Thank you would you state your name and would you tell us how old you are.,2021-04-21_lukegresback_videostore_transcript.vtt

@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet034,1,00:00:00.989,00:00:03.179,Beau Newsome,"Okay, see a little recording sign up there.",2021-04-15_kelly_moore_videostore_transcript.vtt
 mainstreet034,2,00:00:03.179,00:00:14.759,Beau Newsome,You awesome well i'm Bo newsome and i'm here with the University of Idaho libraries oral History project for the Howard Hughes video and mainstreet video co op.,2021-04-15_kelly_moore_videostore_transcript.vtt
 mainstreet034,3,00:00:16.020,00:00:23.130,Beau Newsome,"Here, with Kelly Kelly, if you would introduce yourself and kind of describe your relationship to Howard Hughes video.",2021-04-15_kelly_moore_videostore_transcript.vtt

@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet009,1,00:00:00.000,00:00:13.139,Monique Lillard,"cord to the cloud takes just a second to kind of all right, I think we are recording my name is monique lillard and I am with the University of Idaho library doing an oral History project about the.",2021-05-14_codymoore_videostore_transcript.vtt
 mainstreet009,2,00:00:13.590,00:00:22.380,Monique Lillard,"Video store that was in Moscow Idaho it was known as Howard Hughes video and excuse me, and then known as mainstreet video.",2021-05-14_codymoore_videostore_transcript.vtt
 mainstreet009,3,00:00:23.700,00:00:27.660,Monique Lillard,It is Friday may 14 2021.,2021-05-14_codymoore_videostore_transcript.vtt

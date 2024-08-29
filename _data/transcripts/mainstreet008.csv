@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet008,1,00:00:00.089,00:00:00.989,Monique Lillard,takes a second.,2021-06-25_benramalingam_annmariefulfer_sunilramalingam_videostore_transcript.vtt
 mainstreet008,2,00:00:02.850,00:00:11.280,Monique Lillard,"Okay, now it says it's recording and that's that little thing up there, and so from time to time I get nervous, especially right after you say something great and i'll see still recording is it still recording.",2021-06-25_benramalingam_annmariefulfer_sunilramalingam_videostore_transcript.vtt
 mainstreet008,3,00:00:12.330,00:00:13.590,Monique Lillard,you'll be free of that tension.,2021-06-25_benramalingam_annmariefulfer_sunilramalingam_videostore_transcript.vtt

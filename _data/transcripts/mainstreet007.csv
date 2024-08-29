@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet007,1,00:00:00.510,00:00:08.730,Monique Lillard,"takes a second okay there we go, we are recording it is Wednesday may 26 2021.",2021-05-26_benjaminhardcastle_videostore_transcript.vtt
 mainstreet007,2,00:00:09.240,00:00:25.800,Monique Lillard,My name is monique lillard and we are doing a recording for the University of Idaho library oral History project concerning the video rental store in Moscow Idaho so I want to ask my interviewee here have you sign the waiver.,2021-05-26_benjaminhardcastle_videostore_transcript.vtt
 mainstreet007,3,00:00:26.160,00:00:27.240,Benjamin Hardcastle,I have signed the waiver.,2021-05-26_benjaminhardcastle_videostore_transcript.vtt

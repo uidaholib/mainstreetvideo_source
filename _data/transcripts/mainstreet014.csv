@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet014,1,00:00:01.740,00:00:02.280,Howard Hughes,Okay well.,2021-05-13_howardhughes_videostore_transcript.vtt
 mainstreet014,2,00:00:02.850,00:00:04.620,Howard Hughes,here's one you'll recognize rhonda.,2021-05-13_howardhughes_videostore_transcript.vtt
 mainstreet014,3,00:00:04.920,00:00:06.600,Beau Newsome,"Oh yeah there, she is.",2021-05-13_howardhughes_videostore_transcript.vtt

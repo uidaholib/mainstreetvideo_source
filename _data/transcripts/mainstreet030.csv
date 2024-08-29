@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet030,1,00:00:00.000,00:00:20.640,Monique Lillard,"To the cloud Okay, it says that we're recording so for the record, it is Friday April 9 2021 and I am here with the University of Idaho oral History project about the video rental store in downtown Moscow.",2021-04-09_melinda_schab_videostore_transcript.vtt
 mainstreet030,2,00:00:22.020,00:00:22.860,Monique Lillard,and,2021-04-09_melinda_schab_videostore_transcript.vtt
 mainstreet030,3,00:00:26.730,00:00:30.600,Monique Lillard,I need to ask you Melinda have you signed the waiver release form.,2021-04-09_melinda_schab_videostore_transcript.vtt

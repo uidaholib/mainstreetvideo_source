@@ -2,7 +2,7 @@
 layout: default
 item-meta: true
 # interviews for mainstreet video
-custom-foot: js/interviews-js.html
+custom-foot: js/interviews-js.html;transcript/js/transcript-js.html
 ---
 <div class="container py-3">
     
@@ -43,8 +43,7 @@ custom-foot: js/interviews-js.html
            {{ page.description }}
         </div>
     </div>
-   {% assign transcript-lines = site.data.mainstreet_transcripts | where: 'objectid',page.objectid %}
-   {% if transcript-lines %}
+    {% assign items = site.data.transcripts[page.objectid] %}
    <div class="card my-3">
         <div class="card-header">
             <button class="btn btn-lg btn-link w-100" type="button" data-bs-toggle="collapse" data-bs-target="#fullTranscript" aria-expanded="false" aria-controls="fullTranscript">
@@ -52,12 +51,11 @@ custom-foot: js/interviews-js.html
             </button>
         </div>
         <div class="card-body collapse" id="fullTranscript">
-            {% for l in transcript-lines %}
-            <p><em>{{ l.speaker }}:</em> {{ l.text }}</p>
-            {% endfor %}
+
+        {% include transcript/item/transcript.html %}
         </div>
     </div>
-    {% endif %}
+
 
     <div class="card my-3">
         <div class="card-header">

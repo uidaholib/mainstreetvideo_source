@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet013,1,00:00:01.140,00:00:03.179,Monique Lillard,"There we go all right, we should be recording.",2021-04-21_henrygregson_videostore_transcript.vtt
 mainstreet013,2,00:00:03.449,00:00:08.580,Monique Lillard,So for the recording I am monique lillard I am hired by the University of Idaho.,2021-04-21_henrygregson_videostore_transcript.vtt
 mainstreet013,3,00:00:08.639,00:00:22.710,Monique Lillard,"library to do an oral History project regarding the video store here in Moscow, it is April 21 2021 I just realized I forgot to say that in the other one but uh well.",2021-04-21_henrygregson_videostore_transcript.vtt

@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet011,1,00:00:01.530,00:00:04.380,Beau Newsome,This is why I turned professional for recording now.,2021-05-15_danorozco_videostore_transcript.vtt
 mainstreet011,2,00:00:06.990,00:00:17.400,Beau Newsome,"hello, my name is Bo news someone here with Dan Orozco code associate professor at the ui and we're here on behalf of the University of Idaho archives and special.",2021-05-15_danorozco_videostore_transcript.vtt
 mainstreet011,3,00:00:18.119,00:00:30.330,Beau Newsome,collections department and we're doing an oral History project on Howard Hughes video slash Main Street video co op so Dan if you'd like to introduce yourself and give you a little.,2021-05-15_danorozco_videostore_transcript.vtt

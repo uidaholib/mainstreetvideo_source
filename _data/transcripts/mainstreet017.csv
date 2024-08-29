@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet017,1,00:00:00.510,00:00:03.959,Beau Newsome,Alright we're recording so hi I schmitz.,2021-05-14_katyschmidt_soonaschmidt_videostore_transcript.vtt
 mainstreet017,2,00:00:06.299,00:00:09.750,Beau Newsome,"So i'm here with the University of Idaho library, my name is Bo news somewhere.",2021-05-14_katyschmidt_soonaschmidt_videostore_transcript.vtt
 mainstreet017,3,00:00:11.550,00:00:28.560,Beau Newsome,"The University of Idaho library adopted some of the Howard Hughes video library of their DVDs and vhs and i'm here with long time customers is a video store i'll just call him this schmitz katie and sooner, if you wouldn't mind just.",2021-05-14_katyschmidt_soonaschmidt_videostore_transcript.vtt

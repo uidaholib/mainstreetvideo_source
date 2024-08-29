@@ -1,4 +1,4 @@
-objectid,transcript_line,start,end,speaker,text,txt_filename
+objectid,transcript_line,timestamp,end,speaker,words,txt_filename
 mainstreet012,1,00:00:01.439,00:00:10.230,Monique Lillard,"And it says it's recording, so I think we can assume it is actually i'm going to get this to speaker view so I don't have to look at myself okay.",2021-05-05_ericnilsson_janicewillard_videostore_transcript.vtt
 mainstreet012,2,00:00:12.120,00:00:14.009,Monique Lillard,"So, my name is monique lillard.",2021-05-05_ericnilsson_janicewillard_videostore_transcript.vtt
 mainstreet012,3,00:00:14.670,00:00:16.199,Monique Lillard,I have been hired by the.,2021-05-05_ericnilsson_janicewillard_videostore_transcript.vtt
