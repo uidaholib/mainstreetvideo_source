@@ -13,10 +13,25 @@ top-image: /assets/svg/about-flat.svg
 
 {% include feature/nav-menu.html sections="About the Collection;Historical Background;Timeline;Credits" %}
 
+{% capture monique %} {% include monique.md %} {% endcapture %}
+{% capture sarah %} {% include sarah-nelson.md %} {% endcapture %}
+
+{% capture monique-modal %} {% include feature/modal.html button="Monique Lillard Remarks at Project Release Event" color="dark" text=monique center=false %} {% endcapture %}
+
+{% capture sarah-modal %} {% include feature/modal.html button="Boycotting Howard Hughes by Sarah Nelson" color="dark" text=sarah center=false %} {% endcapture %}
 
 ## About the Collection 
 
 Main Street Video presents 34 oral history interviews captured in 2021 exploring the phenomena of the "local video store" and documenting the history of Howard Hughes Video and the Main Street Video Co-op in Moscow, Idaho. The interviews were conducted by former board member Monique Lillard and former employee and store manager Beau Newsome. The exhibit also features a series of [interpetive essays]({{'/essay/' | relative_url }}) written by Milo Muise (MFA '22) that contextualize those interviews with larger local and historical trends. 
+
+The project was released in March of 2024, with a three-part series at the Kenworthy (our local arthouse movie theatre), at which point we collected some other recollections and remarks, listed below: 
+
+{{ monique-modal }}
+
+{{ sarah-modal }}
+
+
+
 
 {% include feature/image.html objectid="https://webpages.uidaho.edu/library/spec/harvester/objects/small/vid-store_sm.jpg" caption="Geoff Crimmins/Daily News photo. - Store front of Howard Hughes Video" link="https://harvester.lib.uidaho.edu/posts/2024/03/31/video.html"%}
 
@@ -26,7 +41,10 @@ Interviews were recorded via Zoom with employees, customers, and other people as
 
 {% capture dulce %}For more on the collection and the history of the video store in Moscow, see this [Harvester blog post by Dulce Kersting-Lark](https://harvester.lib.uidaho.edu/posts/2024/03/31/video.html). {% endcapture %}
 
-{% include feature/marginnote.html id="intro" text=dulce %}
+
+
+
+
 
 To view a list of particants: <button data-bs-toggle="modal" data-bs-target="#creditsModal" type="button" aria-label="Open up a Credits Modal for the site" class="btn btn-outline-info fs-4">Roll Credits!</button>
 
